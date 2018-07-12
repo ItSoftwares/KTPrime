@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<?
+$erro_msg = empty($_SESSION['erro_msg'])?"":$_SESSION['erro_msg'];
+$info_msg = empty($_SESSION['info_msg'])?"":$_SESSION['info_msg'];
+$conf_msg = empty($_SESSION['conf_msg'])?"":$_SESSION['conf_msg'];
+
+echo $info_msg;
+
+unset($_SESSION['info_msg']);
+unset($_SESSION['conf_msg']);
+unset($_SESSION['erro_msg']);
+?>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="https://<? echo $_SERVER['SERVER_NAME']; ?>/css/popUps.css?<? echo time() ?>">
+    <script type="text/javascript" src="https://<? echo $_SERVER['SERVER_NAME']; ?>/js/popups.js?<? echo time() ?>"></script>
+</head>
+
+<body>
+    <!-- <div id="erro">
+        <div class="imagem-popup"><img src="https://<? echo $_SERVER['SERVER_NAME']; ?>/img/fechar.png"></div>
+        <div class="mensagem">
+            <h4>Algo está errado...</h4>
+            <p id="erro-mensagem"> </p>
+        </div>
+        <?php
+        if (!empty($erro_msg)) {
+                    echo "
+                    <script type='text/javascript'> 
+                        window.onload = function () {
+                            chamarPopupErro('{$erro_msg}');
+                        }
+                    </script>";
+        }
+        ?>
+    </div>
+
+    <div id="informacao">
+        <div class="imagem-popup"><img src="https://<? echo $_SERVER['SERVER_NAME']; ?>/img/info.png"></div>
+        <div class="mensagem">
+            <h4>Informação</h4>
+            <p id="info-mensagem"> </p>
+        </div>
+        <?php
+        if (!empty($info_msg)) {
+            echo "<script type='text/javascript'>
+                      window.onload = function () {
+                        chamarPopupInfo('{$info_msg}');
+                      }
+                  </script>";
+        }
+        ?>
+    </div>
+
+    <div id="confirmacao">
+        <div class="imagem-popup"><img src="https://<? echo $_SERVER['SERVER_NAME']; ?>/img/input-mark.png"></div>
+        <div class="mensagem">
+            <h4>Tudo certo!</h4>
+            <p id="conf-mensagem"> </p>
+        </div>
+        <?php
+        if (!empty($conf_msg)) {
+            echo "<script type='text/javascript'>
+                      window.onload = function () {
+                        chamarPopupConf('{$conf_msg}');
+                      }
+                  </script>";
+        }
+        ?>
+    </div> -->
+</body>
+<script type='text/javascript'>
+    $("#erro, #informacao, #confirmacao").on("click", function() {
+        $(this).css("right","-500px");
+        
+        id = $(this).attr("id");
+        
+        if (id=="erro") erro=false;
+        else if (id=="informacao") info=false;
+        else if (id=="confirmacao") conf=false;
+        
+        organizarPopups();
+    });
+</script>

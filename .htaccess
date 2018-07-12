@@ -1,0 +1,84 @@
+#ErrorDocument 404 /ktprime/paginas/error_404.php
+
+<files ~ "^.*\.([Hh][Tt][Aa])">
+order allow,deny
+deny from all
+satisfy all
+</files>
+
+#Options -Indexes
+
+RewriteEngine On
+#RewriteBase /
+
+RewriteCond %{SERVER_PORT} 80 
+RewriteCond %{REQUEST_URI} !^/php/pagseguro/notificacao.php$ [NC]
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [R,L]
+
+# Go to http if you are on room.html
+RewriteCond %{SERVER_PORT} !80 
+RewriteCond %{REQUEST_URI} ^/php/pagseguro/notificacao.php$ [NC]
+RewriteRule ^(.*)$ http://%{HTTP_HOST}%{REQUEST_URI} [R,L]
+
+#RewriteCond %{HTTPS} off
+#RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [L]
+
+RewriteCond %{REQUEST_URI} ^/404/$
+RewriteRule ^(.*)$ <YourRelativePathToPHPFile>/404.php [L]
+
+RewriteRule ^login?$ login.php
+RewriteRule ^contato?$ contato.php
+RewriteRule ^servicos?$ servicos.php
+RewriteRule ^clientes?$ clientes.php
+RewriteRule ^quem-somos?$ quem-somos.php
+RewriteRule ^contador/resumo?$ contador/index.php
+RewriteRule ^contador/financeiro?$ contador/financeiro.php
+RewriteRule ^contador/financeiroTeste?$ contador/financeiroTeste.php
+RewriteRule ^contador/empresas?$ contador/empresas.php
+RewriteRule ^contador/solicitacoes?$ contador/solicitacoes.php
+RewriteRule ^contador/certificados?$ contador/certificados.php
+RewriteRule ^contador/alvaras?$ contador/alvaras.php
+RewriteRule ^contador/funcionarios?$ contador/funcionarios.php
+RewriteRule ^contador/servicos?$ contador/servicos.php
+
+RewriteRule ^funcionario/empresas?$ funcionario/empresas.php
+RewriteRule ^funcionario/certificados?$ funcionario/certificados.php
+RewriteRule ^funcionario/alvaras?$ funcionario/alvaras.php
+RewriteRule ^funcionario/servicos?$ funcionario/servicos.php
+RewriteRule ^funcionario/solicitacoes?$ funcionario/solicitacoes.php
+RewriteRule ^funcionarioEmpresaResumo/([a-z0-9-]+)/?$ funcionario/empresa/index.php?id=$1
+RewriteRule ^funcionarioEmpresaFuncionarios/([a-z0-9-]+)/?$ funcionario/empresa/funcionarios.php?id=$1
+RewriteRule ^funcionarioEmpresaSolicitacoes/([a-z0-9-]+)/?$ funcionario/empresa/solicitacoes.php?id=$1
+RewriteRule ^funcionarioEmpresaArquivos/([a-z0-9-]+)/?$ funcionario/empresa/arquivos.php?id=$1
+RewriteRule ^funcionarioEmpresaArquivosOcultos/([a-z0-9-]+)/?$ funcionario/empresa/privado.php?id=$1
+RewriteRule ^funcionarioEmpresaGuias/([a-z0-9-]+)/?$ funcionario/empresa/guias.php?id=$1
+RewriteRule ^funcionarioEmpresaObrigacoes/([a-z0-9-]+)/?$ funcionario/empresa/obrigacoes.php?id=$1
+RewriteRule ^funcionarioEmpresaServicosPrestados/([a-z0-9-]+)/?$ funcionario/empresa/servicos_prestados.php?id=$1
+RewriteRule ^funcionarioEmpresaFaturamento/([a-z0-9-]+)/?$ funcionario/empresa/faturamento.php?id=$1
+
+#CONTABILIDADE CONJUNTA
+RewriteRule ^contabilidade/mensal/?$ contador/contabilidadeMensal.php
+RewriteRule ^contabilidade/empresas/?$ contador/empresas.php
+RewriteRule ^contabilidade/servicos/?$ contador/servicos.php
+
+RewriteRule ^empresaResumo/([a-z0-9-]+)/?$ contador/empresa/index.php?id=$1
+RewriteRule ^empresaServicosPrestados/([a-z0-9-]+)/?$ contador/empresa/servicos_prestados.php?id=$1
+RewriteRule ^empresaObrigacoes/([a-z0-9-]+)/?$ contador/empresa/obrigacoes.php?id=$1
+RewriteRule ^empresaFaturamento/([a-z0-9-]+)/?$ contador/empresa/faturamento.php?id=$1
+RewriteRule ^empresaArquivos/([a-z0-9-]+)/?$ contador/empresa/arquivos.php?id=$1
+RewriteRule ^empresaGuias/([a-z0-9-]+)/?$ contador/empresa/guias.php?id=$1
+RewriteRule ^empresaOculto/([a-z0-9-]+)/?$ contador/empresa/privado.php?id=$1
+RewriteRule ^empresaSolicitacoes/([a-z0-9-]+)/?$ contador/empresa/solicitacoes.php?id=$1
+RewriteRule ^empresaFuncionarios/([a-z0-9-]+)/?$ contador/empresa/funcionarios.php?id=$1
+
+#empresa
+RewriteRule ^empresa/inicio?$ empresa/inicio.php
+RewriteRule ^empresa/resumo?$ empresa/index.php
+RewriteRule ^empresa/solicitacoes?$ empresa/solicitacoes.php
+RewriteRule ^empresa/financeiro?$ empresa/financeiro.php
+RewriteRule ^empresa/arquivos?$ empresa/arquivos.php
+RewriteRule ^empresa/guias?$ empresa/guias.php
+RewriteRule ^empresa/obrigacoes?$ empresa/obrigacoes.php
+RewriteRule ^empresa/funcionarios?$ empresa/funcionarios.php
+RewriteRule ^empresa/servicosPrestados?$ empresa/servicos_prestados.php
+RewriteRule ^empresa/faturamento?$ empresa/faturamento.php

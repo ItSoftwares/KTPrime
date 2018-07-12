@@ -1,0 +1,157 @@
+#servicos, #adicionar {
+    background: white;
+/*    border: 1px solid #efefef;*/
+    padding: 10px;
+    position: relative;
+}
+
+#adicionar {
+    margin-bottom: 20px;
+}
+
+#servicos > div:not(#adicionar) {
+    margin-top: 20px;
+    height: 54vh;
+    overflow-y: auto;
+}
+
+#servicos > div.maior {
+    height: 75vh !important;
+}
+
+#servicos table {
+    width: 96%;
+    border-collapse:collapse;
+    margin: auto;
+/*    border-spacing:10px;*/
+}
+
+#servicos table tr.spacer {
+    padding: 10px 0;
+}
+
+#servicos table tr:not(.spacer):not(:first-child) {
+    background: #fcfcfc;
+    border-radius: 3px;
+    box-shadow: 0 0 0 1px #ddd;
+/*    box-shadow: 0 0 3px #ccc;*/
+/*    border: 1px solid #ccc;*/
+    cursor: default;
+/*
+    transition: opacity 1s ease;
+    opacity: 0;
+    display: none;
+*/
+}
+
+#servicos table th {
+    font-size: 0.8em;
+    position: relative;
+    text-align: left;
+    cursor: pointer;
+    padding-left: 10px;
+}
+
+#servicos table th:last-child {
+    text-align: center;
+}
+
+#servicos table th:not(:last-child):after {
+    content: "";
+    border: 3px solid transparent;
+    position: absolute;
+    left: 1px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    height: 0;
+    transform-origin: center center;
+}
+
+#servicos table th.selecionado:not(:last-child):after {
+    border-top-color: #999;
+}
+
+#servicos table th.inverso:not(:last-child):after {
+    transform: rotate(180deg);
+}
+
+#servicos table td {
+    text-align: left;
+    padding: 8px 0;
+    font-size: .9em
+}
+
+#servicos table tr td:first-child {
+    border-radius: 3px;
+    padding-left: 8px;
+}
+
+#servicos table tr td:last-child {
+    border-radius: 3px;
+    padding-left: 8px;
+    text-align: center;
+}
+
+#servicos table tr td img {
+    width: 20px;
+    padding: 3px;
+    
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#servicos table tr .editar {
+    background: #FFC107
+}
+
+#servicos table tr .excluir {
+    background: #F44336;
+    margin-left: 5px;
+}
+
+#adicionar form {
+    align-items: center;
+    margin-top: 10px;
+/*    border-bottom: 1px solid #eee;*/
+}
+
+#adicionar * {
+    font-family: encode;
+}
+
+.input {
+    width: 100%;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.input label {
+    font-size: .75em;
+    color: #999;
+}
+
+.input input {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #e9e9e9;
+    width: 100%;
+    box-sizing: border-box;
+    transition: .3s ease;
+}
+
+.input input:focus {
+    border-color: #1688ce;
+    box-shadow: 0 0 3px rgba(0,0,0,.1);
+}
+
+#adicionar button {
+    width: 100px;
+    padding: 10px 0;
+    color: white;
+    background: rgb(22, 136, 206);
+/*    margin: 10px 0;*/
+    cursor: pointer;
+    display: block;
+    float: right
+}

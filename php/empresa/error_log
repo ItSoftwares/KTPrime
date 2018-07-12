@@ -1,0 +1,33 @@
+[25-Oct-2017 08:52:52 America/Sao_Paulo] PHP Notice:  Undefined index: funcao in /home/cnpjn035/public_html/php/empresa/manterSolicitacao.php on line 9
+[25-Oct-2017 08:52:52 America/Sao_Paulo] PHP Notice:  Undefined index: funcao in /home/cnpjn035/public_html/php/empresa/manterSolicitacao.php on line 12
+[25-Oct-2017 08:52:52 America/Sao_Paulo] PHP Notice:  Undefined index: funcao in /home/cnpjn035/public_html/php/empresa/manterSolicitacao.php on line 25
+[25-Oct-2017 08:52:52 America/Sao_Paulo] PHP Notice:  Undefined index: funcao in /home/cnpjn035/public_html/php/empresa/manterSolicitacao.php on line 87
+[25-Oct-2017 08:53:51 America/Sao_Paulo] PHP Notice:  Undefined variable: empresa in /home/cnpjn035/public_html/php/empresa/manterSolicitacao.php on line 35
+[25-Oct-2017 08:53:51 America/Sao_Paulo] PHP Notice:  Trying to get property of non-object in /home/cnpjn035/public_html/php/empresa/manterSolicitacao.php on line 35
+[25-Oct-2017 08:53:51 America/Sao_Paulo] PHP Notice:  Undefined index: anexo in /home/cnpjn035/public_html/php/empresa/manterSolicitacao.php on line 37
+[25-Oct-2017 08:53:51 America/Sao_Paulo] PHP Notice:  Undefined variable: nova in /home/cnpjn035/public_html/php/empresa/manterSolicitacao.php on line 55
+[25-Oct-2017 08:53:51 America/Sao_Paulo] PHP Warning:  mkdir(): Permission denied in /home/cnpjn035/public_html/php/empresa/manterSolicitacao.php on line 58
+[25-Oct-2017 08:53:51 America/Sao_Paulo] PHP Notice:  Undefined index: anexo in /home/cnpjn035/public_html/php/empresa/manterSolicitacao.php on line 64
+[25-Oct-2017 08:53:51 America/Sao_Paulo] PHP Notice:  Undefined index: anexo in /home/cnpjn035/public_html/php/empresa/manterSolicitacao.php on line 74
+[25-Oct-2017 08:55:06 America/Sao_Paulo] PHP Notice:  Undefined index: anexo in /home/cnpjn035/public_html/php/empresa/manterSolicitacao.php on line 38
+[25-Oct-2017 08:55:06 America/Sao_Paulo] PHP Notice:  Undefined variable: nova in /home/cnpjn035/public_html/php/empresa/manterSolicitacao.php on line 56
+[25-Oct-2017 08:55:06 America/Sao_Paulo] PHP Warning:  mkdir(): Permission denied in /home/cnpjn035/public_html/php/empresa/manterSolicitacao.php on line 59
+[25-Oct-2017 08:55:06 America/Sao_Paulo] PHP Notice:  Undefined index: anexo in /home/cnpjn035/public_html/php/empresa/manterSolicitacao.php on line 65
+[25-Oct-2017 08:55:06 America/Sao_Paulo] PHP Notice:  Undefined index: anexo in /home/cnpjn035/public_html/php/empresa/manterSolicitacao.php on line 75
+[25-Oct-2017 08:58:15 America/Sao_Paulo] PHP Notice:  Undefined variable: nova in /home/cnpjn035/public_html/php/empresa/manterSolicitacao.php on line 56
+[25-Oct-2017 08:58:15 America/Sao_Paulo] PHP Warning:  mkdir(): Permission denied in /home/cnpjn035/public_html/php/empresa/manterSolicitacao.php on line 59
+[25-Oct-2017 08:58:15 America/Sao_Paulo] PHP Warning:  move_uploaded_file(/2017/.xlsx): failed to open stream: No such file or directory in /home/cnpjn035/public_html/php/empresa/manterSolicitacao.php on line 75
+[25-Oct-2017 08:58:15 America/Sao_Paulo] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpV74w7D' to '/2017/.xlsx' in /home/cnpjn035/public_html/php/empresa/manterSolicitacao.php on line 75
+[25-Oct-2017 08:59:49 America/Sao_Paulo] PHP Warning:  mkdir(): Permission denied in /home/cnpjn035/public_html/php/empresa/manterSolicitacao.php on line 59
+[25-Oct-2017 08:59:49 America/Sao_Paulo] PHP Warning:  move_uploaded_file(/2017/6.xlsx): failed to open stream: No such file or directory in /home/cnpjn035/public_html/php/empresa/manterSolicitacao.php on line 75
+[25-Oct-2017 08:59:49 America/Sao_Paulo] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpunHmlk' to '/2017/6.xlsx' in /home/cnpjn035/public_html/php/empresa/manterSolicitacao.php on line 75
+[25-Oct-2017 09:01:21 America/Sao_Paulo] PHP Warning:  mkdir(): Permission denied in /home/cnpjn035/public_html/php/empresa/manterSolicitacao.php on line 59
+[25-Oct-2017 09:01:21 America/Sao_Paulo] PHP Warning:  move_uploaded_file(/2017/7.xlsx): failed to open stream: No such file or directory in /home/cnpjn035/public_html/php/empresa/manterSolicitacao.php on line 75
+[25-Oct-2017 09:01:21 America/Sao_Paulo] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpiUCvol' to '/2017/7.xlsx' in /home/cnpjn035/public_html/php/empresa/manterSolicitacao.php on line 75
+[25-Oct-2017 09:47:22 America/Sao_Paulo] PHP Notice:  Undefined index: empresa in /home/cnpjn035/public_html/php/empresa/manterSolicitacao.php on line 10
+[25-Oct-2017 09:47:49 America/Sao_Paulo] PHP Notice:  Undefined index: empresa in /home/cnpjn035/public_html/php/empresa/manterSolicitacao.php on line 10
+[25-Oct-2017 09:50:48 America/Sao_Paulo] PHP Notice:  Undefined index: funcao in /home/cnpjn035/public_html/php/empresa/manterSolicitacao.php on line 9
+[25-Oct-2017 09:50:48 America/Sao_Paulo] PHP Notice:  Undefined index: empresa in /home/cnpjn035/public_html/php/empresa/manterSolicitacao.php on line 10
+[25-Oct-2017 09:50:48 America/Sao_Paulo] PHP Notice:  Undefined index: funcao in /home/cnpjn035/public_html/php/empresa/manterSolicitacao.php on line 13
+[25-Oct-2017 09:50:48 America/Sao_Paulo] PHP Notice:  Undefined index: funcao in /home/cnpjn035/public_html/php/empresa/manterSolicitacao.php on line 26
+[25-Oct-2017 09:50:48 America/Sao_Paulo] PHP Notice:  Undefined index: funcao in /home/cnpjn035/public_html/php/empresa/manterSolicitacao.php on line 88

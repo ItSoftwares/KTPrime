@@ -1,0 +1,2 @@
+[13-Oct-2017 05:33:42 America/Chicago] PHP Parse error:  syntax error, unexpected '"../"' (T_CONSTANT_ENCAPSED_STRING) in /home/cnpjn035/public_html/php/classes/criarPasta.php on line 5
+[13-Oct-2017 05:33:47 America/Chicago] PHP Parse error:  syntax error, unexpected '.' in /home/cnpjn035/public_html/php/classes/criarPasta.php on line 5

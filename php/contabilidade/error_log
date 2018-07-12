@@ -1,0 +1,319 @@
+[08-Oct-2017 14:51:22 America/Sao_Paulo] PHP Warning:  mkdir(): Permission denied in /home/cnpjn035/public_html/php/contabilidade/manterObrigacao.php on line 72
+[08-Oct-2017 14:51:22 America/Sao_Paulo] PHP Warning:  move_uploaded_file(/2017/1.txt): failed to open stream: No such file or directory in /home/cnpjn035/public_html/php/contabilidade/manterObrigacao.php on line 88
+[08-Oct-2017 14:51:22 America/Sao_Paulo] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpBRpg1c' to '/2017/1.txt' in /home/cnpjn035/public_html/php/contabilidade/manterObrigacao.php on line 88
+[08-Oct-2017 14:58:43 America/Sao_Paulo] PHP Warning:  unlink(/2017/1.txt): No such file or directory in /home/cnpjn035/public_html/php/contabilidade/manterObrigacao.php on line 28
+[08-Oct-2017 14:59:26 America/Sao_Paulo] PHP Warning:  mkdir(): Permission denied in /home/cnpjn035/public_html/php/contabilidade/manterObrigacao.php on line 72
+[08-Oct-2017 14:59:26 America/Sao_Paulo] PHP Warning:  move_uploaded_file(/2017/2.txt): failed to open stream: No such file or directory in /home/cnpjn035/public_html/php/contabilidade/manterObrigacao.php on line 88
+[08-Oct-2017 14:59:26 America/Sao_Paulo] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/php9rpNaV' to '/2017/2.txt' in /home/cnpjn035/public_html/php/contabilidade/manterObrigacao.php on line 88
+[08-Oct-2017 15:08:06 America/Sao_Paulo] PHP Warning:  mkdir(): Permission denied in /home/cnpjn035/public_html/php/contabilidade/manterObrigacao.php on line 72
+[08-Oct-2017 15:08:06 America/Sao_Paulo] PHP Warning:  move_uploaded_file(/2017/3.txt): failed to open stream: No such file or directory in /home/cnpjn035/public_html/php/contabilidade/manterObrigacao.php on line 88
+[08-Oct-2017 15:08:06 America/Sao_Paulo] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpg8b7Yo' to '/2017/3.txt' in /home/cnpjn035/public_html/php/contabilidade/manterObrigacao.php on line 88
+[08-Oct-2017 15:10:06 America/Sao_Paulo] PHP Warning:  mkdir(): Permission denied in /home/cnpjn035/public_html/php/contabilidade/manterObrigacao.php on line 72
+[08-Oct-2017 15:10:06 America/Sao_Paulo] PHP Warning:  move_uploaded_file(/2017/4.txt): failed to open stream: No such file or directory in /home/cnpjn035/public_html/php/contabilidade/manterObrigacao.php on line 88
+[08-Oct-2017 15:10:06 America/Sao_Paulo] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpgFnLLr' to '/2017/4.txt' in /home/cnpjn035/public_html/php/contabilidade/manterObrigacao.php on line 88
+[08-Oct-2017 15:11:14 America/Sao_Paulo] PHP Warning:  mkdir(): Permission denied in /home/cnpjn035/public_html/php/contabilidade/manterObrigacao.php on line 72
+[08-Oct-2017 15:11:14 America/Sao_Paulo] PHP Warning:  move_uploaded_file(/2017/5.txt): failed to open stream: No such file or directory in /home/cnpjn035/public_html/php/contabilidade/manterObrigacao.php on line 88
+[08-Oct-2017 15:11:14 America/Sao_Paulo] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpRWTaVW' to '/2017/5.txt' in /home/cnpjn035/public_html/php/contabilidade/manterObrigacao.php on line 88
+[08-Oct-2017 15:12:27 America/Sao_Paulo] PHP Warning:  mkdir(): Permission denied in /home/cnpjn035/public_html/php/contabilidade/manterObrigacao.php on line 72
+[08-Oct-2017 15:12:27 America/Sao_Paulo] PHP Warning:  move_uploaded_file(/2017/6.txt): failed to open stream: No such file or directory in /home/cnpjn035/public_html/php/contabilidade/manterObrigacao.php on line 88
+[08-Oct-2017 15:12:27 America/Sao_Paulo] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpRA9J2q' to '/2017/6.txt' in /home/cnpjn035/public_html/php/contabilidade/manterObrigacao.php on line 88
+[08-Oct-2017 15:14:33 America/Sao_Paulo] PHP Warning:  mkdir(): Permission denied in /home/cnpjn035/public_html/php/contabilidade/manterObrigacao.php on line 72
+[08-Oct-2017 15:14:33 America/Sao_Paulo] PHP Warning:  move_uploaded_file(/2017/7.txt): failed to open stream: No such file or directory in /home/cnpjn035/public_html/php/contabilidade/manterObrigacao.php on line 88
+[08-Oct-2017 15:14:33 America/Sao_Paulo] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpQF9jH0' to '/2017/7.txt' in /home/cnpjn035/public_html/php/contabilidade/manterObrigacao.php on line 88
+[08-Oct-2017 15:21:24 America/Sao_Paulo] PHP Warning:  move_uploaded_file(/home/cnpjn035/public_html/servidor/empresa/2/teste/2300 tardes e manhas.docx): failed to open stream: No such file or directory in /home/cnpjn035/public_html/php/contabilidade/gerenciarArquivos.php on line 117
+[08-Oct-2017 15:21:24 America/Sao_Paulo] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpUur6Xf' to '/home/cnpjn035/public_html/servidor/empresa/2/teste/2300 tardes e manhas.docx' in /home/cnpjn035/public_html/php/contabilidade/gerenciarArquivos.php on line 117
+[08-Oct-2017 15:21:41 America/Sao_Paulo] PHP Warning:  move_uploaded_file(/home/cnpjn035/public_html/servidor/empresa/2/teste/f35826e2-7320-454b-b598-fc3b4f7d53f6.jpg): failed to open stream: No such file or directory in /home/cnpjn035/public_html/php/contabilidade/gerenciarArquivos.php on line 117
+[08-Oct-2017 15:21:41 America/Sao_Paulo] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpDTbvRM' to '/home/cnpjn035/public_html/servidor/empresa/2/teste/f35826e2-7320-454b-b598-fc3b4f7d53f6.jpg' in /home/cnpjn035/public_html/php/contabilidade/gerenciarArquivos.php on line 117
+[12-Oct-2017 12:27:54 America/Sao_Paulo] PHP Warning:  mkdir(): Permission denied in /home/cnpjn035/public_html/php/contabilidade/gerenciarArquivos.php on line 40
+[12-Oct-2017 12:27:54 America/Sao_Paulo] PHP Warning:  scandir(): Directory name cannot be empty in /home/cnpjn035/public_html/php/listarArquivos.php on line 7
+[12-Oct-2017 12:27:54 America/Sao_Paulo] PHP Warning:  array_diff(): Argument #1 is not an array in /home/cnpjn035/public_html/php/listarArquivos.php on line 8
+[12-Oct-2017 12:27:54 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/cnpjn035/public_html/php/listarArquivos.php on line 10
+[12-Oct-2017 12:27:56 America/Sao_Paulo] PHP Warning:  mkdir(): Permission denied in /home/cnpjn035/public_html/php/contabilidade/gerenciarArquivos.php on line 40
+[12-Oct-2017 12:27:56 America/Sao_Paulo] PHP Warning:  scandir(): Directory name cannot be empty in /home/cnpjn035/public_html/php/listarArquivos.php on line 7
+[12-Oct-2017 12:27:56 America/Sao_Paulo] PHP Warning:  array_diff(): Argument #1 is not an array in /home/cnpjn035/public_html/php/listarArquivos.php on line 8
+[12-Oct-2017 12:27:56 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/cnpjn035/public_html/php/listarArquivos.php on line 10
+[12-Oct-2017 12:28:08 America/Sao_Paulo] PHP Warning:  mkdir(): Permission denied in /home/cnpjn035/public_html/php/contabilidade/gerenciarArquivos.php on line 40
+[12-Oct-2017 12:28:08 America/Sao_Paulo] PHP Warning:  scandir(): Directory name cannot be empty in /home/cnpjn035/public_html/php/listarArquivos.php on line 7
+[12-Oct-2017 12:28:08 America/Sao_Paulo] PHP Warning:  array_diff(): Argument #1 is not an array in /home/cnpjn035/public_html/php/listarArquivos.php on line 8
+[12-Oct-2017 12:28:08 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/cnpjn035/public_html/php/listarArquivos.php on line 10
+[12-Oct-2017 12:28:08 America/Sao_Paulo] PHP Warning:  mkdir(): Permission denied in /home/cnpjn035/public_html/php/contabilidade/gerenciarArquivos.php on line 40
+[12-Oct-2017 12:28:08 America/Sao_Paulo] PHP Warning:  scandir(): Directory name cannot be empty in /home/cnpjn035/public_html/php/listarArquivos.php on line 7
+[12-Oct-2017 12:28:08 America/Sao_Paulo] PHP Warning:  array_diff(): Argument #1 is not an array in /home/cnpjn035/public_html/php/listarArquivos.php on line 8
+[12-Oct-2017 12:28:08 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/cnpjn035/public_html/php/listarArquivos.php on line 10
+[12-Oct-2017 12:28:08 America/Sao_Paulo] PHP Warning:  mkdir(): Permission denied in /home/cnpjn035/public_html/php/contabilidade/gerenciarArquivos.php on line 40
+[12-Oct-2017 12:28:08 America/Sao_Paulo] PHP Warning:  scandir(): Directory name cannot be empty in /home/cnpjn035/public_html/php/listarArquivos.php on line 7
+[12-Oct-2017 12:28:08 America/Sao_Paulo] PHP Warning:  array_diff(): Argument #1 is not an array in /home/cnpjn035/public_html/php/listarArquivos.php on line 8
+[12-Oct-2017 12:28:08 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/cnpjn035/public_html/php/listarArquivos.php on line 10
+[12-Oct-2017 12:33:06 America/Sao_Paulo] PHP Warning:  mkdir(): Permission denied in /home/cnpjn035/public_html/php/contabilidade/gerenciarArquivos.php on line 40
+[12-Oct-2017 12:33:06 America/Sao_Paulo] PHP Warning:  scandir(): Directory name cannot be empty in /home/cnpjn035/public_html/php/listarArquivos.php on line 7
+[12-Oct-2017 12:33:06 America/Sao_Paulo] PHP Warning:  array_diff(): Argument #1 is not an array in /home/cnpjn035/public_html/php/listarArquivos.php on line 8
+[12-Oct-2017 12:33:06 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/cnpjn035/public_html/php/listarArquivos.php on line 10
+[12-Oct-2017 12:33:06 America/Sao_Paulo] PHP Warning:  mkdir(): Permission denied in /home/cnpjn035/public_html/php/contabilidade/gerenciarArquivos.php on line 40
+[12-Oct-2017 12:33:06 America/Sao_Paulo] PHP Warning:  scandir(): Directory name cannot be empty in /home/cnpjn035/public_html/php/listarArquivos.php on line 7
+[12-Oct-2017 12:33:06 America/Sao_Paulo] PHP Warning:  array_diff(): Argument #1 is not an array in /home/cnpjn035/public_html/php/listarArquivos.php on line 8
+[12-Oct-2017 12:33:06 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/cnpjn035/public_html/php/listarArquivos.php on line 10
+[12-Oct-2017 12:33:07 America/Sao_Paulo] PHP Warning:  mkdir(): Permission denied in /home/cnpjn035/public_html/php/contabilidade/gerenciarArquivos.php on line 40
+[12-Oct-2017 12:33:07 America/Sao_Paulo] PHP Warning:  scandir(): Directory name cannot be empty in /home/cnpjn035/public_html/php/listarArquivos.php on line 7
+[12-Oct-2017 12:33:07 America/Sao_Paulo] PHP Warning:  array_diff(): Argument #1 is not an array in /home/cnpjn035/public_html/php/listarArquivos.php on line 8
+[12-Oct-2017 12:33:07 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/cnpjn035/public_html/php/listarArquivos.php on line 10
+[12-Oct-2017 12:33:07 America/Sao_Paulo] PHP Warning:  mkdir(): Permission denied in /home/cnpjn035/public_html/php/contabilidade/gerenciarArquivos.php on line 40
+[12-Oct-2017 12:33:07 America/Sao_Paulo] PHP Warning:  scandir(): Directory name cannot be empty in /home/cnpjn035/public_html/php/listarArquivos.php on line 7
+[12-Oct-2017 12:33:07 America/Sao_Paulo] PHP Warning:  array_diff(): Argument #1 is not an array in /home/cnpjn035/public_html/php/listarArquivos.php on line 8
+[12-Oct-2017 12:33:07 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/cnpjn035/public_html/php/listarArquivos.php on line 10
+[12-Oct-2017 12:33:07 America/Sao_Paulo] PHP Warning:  mkdir(): Permission denied in /home/cnpjn035/public_html/php/contabilidade/gerenciarArquivos.php on line 40
+[12-Oct-2017 12:33:07 America/Sao_Paulo] PHP Warning:  scandir(): Directory name cannot be empty in /home/cnpjn035/public_html/php/listarArquivos.php on line 7
+[12-Oct-2017 12:33:07 America/Sao_Paulo] PHP Warning:  array_diff(): Argument #1 is not an array in /home/cnpjn035/public_html/php/listarArquivos.php on line 8
+[12-Oct-2017 12:33:07 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/cnpjn035/public_html/php/listarArquivos.php on line 10
+[12-Oct-2017 12:33:07 America/Sao_Paulo] PHP Warning:  mkdir(): Permission denied in /home/cnpjn035/public_html/php/contabilidade/gerenciarArquivos.php on line 40
+[12-Oct-2017 12:33:07 America/Sao_Paulo] PHP Warning:  scandir(): Directory name cannot be empty in /home/cnpjn035/public_html/php/listarArquivos.php on line 7
+[12-Oct-2017 12:33:07 America/Sao_Paulo] PHP Warning:  array_diff(): Argument #1 is not an array in /home/cnpjn035/public_html/php/listarArquivos.php on line 8
+[12-Oct-2017 12:33:07 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/cnpjn035/public_html/php/listarArquivos.php on line 10
+[12-Oct-2017 12:33:08 America/Sao_Paulo] PHP Warning:  mkdir(): Permission denied in /home/cnpjn035/public_html/php/contabilidade/gerenciarArquivos.php on line 40
+[12-Oct-2017 12:33:08 America/Sao_Paulo] PHP Warning:  scandir(): Directory name cannot be empty in /home/cnpjn035/public_html/php/listarArquivos.php on line 7
+[12-Oct-2017 12:33:08 America/Sao_Paulo] PHP Warning:  array_diff(): Argument #1 is not an array in /home/cnpjn035/public_html/php/listarArquivos.php on line 8
+[12-Oct-2017 12:33:08 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/cnpjn035/public_html/php/listarArquivos.php on line 10
+[24-Oct-2017 10:50:15 America/Sao_Paulo] PHP Warning:  unlink(/home/cnpjn035/public_html/servidor/empresa/1/anexos/2017/2.): No such file or directory in /home/cnpjn035/public_html/php/contabilidade/manterServicoPrestado.php on line 28
+[24-Oct-2017 08:58:02 America/Chicago] PHP Parse error:  syntax error, unexpected ';', expecting ',' or ')' in /home/cnpjn035/public_html/php/contabilidade/manterEmpresa.php on line 79
+[24-Oct-2017 21:17:30 America/Sao_Paulo] PHP Notice:  Undefined index: data_realizar in /home/cnpjn035/public_html/php/contabilidade/manterObrigacao.php on line 37
+[24-Oct-2017 21:26:35 America/Sao_Paulo] PHP Notice:  Undefined index: servicos_array in /home/cnpjn035/public_html/php/contabilidade/manterObrigacao.php on line 66
+[24-Oct-2017 21:28:57 America/Sao_Paulo] PHP Notice:  Undefined index: data in /home/cnpjn035/public_html/php/contabilidade/manterObrigacao.php on line 26
+[24-Oct-2017 21:28:57 America/Sao_Paulo] PHP Warning:  unlink(/home/cnpjn035/public_html/servidor/empresa/1/anexos/1969/1.): No such file or directory in /home/cnpjn035/public_html/php/contabilidade/manterObrigacao.php on line 28
+[25-Oct-2017 15:46:52 America/Sao_Paulo] PHP Notice:  Undefined index: mensalidade in /home/cnpjn035/public_html/php/contabilidade/manterEmpresa.php on line 79
+[25-Oct-2017 15:52:14 America/Sao_Paulo] PHP Warning:  unlink(/home/cnpjn035/public_html/servidor/empresa/1/teste de guias): Is a directory in /home/cnpjn035/public_html/php/contabilidade/gerenciarArquivos.php on line 17
+[25-Oct-2017 15:52:17 America/Sao_Paulo] PHP Warning:  unlink(/home/cnpjn035/public_html/servidor/empresa/1/teste de guias): Is a directory in /home/cnpjn035/public_html/php/contabilidade/gerenciarArquivos.php on line 17
+[25-Oct-2017 15:52:45 America/Sao_Paulo] PHP Warning:  unlink(/home/cnpjn035/public_html/servidor/empresa/1/teste de guias): Is a directory in /home/cnpjn035/public_html/php/contabilidade/gerenciarArquivos.php on line 17
+[25-Oct-2017 15:56:24 America/Sao_Paulo] PHP Warning:  rmdir(/home/cnpjn035/public_html/servidor/empresa/1/teste de guias): Directory not empty in /home/cnpjn035/public_html/php/contabilidade/gerenciarArquivos.php on line 18
+[25-Oct-2017 15:58:09 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined function rmdir_recursive() in /home/cnpjn035/public_html/php/contabilidade/gerenciarArquivos.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/cnpjn035/public_html/php/contabilidade/gerenciarArquivos.php on line 20
+[25-Oct-2017 22:36:40 America/Sao_Paulo] PHP Warning:  mkdir(): File exists in /home/cnpjn035/public_html/php/classes/empresa.class.php on line 81
+[25-Oct-2017 23:02:50 America/Sao_Paulo] PHP Notice:  Undefined variable: daods in /home/cnpjn035/public_html/php/contabilidade/manterServico.php on line 15
+[26-Oct-2017 10:49:06 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/cnpjn035/public_html/php/classes/empresa.class.php on line 168
+[26-Oct-2017 20:02:51 America/Sao_Paulo] PHP Notice:  Undefined variable: nova in /home/cnpjn035/public_html/php/contabilidade/manterObrigacao.php on line 80
+[29-Oct-2017 09:18:20 America/Chicago] PHP Notice:  Undefined offset: 0 in /home/cnpjn035/public_html/php/contabilidade/pagar.php on line 18
+[29-Oct-2017 09:20:09 America/Chicago] PHP Notice:  Undefined offset: 0 in /home/cnpjn035/public_html/php/contabilidade/pagar.php on line 18
+[29-Oct-2017 09:20:52 America/Chicago] PHP Notice:  Undefined offset: 0 in /home/cnpjn035/public_html/php/contabilidade/pagar.php on line 18
+[05-Nov-2017 16:33:47 America/Sao_Paulo] PHP Notice:  Undefined index: data in /home/cnpjn035/public_html/php/contabilidade/manterServicoPrestado.php on line 41
+[05-Nov-2017 16:34:58 America/Sao_Paulo] PHP Notice:  Undefined index: data in /home/cnpjn035/public_html/php/contabilidade/manterServicoPrestado.php on line 41
+[05-Nov-2017 14:09:43 America/Chicago] PHP Parse error:  syntax error, unexpected 'DBcreate' (T_STRING) in /home/cnpjn035/public_html/php/contabilidade/manterServicoPrestado.php on line 117
+[05-Nov-2017 18:11:31 America/Sao_Paulo] PHP Notice:  Undefined index: funcao in /home/cnpjn035/public_html/php/contabilidade/manterServicoPrestado.php on line 20
+[05-Nov-2017 18:11:31 America/Sao_Paulo] PHP Notice:  Undefined index: funcao in /home/cnpjn035/public_html/php/contabilidade/manterServicoPrestado.php on line 35
+[05-Nov-2017 18:11:31 America/Sao_Paulo] PHP Notice:  Undefined index: funcao in /home/cnpjn035/public_html/php/contabilidade/manterServicoPrestado.php on line 103
+[05-Nov-2017 18:11:31 America/Sao_Paulo] PHP Notice:  Undefined index: funcao in /home/cnpjn035/public_html/php/contabilidade/manterServicoPrestado.php on line 112
+[05-Nov-2017 18:11:31 America/Sao_Paulo] PHP Notice:  Undefined index: funcao in /home/cnpjn035/public_html/php/contabilidade/manterServicoPrestado.php on line 122
+[05-Nov-2017 18:13:02 America/Sao_Paulo] PHP Notice:  Undefined index: funcao in /home/cnpjn035/public_html/php/contabilidade/manterServicoPrestado.php on line 20
+[05-Nov-2017 18:13:02 America/Sao_Paulo] PHP Notice:  Undefined index: funcao in /home/cnpjn035/public_html/php/contabilidade/manterServicoPrestado.php on line 35
+[05-Nov-2017 18:13:02 America/Sao_Paulo] PHP Notice:  Undefined index: funcao in /home/cnpjn035/public_html/php/contabilidade/manterServicoPrestado.php on line 103
+[05-Nov-2017 18:13:02 America/Sao_Paulo] PHP Notice:  Undefined index: funcao in /home/cnpjn035/public_html/php/contabilidade/manterServicoPrestado.php on line 112
+[05-Nov-2017 18:13:02 America/Sao_Paulo] PHP Notice:  Undefined index: funcao in /home/cnpjn035/public_html/php/contabilidade/manterServicoPrestado.php on line 121
+[05-Nov-2017 18:13:25 America/Sao_Paulo] PHP Notice:  Undefined index: funcao in /home/cnpjn035/public_html/php/contabilidade/manterServicoPrestado.php on line 20
+[05-Nov-2017 18:13:25 America/Sao_Paulo] PHP Notice:  Undefined index: funcao in /home/cnpjn035/public_html/php/contabilidade/manterServicoPrestado.php on line 35
+[05-Nov-2017 18:13:25 America/Sao_Paulo] PHP Notice:  Undefined index: funcao in /home/cnpjn035/public_html/php/contabilidade/manterServicoPrestado.php on line 103
+[05-Nov-2017 18:13:25 America/Sao_Paulo] PHP Notice:  Undefined index: funcao in /home/cnpjn035/public_html/php/contabilidade/manterServicoPrestado.php on line 112
+[05-Nov-2017 18:13:25 America/Sao_Paulo] PHP Notice:  Undefined index: funcao in /home/cnpjn035/public_html/php/contabilidade/manterServicoPrestado.php on line 121
+[05-Nov-2017 18:13:58 America/Sao_Paulo] PHP Notice:  Undefined index: funcao in /home/cnpjn035/public_html/php/contabilidade/manterServicoPrestado.php on line 20
+[05-Nov-2017 18:13:58 America/Sao_Paulo] PHP Notice:  Undefined index: funcao in /home/cnpjn035/public_html/php/contabilidade/manterServicoPrestado.php on line 35
+[05-Nov-2017 18:13:58 America/Sao_Paulo] PHP Notice:  Undefined index: funcao in /home/cnpjn035/public_html/php/contabilidade/manterServicoPrestado.php on line 103
+[05-Nov-2017 18:13:58 America/Sao_Paulo] PHP Notice:  Undefined index: funcao in /home/cnpjn035/public_html/php/contabilidade/manterServicoPrestado.php on line 112
+[05-Nov-2017 18:13:58 America/Sao_Paulo] PHP Notice:  Undefined index: funcao in /home/cnpjn035/public_html/php/contabilidade/manterServicoPrestado.php on line 121
+[05-Nov-2017 18:14:41 America/Sao_Paulo] PHP Notice:  Undefined index: funcao in /home/cnpjn035/public_html/php/contabilidade/manterServicoPrestado.php on line 21
+[05-Nov-2017 18:14:41 America/Sao_Paulo] PHP Notice:  Undefined index: funcao in /home/cnpjn035/public_html/php/contabilidade/manterServicoPrestado.php on line 36
+[05-Nov-2017 18:14:41 America/Sao_Paulo] PHP Notice:  Undefined index: funcao in /home/cnpjn035/public_html/php/contabilidade/manterServicoPrestado.php on line 104
+[05-Nov-2017 18:14:41 America/Sao_Paulo] PHP Notice:  Undefined index: funcao in /home/cnpjn035/public_html/php/contabilidade/manterServicoPrestado.php on line 113
+[05-Nov-2017 18:14:41 America/Sao_Paulo] PHP Notice:  Undefined index: funcao in /home/cnpjn035/public_html/php/contabilidade/manterServicoPrestado.php on line 122
+[05-Nov-2017 18:15:54 America/Sao_Paulo] PHP Notice:  Undefined index: funcao in /home/cnpjn035/public_html/php/contabilidade/manterServicoPrestado.php on line 22
+[05-Nov-2017 18:15:54 America/Sao_Paulo] PHP Notice:  Undefined index: funcao in /home/cnpjn035/public_html/php/contabilidade/manterServicoPrestado.php on line 37
+[05-Nov-2017 18:15:54 America/Sao_Paulo] PHP Notice:  Undefined index: funcao in /home/cnpjn035/public_html/php/contabilidade/manterServicoPrestado.php on line 105
+[05-Nov-2017 18:15:54 America/Sao_Paulo] PHP Notice:  Undefined index: funcao in /home/cnpjn035/public_html/php/contabilidade/manterServicoPrestado.php on line 114
+[05-Nov-2017 18:15:54 America/Sao_Paulo] PHP Notice:  Undefined index: funcao in /home/cnpjn035/public_html/php/contabilidade/manterServicoPrestado.php on line 123
+[05-Nov-2017 18:17:59 America/Sao_Paulo] PHP Notice:  Undefined index: funcao in /home/cnpjn035/public_html/php/contabilidade/manterServicoPrestado.php on line 22
+[05-Nov-2017 18:17:59 America/Sao_Paulo] PHP Notice:  Undefined index: funcao in /home/cnpjn035/public_html/php/contabilidade/manterServicoPrestado.php on line 37
+[05-Nov-2017 18:17:59 America/Sao_Paulo] PHP Notice:  Undefined index: funcao in /home/cnpjn035/public_html/php/contabilidade/manterServicoPrestado.php on line 105
+[05-Nov-2017 18:17:59 America/Sao_Paulo] PHP Notice:  Undefined index: funcao in /home/cnpjn035/public_html/php/contabilidade/manterServicoPrestado.php on line 114
+[05-Nov-2017 18:17:59 America/Sao_Paulo] PHP Notice:  Undefined index: funcao in /home/cnpjn035/public_html/php/contabilidade/manterServicoPrestado.php on line 123
+[08-Nov-2017 13:03:10 America/Sao_Paulo] PHP Notice:  Undefined index: email in /home/cnpjn035/public_html/php/classes/empresa.class.php on line 55
+[08-Nov-2017 11:40:10 America/Chicago] PHP Notice:  Undefined index: historico in /home/cnpjn035/public_html/php/contabilidade/manterPagamentos.php on line 5
+[09-Nov-2017 06:10:00 America/Chicago] PHP Notice:  Undefined index: valor in /home/cnpjn035/public_html/php/contabilidade/manterPagamentos.php on line 12
+[09-Nov-2017 06:12:58 America/Chicago] PHP Notice:  Undefined index: valor in /home/cnpjn035/public_html/php/contabilidade/manterPagamentos.php on line 12
+[09-Nov-2017 11:06:27 America/Chicago] PHP Parse error:  syntax error, unexpected '=', expecting ')' in /home/cnpjn035/public_html/php/contabilidade/manterPagamentos.php on line 31
+[20-Nov-2017 07:17:09 America/Chicago] PHP Parse error:  syntax error, unexpected '}' in /home/cnpjn035/public_html/php/contabilidade/manterHistorico.php on line 26
+[20-Nov-2017 07:17:44 America/Chicago] PHP Notice:  Undefined index: historico in /home/cnpjn035/public_html/php/contabilidade/manterHistorico.php on line 6
+[20-Nov-2017 07:18:06 America/Chicago] PHP Notice:  Undefined index: historico in /home/cnpjn035/public_html/php/contabilidade/manterHistorico.php on line 6
+[20-Nov-2017 07:18:50 America/Chicago] PHP Notice:  Undefined index: historico in /home/cnpjn035/public_html/php/contabilidade/manterHistorico.php on line 6
+[20-Nov-2017 07:19:33 America/Chicago] PHP Notice:  Undefined index: historico in /home/cnpjn035/public_html/php/contabilidade/manterHistorico.php on line 6
+[16-Dec-2017 17:36:54 America/Chicago] PHP Notice:  Undefined index: id in /home/cnpjn035/public_html/php/contabilidade/manterPagamentos.php on line 59
+[16-Dec-2017 17:37:33 America/Chicago] PHP Notice:  Array to string conversion in /home/cnpjn035/public_html/php/contabilidade/manterPagamentos.php on line 61
+[22-Dec-2017 08:51:06 America/Sao_Paulo] PHP Notice:  Undefined index: telefone in /home/cnpjn035/public_html/php/contabilidade/manterEmpresa.php on line 75
+[22-Dec-2017 09:03:06 America/Sao_Paulo] PHP Notice:  Undefined index: validade_cd in /home/cnpjn035/public_html/php/contabilidade/manterEmpresa.php on line 76
+[22-Dec-2017 09:03:06 America/Sao_Paulo] PHP Notice:  Undefined index: cnpj in /home/cnpjn035/public_html/php/contabilidade/manterEmpresa.php on line 81
+[22-Dec-2017 09:03:06 America/Sao_Paulo] PHP Notice:  Undefined index: cpf in /home/cnpjn035/public_html/php/contabilidade/manterEmpresa.php on line 82
+[22-Dec-2017 09:03:06 America/Sao_Paulo] PHP Notice:  Undefined index: cpf_2 in /home/cnpjn035/public_html/php/contabilidade/manterEmpresa.php on line 83
+[22-Dec-2017 09:03:06 America/Sao_Paulo] PHP Notice:  Undefined index: cpf_3 in /home/cnpjn035/public_html/php/contabilidade/manterEmpresa.php on line 84
+[22-Dec-2017 09:03:06 America/Sao_Paulo] PHP Notice:  Undefined index: cpf_4 in /home/cnpjn035/public_html/php/contabilidade/manterEmpresa.php on line 85
+[22-Dec-2017 09:03:06 America/Sao_Paulo] PHP Notice:  Undefined index: cep in /home/cnpjn035/public_html/php/contabilidade/manterEmpresa.php on line 86
+[22-Dec-2017 09:03:06 America/Sao_Paulo] PHP Notice:  Undefined index: telefone_1 in /home/cnpjn035/public_html/php/contabilidade/manterEmpresa.php on line 87
+[22-Dec-2017 09:03:06 America/Sao_Paulo] PHP Notice:  Undefined index: telefone_2 in /home/cnpjn035/public_html/php/contabilidade/manterEmpresa.php on line 88
+[22-Dec-2017 09:03:06 America/Sao_Paulo] PHP Notice:  Undefined index: telefone_3 in /home/cnpjn035/public_html/php/contabilidade/manterEmpresa.php on line 89
+[22-Dec-2017 09:03:06 America/Sao_Paulo] PHP Notice:  Undefined index: celular_1 in /home/cnpjn035/public_html/php/contabilidade/manterEmpresa.php on line 90
+[22-Dec-2017 09:03:06 America/Sao_Paulo] PHP Notice:  Undefined index: celular_2 in /home/cnpjn035/public_html/php/contabilidade/manterEmpresa.php on line 91
+[22-Dec-2017 09:03:06 America/Sao_Paulo] PHP Notice:  Undefined index: celular_3 in /home/cnpjn035/public_html/php/contabilidade/manterEmpresa.php on line 92
+[22-Dec-2017 09:03:06 America/Sao_Paulo] PHP Notice:  Undefined index: celular_4 in /home/cnpjn035/public_html/php/contabilidade/manterEmpresa.php on line 93
+[22-Dec-2017 09:03:06 America/Sao_Paulo] PHP Notice:  Undefined index: celular_whatsapp in /home/cnpjn035/public_html/php/contabilidade/manterEmpresa.php on line 94
+[22-Dec-2017 09:10:36 America/Sao_Paulo] PHP Notice:  Undefined index: hash in /home/cnpjn035/public_html/php/contabilidade/manterEmpresa.php on line 110
+[22-Dec-2017 09:10:36 America/Sao_Paulo] PHP Warning:  openssl_encrypt(): Using an empty Initialization Vector (iv) is potentially insecure and not recommended in /home/cnpjn035/public_html/php/contabilidade/manterEmpresa.php on line 110
+[22-Dec-2017 09:10:36 America/Sao_Paulo] PHP Notice:  Undefined index: hash in /home/cnpjn035/public_html/php/contabilidade/manterEmpresa.php on line 110
+[22-Dec-2017 09:10:36 America/Sao_Paulo] PHP Warning:  openssl_encrypt(): Using an empty Initialization Vector (iv) is potentially insecure and not recommended in /home/cnpjn035/public_html/php/contabilidade/manterEmpresa.php on line 110
+[22-Dec-2017 09:10:36 America/Sao_Paulo] PHP Notice:  Undefined index: hash in /home/cnpjn035/public_html/php/contabilidade/manterEmpresa.php on line 110
+[22-Dec-2017 09:10:36 America/Sao_Paulo] PHP Warning:  openssl_encrypt(): Using an empty Initialization Vector (iv) is potentially insecure and not recommended in /home/cnpjn035/public_html/php/contabilidade/manterEmpresa.php on line 110
+[22-Dec-2017 09:10:36 America/Sao_Paulo] PHP Notice:  Undefined index: hash in /home/cnpjn035/public_html/php/contabilidade/manterEmpresa.php on line 110
+[22-Dec-2017 09:10:36 America/Sao_Paulo] PHP Warning:  openssl_encrypt(): Using an empty Initialization Vector (iv) is potentially insecure and not recommended in /home/cnpjn035/public_html/php/contabilidade/manterEmpresa.php on line 110
+[22-Dec-2017 05:17:22 America/Chicago] PHP Parse error:  syntax error, unexpected 'unset' (T_UNSET) in /home/cnpjn035/public_html/php/contabilidade/manterEmpresa.php on line 46
+[22-Dec-2017 09:19:06 America/Sao_Paulo] PHP Notice:  Undefined index: hash in /home/cnpjn035/public_html/php/contabilidade/manterEmpresa.php on line 117
+[22-Dec-2017 09:19:06 America/Sao_Paulo] PHP Notice:  Undefined index: hash in /home/cnpjn035/public_html/php/contabilidade/manterEmpresa.php on line 117
+[22-Dec-2017 09:19:06 America/Sao_Paulo] PHP Warning:  openssl_encrypt(): Using an empty Initialization Vector (iv) is potentially insecure and not recommended in /home/cnpjn035/public_html/php/contabilidade/manterEmpresa.php on line 117
+[22-Dec-2017 09:28:33 America/Sao_Paulo] PHP Notice:  Undefined index: hash in /home/cnpjn035/public_html/php/contabilidade/manterEmpresa.php on line 117
+[22-Dec-2017 09:28:33 America/Sao_Paulo] PHP Notice:  Undefined index: hash in /home/cnpjn035/public_html/php/contabilidade/manterEmpresa.php on line 117
+[22-Dec-2017 09:28:33 America/Sao_Paulo] PHP Warning:  openssl_encrypt(): Using an empty Initialization Vector (iv) is potentially insecure and not recommended in /home/cnpjn035/public_html/php/contabilidade/manterEmpresa.php on line 117
+[22-Dec-2017 09:30:30 America/Sao_Paulo] PHP Warning:  openssl_encrypt(): IV passed is 20 bytes long which is longer than the 16 expected by selected cipher, truncating in /home/cnpjn035/public_html/php/contabilidade/manterEmpresa.php on line 121
+[22-Dec-2017 09:31:34 America/Sao_Paulo] PHP Warning:  openssl_encrypt(): IV passed is 20 bytes long which is longer than the 16 expected by selected cipher, truncating in /home/cnpjn035/public_html/php/contabilidade/manterEmpresa.php on line 121
+[22-Dec-2017 09:32:55 America/Sao_Paulo] PHP Warning:  openssl_encrypt(): IV passed is 20 bytes long which is longer than the 16 expected by selected cipher, truncating in /home/cnpjn035/public_html/php/contabilidade/manterEmpresa.php on line 121
+[22-Dec-2017 09:41:17 America/Sao_Paulo] PHP Notice:  Undefined index: banco_1 in /home/cnpjn035/public_html/php/contabilidade/manterEmpresa.php on line 115
+[22-Dec-2017 09:41:17 America/Sao_Paulo] PHP Notice:  Undefined index: agencia_1 in /home/cnpjn035/public_html/php/contabilidade/manterEmpresa.php on line 115
+[22-Dec-2017 09:41:17 America/Sao_Paulo] PHP Notice:  Undefined index: conta_1 in /home/cnpjn035/public_html/php/contabilidade/manterEmpresa.php on line 115
+[22-Dec-2017 09:41:17 America/Sao_Paulo] PHP Notice:  Undefined index: favorecido_1 in /home/cnpjn035/public_html/php/contabilidade/manterEmpresa.php on line 115
+[22-Dec-2017 09:41:17 America/Sao_Paulo] PHP Notice:  Undefined index: banco_1 in /home/cnpjn035/public_html/php/contabilidade/manterEmpresa.php on line 116
+[22-Dec-2017 09:45:07 America/Sao_Paulo] PHP Notice:  Undefined index: banco_1 in /home/cnpjn035/public_html/php/contabilidade/manterEmpresa.php on line 115
+[22-Dec-2017 09:45:07 America/Sao_Paulo] PHP Notice:  Undefined index: agencia_1 in /home/cnpjn035/public_html/php/contabilidade/manterEmpresa.php on line 115
+[22-Dec-2017 09:45:07 America/Sao_Paulo] PHP Notice:  Undefined index: conta_1 in /home/cnpjn035/public_html/php/contabilidade/manterEmpresa.php on line 115
+[22-Dec-2017 09:45:07 America/Sao_Paulo] PHP Notice:  Undefined index: favorecido_1 in /home/cnpjn035/public_html/php/contabilidade/manterEmpresa.php on line 115
+[22-Dec-2017 09:45:07 America/Sao_Paulo] PHP Notice:  Undefined index: banco_1 in /home/cnpjn035/public_html/php/contabilidade/manterEmpresa.php on line 116
+[19-Jan-2018 12:17:37 America/Sao_Paulo] PHP Notice:  Undefined index: email in /home/cnpjn035/public_html/php/classes/empresa.class.php on line 55
+[01-Feb-2018 16:01:58 America/Sao_Paulo] PHP Notice:  Undefined index: empresa in /home/cnpjn035/public_html/php/contabilidade/manterEmpresa.php on line 112
+[01-Feb-2018 16:01:58 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function toArray() on boolean in /home/cnpjn035/public_html/php/contabilidade/manterEmpresa.php:114
+Stack trace:
+#0 {main}
+  thrown in /home/cnpjn035/public_html/php/contabilidade/manterEmpresa.php on line 114
+[01-Feb-2018 16:04:38 America/Sao_Paulo] PHP Notice:  Undefined index: empresa in /home/cnpjn035/public_html/php/contabilidade/manterEmpresa.php on line 112
+[01-Feb-2018 16:04:38 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function toArray() on boolean in /home/cnpjn035/public_html/php/contabilidade/manterEmpresa.php:114
+Stack trace:
+#0 {main}
+  thrown in /home/cnpjn035/public_html/php/contabilidade/manterEmpresa.php on line 114
+[01-Feb-2018 16:04:39 America/Sao_Paulo] PHP Notice:  Undefined index: empresa in /home/cnpjn035/public_html/php/contabilidade/manterEmpresa.php on line 112
+[01-Feb-2018 16:04:39 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function toArray() on boolean in /home/cnpjn035/public_html/php/contabilidade/manterEmpresa.php:114
+Stack trace:
+#0 {main}
+  thrown in /home/cnpjn035/public_html/php/contabilidade/manterEmpresa.php on line 114
+[01-Feb-2018 16:04:40 America/Sao_Paulo] PHP Notice:  Undefined index: empresa in /home/cnpjn035/public_html/php/contabilidade/manterEmpresa.php on line 112
+[01-Feb-2018 16:04:40 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function toArray() on boolean in /home/cnpjn035/public_html/php/contabilidade/manterEmpresa.php:114
+Stack trace:
+#0 {main}
+  thrown in /home/cnpjn035/public_html/php/contabilidade/manterEmpresa.php on line 114
+[01-Feb-2018 16:05:57 America/Sao_Paulo] PHP Notice:  Undefined index: empresa in /home/cnpjn035/public_html/php/contabilidade/manterEmpresa.php on line 112
+[01-Feb-2018 16:05:57 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function toArray() on boolean in /home/cnpjn035/public_html/php/contabilidade/manterEmpresa.php:114
+Stack trace:
+#0 {main}
+  thrown in /home/cnpjn035/public_html/php/contabilidade/manterEmpresa.php on line 114
+[01-Feb-2018 16:05:59 America/Sao_Paulo] PHP Notice:  Undefined index: empresa in /home/cnpjn035/public_html/php/contabilidade/manterEmpresa.php on line 112
+[01-Feb-2018 16:05:59 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function toArray() on boolean in /home/cnpjn035/public_html/php/contabilidade/manterEmpresa.php:114
+Stack trace:
+#0 {main}
+  thrown in /home/cnpjn035/public_html/php/contabilidade/manterEmpresa.php on line 114
+[01-Feb-2018 16:05:59 America/Sao_Paulo] PHP Notice:  Undefined index: empresa in /home/cnpjn035/public_html/php/contabilidade/manterEmpresa.php on line 112
+[01-Feb-2018 16:05:59 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function toArray() on boolean in /home/cnpjn035/public_html/php/contabilidade/manterEmpresa.php:114
+Stack trace:
+#0 {main}
+  thrown in /home/cnpjn035/public_html/php/contabilidade/manterEmpresa.php on line 114
+[01-Feb-2018 16:05:59 America/Sao_Paulo] PHP Notice:  Undefined index: empresa in /home/cnpjn035/public_html/php/contabilidade/manterEmpresa.php on line 112
+[01-Feb-2018 16:05:59 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function toArray() on boolean in /home/cnpjn035/public_html/php/contabilidade/manterEmpresa.php:114
+Stack trace:
+#0 {main}
+  thrown in /home/cnpjn035/public_html/php/contabilidade/manterEmpresa.php on line 114
+[01-Feb-2018 16:06:00 America/Sao_Paulo] PHP Notice:  Undefined index: empresa in /home/cnpjn035/public_html/php/contabilidade/manterEmpresa.php on line 112
+[01-Feb-2018 16:06:00 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function toArray() on boolean in /home/cnpjn035/public_html/php/contabilidade/manterEmpresa.php:114
+Stack trace:
+#0 {main}
+  thrown in /home/cnpjn035/public_html/php/contabilidade/manterEmpresa.php on line 114
+[01-Feb-2018 16:06:01 America/Sao_Paulo] PHP Notice:  Undefined index: empresa in /home/cnpjn035/public_html/php/contabilidade/manterEmpresa.php on line 112
+[01-Feb-2018 16:06:01 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function toArray() on boolean in /home/cnpjn035/public_html/php/contabilidade/manterEmpresa.php:114
+Stack trace:
+#0 {main}
+  thrown in /home/cnpjn035/public_html/php/contabilidade/manterEmpresa.php on line 114
+[01-Feb-2018 16:06:25 America/Sao_Paulo] PHP Notice:  Undefined index: empresa in /home/cnpjn035/public_html/php/contabilidade/manterEmpresa.php on line 112
+[01-Feb-2018 16:06:25 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function toArray() on boolean in /home/cnpjn035/public_html/php/contabilidade/manterEmpresa.php:114
+Stack trace:
+#0 {main}
+  thrown in /home/cnpjn035/public_html/php/contabilidade/manterEmpresa.php on line 114
+[01-Feb-2018 16:06:26 America/Sao_Paulo] PHP Notice:  Undefined index: empresa in /home/cnpjn035/public_html/php/contabilidade/manterEmpresa.php on line 112
+[01-Feb-2018 16:06:26 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function toArray() on boolean in /home/cnpjn035/public_html/php/contabilidade/manterEmpresa.php:114
+Stack trace:
+#0 {main}
+  thrown in /home/cnpjn035/public_html/php/contabilidade/manterEmpresa.php on line 114
+[01-Feb-2018 16:06:33 America/Sao_Paulo] PHP Notice:  Undefined index: empresa in /home/cnpjn035/public_html/php/contabilidade/manterEmpresa.php on line 112
+[01-Feb-2018 16:06:33 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function toArray() on boolean in /home/cnpjn035/public_html/php/contabilidade/manterEmpresa.php:114
+Stack trace:
+#0 {main}
+  thrown in /home/cnpjn035/public_html/php/contabilidade/manterEmpresa.php on line 114
+[01-Feb-2018 16:06:33 America/Sao_Paulo] PHP Notice:  Undefined index: empresa in /home/cnpjn035/public_html/php/contabilidade/manterEmpresa.php on line 112
+[01-Feb-2018 16:06:33 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function toArray() on boolean in /home/cnpjn035/public_html/php/contabilidade/manterEmpresa.php:114
+Stack trace:
+#0 {main}
+  thrown in /home/cnpjn035/public_html/php/contabilidade/manterEmpresa.php on line 114
+[01-Feb-2018 16:06:33 America/Sao_Paulo] PHP Notice:  Undefined index: empresa in /home/cnpjn035/public_html/php/contabilidade/manterEmpresa.php on line 112
+[01-Feb-2018 16:06:33 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function toArray() on boolean in /home/cnpjn035/public_html/php/contabilidade/manterEmpresa.php:114
+Stack trace:
+#0 {main}
+  thrown in /home/cnpjn035/public_html/php/contabilidade/manterEmpresa.php on line 114
+[01-Feb-2018 16:06:34 America/Sao_Paulo] PHP Notice:  Undefined index: empresa in /home/cnpjn035/public_html/php/contabilidade/manterEmpresa.php on line 112
+[01-Feb-2018 16:06:34 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function toArray() on boolean in /home/cnpjn035/public_html/php/contabilidade/manterEmpresa.php:114
+Stack trace:
+#0 {main}
+  thrown in /home/cnpjn035/public_html/php/contabilidade/manterEmpresa.php on line 114
+[01-Feb-2018 16:06:34 America/Sao_Paulo] PHP Notice:  Undefined index: empresa in /home/cnpjn035/public_html/php/contabilidade/manterEmpresa.php on line 112
+[01-Feb-2018 16:06:34 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function toArray() on boolean in /home/cnpjn035/public_html/php/contabilidade/manterEmpresa.php:114
+Stack trace:
+#0 {main}
+  thrown in /home/cnpjn035/public_html/php/contabilidade/manterEmpresa.php on line 114
+[01-Feb-2018 16:06:34 America/Sao_Paulo] PHP Notice:  Undefined index: empresa in /home/cnpjn035/public_html/php/contabilidade/manterEmpresa.php on line 112
+[01-Feb-2018 16:06:34 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function toArray() on boolean in /home/cnpjn035/public_html/php/contabilidade/manterEmpresa.php:114
+Stack trace:
+#0 {main}
+  thrown in /home/cnpjn035/public_html/php/contabilidade/manterEmpresa.php on line 114
+[01-Feb-2018 16:06:34 America/Sao_Paulo] PHP Notice:  Undefined index: empresa in /home/cnpjn035/public_html/php/contabilidade/manterEmpresa.php on line 112
+[01-Feb-2018 16:06:34 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function toArray() on boolean in /home/cnpjn035/public_html/php/contabilidade/manterEmpresa.php:114
+Stack trace:
+#0 {main}
+  thrown in /home/cnpjn035/public_html/php/contabilidade/manterEmpresa.php on line 114
+[01-Feb-2018 16:06:34 America/Sao_Paulo] PHP Notice:  Undefined index: empresa in /home/cnpjn035/public_html/php/contabilidade/manterEmpresa.php on line 112
+[01-Feb-2018 16:06:34 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function toArray() on boolean in /home/cnpjn035/public_html/php/contabilidade/manterEmpresa.php:114
+Stack trace:
+#0 {main}
+  thrown in /home/cnpjn035/public_html/php/contabilidade/manterEmpresa.php on line 114
+[01-Feb-2018 16:09:06 America/Sao_Paulo] PHP Notice:  Undefined index: empresa in /home/cnpjn035/public_html/php/contabilidade/manterEmpresa.php on line 112
+[01-Feb-2018 16:09:06 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function toArray() on boolean in /home/cnpjn035/public_html/php/contabilidade/manterEmpresa.php:114
+Stack trace:
+#0 {main}
+  thrown in /home/cnpjn035/public_html/php/contabilidade/manterEmpresa.php on line 114
+[01-Feb-2018 16:09:08 America/Sao_Paulo] PHP Notice:  Undefined index: empresa in /home/cnpjn035/public_html/php/contabilidade/manterEmpresa.php on line 182
+[01-Feb-2018 16:09:08 America/Sao_Paulo] PHP Warning:  Creating default object from empty value in /home/cnpjn035/public_html/php/contabilidade/manterEmpresa.php on line 184
+[01-Feb-2018 16:09:10 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined method stdClass::toArray() in /home/cnpjn035/public_html/php/contabilidade/manterEmpresa.php:114
+Stack trace:
+#0 {main}
+  thrown in /home/cnpjn035/public_html/php/contabilidade/manterEmpresa.php on line 114
+[01-Feb-2018 16:09:11 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined method stdClass::toArray() in /home/cnpjn035/public_html/php/contabilidade/manterEmpresa.php:114
+Stack trace:
+#0 {main}
+  thrown in /home/cnpjn035/public_html/php/contabilidade/manterEmpresa.php on line 114
+[01-Feb-2018 16:09:11 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined method stdClass::toArray() in /home/cnpjn035/public_html/php/contabilidade/manterEmpresa.php:114
+Stack trace:
+#0 {main}
+  thrown in /home/cnpjn035/public_html/php/contabilidade/manterEmpresa.php on line 114
+[01-Feb-2018 16:09:11 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined method stdClass::toArray() in /home/cnpjn035/public_html/php/contabilidade/manterEmpresa.php:114
+Stack trace:
+#0 {main}
+  thrown in /home/cnpjn035/public_html/php/contabilidade/manterEmpresa.php on line 114
+[25-Mar-2018 11:48:19 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined method empresa::lembrar() in /home/cnpjn035/public_html/php/contabilidade/manterEmpresa.php:203
+Stack trace:
+#0 {main}
+  thrown in /home/cnpjn035/public_html/php/contabilidade/manterEmpresa.php on line 203
+[27-Mar-2018 07:53:49 America/Sao_Paulo] PHP Notice:  Undefined variable: historico2 in /home/cnpjn035/public_html/php/contabilidade/manterServicoPrestado.php on line 77

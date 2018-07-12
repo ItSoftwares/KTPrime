@@ -1,0 +1,66 @@
+#servicos, #adicionar {
+    background: white;
+/*    border: 1px solid #efefef;*/
+    padding: 10px;
+    position: relative;
+}
+
+#adicionar {
+    margin-bottom: 20px;
+}
+
+#servicos > div:not(#adicionar) {
+    margin-top: 20px;
+    height: 54vh;
+    overflow-y: auto;
+}
+
+#servicos > div.maior {
+    height: 75vh !important;
+}
+
+#adicionar form {
+    align-items: center;
+    margin-top: 10px;
+/*    border-bottom: 1px solid #eee;*/
+}
+
+#adicionar * {
+    font-family: encode;
+}
+
+.input {
+    width: 100%;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.input label {
+    font-size: .75em;
+    color: #999;
+}
+
+.input input {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #e9e9e9;
+    width: 100%;
+    box-sizing: border-box;
+    transition: .3s ease;
+}
+
+.input input:focus {
+    border-color: #1688ce;
+    box-shadow: 0 0 3px rgba(0,0,0,.1);
+}
+
+#adicionar button {
+    width: 100px;
+    padding: 10px 0;
+    color: white;
+    background: rgb(22, 136, 206);
+/*    margin: 10px 0;*/
+    cursor: pointer;
+    display: block;
+    float: right
+}

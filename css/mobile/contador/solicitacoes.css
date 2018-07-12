@@ -1,0 +1,151 @@
+#acesso-rapido li:nth-child(1) div:first-child, #acesso-rapido li:nth-child(1) .bola {
+	background: #2196F3;
+} 
+
+#acesso-rapido li:nth-child(2) div:first-child, #acesso-rapido li:nth-child(2) .bola {
+	background: #FFC107;
+}
+
+#acesso-rapido li:nth-child(3) div:first-child, #acesso-rapido li:nth-child(3) .bola {
+	background: #8bc34a;
+}
+
+#solicitacoes {
+    background: white;
+    border: 1px solid #efefef;
+    padding: 10px;
+    position: relative;
+}
+
+#pesquisa {
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
+    justify-content: flex-end;
+}
+
+#pesquisa div {
+    width: 48%;
+}
+
+#pesquisa input {
+    padding: 10px;
+    border-bottom: 2px solid #e9e9e9;
+    font-family: encode;
+    transition: .3s ease;
+    box-sizing: border-box;
+    white-space: 100%
+}
+
+#pesquisa input:focus {
+    border-color: #2196f3;
+}
+
+#solicitacoes > div:not(#pesquisa) {
+    margin-top: 40px;
+    height: 65vh;
+    overflow-y: auto;
+}
+
+#solicitacoes table {
+    width: 96%;
+    border-collapse:collapse;
+    margin: auto;
+/*    border-spacing:10px;*/
+} 
+
+#solicitacoes table tr.spacer {
+    padding: 10px 0;
+}
+
+#solicitacoes table tr:not(.spacer):not(:first-child) {
+    background: #fcfcfc;
+    border-radius: 3px;
+    box-shadow: 0 0 0 1px #ddd;
+    cursor: default
+}
+
+#solicitacoes table tr:first-child {
+	display: none;
+}
+
+#solicitacoes table td {
+    text-align: left;
+    padding: 8px 5px;
+    font-size: .9em;
+    display: block;
+    text-align: right;
+}
+
+#solicitacoes table tr td a {
+	color: black;
+    font-weight: bold;
+}
+
+#solicitacoes table tr td:nth-child(2) img {
+    width: 20px;
+    margin-left: 5px;
+    vertical-align: middle;
+    filter: invert(1);
+}
+
+#solicitacoes table tr td:first-child {
+    border-radius: 3px 3px 0 0;
+}
+
+#solicitacoes table tr td:last-child {
+    border-radius: 3px;
+    text-align: right;
+}
+
+#solicitacoes table tr:not(.spacer) td:not(:last-child) {
+    border-bottom: 1px solid rgba(0,0,0,.1);
+}
+
+#solicitacoes table tr:not(.spacer) td:before {
+    content: attr(data-nome);
+    float: left;
+    font-weight: bold;
+}
+
+#solicitacoes table tr td:first-child img {
+    width: 18px;
+    padding: 3px;
+    border-radius: 50%;
+    background: #8bc34a;
+}
+
+#solicitacoes table tr td:first-child img.pendente {
+    background: #ffc107;
+}
+
+#solicitacoes table tr td button {
+    font-family: encode;
+    font-size: .9em;
+    padding: 10px 20px;
+    color: white;
+    background: rgb(22, 136, 206);
+    cursor: pointer;
+    width: 110px;
+}
+
+#solicitacoes table tr td button:disabled {
+    opacity: .3;
+    cursor: default;
+}
+
+img.anexo, img.responder {
+    width: 20px;
+    padding: 3px;
+    background: #717171;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+img.anexo.sem-anexo, img.responder.respondido  {
+    opacity: .3;
+    cursor: default;
+}

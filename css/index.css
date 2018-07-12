@@ -1,0 +1,1107 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+@font-face {
+    font-family: "raleway";
+    src: url("../fonts/Raleway-Regular.ttf");
+}
+
+@font-face {
+    font-family: "roboto";
+    src: url("../fonts/Roboto-Regular.ttf"); 
+}
+
+* {
+    font-family: raleway
+}
+
+body {
+    position: relative;
+}
+
+body > header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    border-bottom: 1px solid rgba(0,0,0,.1);
+    background: white;
+    z-index: 10;
+}
+
+body > header > div {
+    width: 1000px;
+    margin: 0 auto;
+    padding: 15px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+body > header a {
+    color: #999;
+    text-decoration: none;
+}
+ 
+body > header a h3 {
+    font-weight: normal;
+    display: flex;
+    align-items: center;
+}
+
+body > header a h3 span {
+    padding: 4px 10px;
+    color: white;
+    margin-right: 10px;
+    background: #f16876;
+}
+
+body > header a h3 img {
+    width: 40px;
+    display: block;
+    margin-right: 10px;
+}
+
+#menu {
+}
+
+#menu-botao {
+    display: none;
+}
+
+#menu ul {
+    display: flex;
+    list-style: none;
+}
+
+#menu ul li {
+    margin-left: 20px;
+    position: relative;
+}
+
+#menu ul li a {
+    font-size: .8em;
+    padding: 10px;
+    transition: .3s ease;
+    display: block;
+}
+
+#menu ul li span {
+    position: absolute;
+    left: 50%;
+    top: 100%;
+    width: 100px;
+    display: none;
+    text-align: center;
+    transform: translate(-50%);
+    background: white;
+    border-radius: 2px;
+    border: 1px solid rgba(0,0,0,.1);
+}
+
+#menu ul li:hover span {
+    display: block;
+}
+
+#menu ul li a:not(.botao):hover {
+    color: #000;
+}
+
+.botao {
+    padding: 15px 25px;
+    background: #03a9f4;
+    color: white;
+    font-size: 1.2em;
+    text-decoration: none;
+    transition: .3s ease;
+    box-shadow: inset 0 0 0 rgba(0,0,0,.3);
+    display: table;
+    margin: auto;
+    cursor: pointer;
+}
+
+.botao:hover {
+    /*box-shadow: inset 0 -60px 0 #f16876;*/
+    background: #f16876
+}
+
+#lateral {
+    position: fixed;
+    top: 0;
+    bottom: 50px;
+    right: 50px;
+    display: table;
+/*    display: none;*/
+    margin: auto;
+    z-index: 10;
+    transition: filter .3s ease;
+}
+
+#lateral ul {
+    list-style: none;
+    font-size: 1.2em;
+}
+
+#lateral li.selecionado{
+    opacity: .8
+}
+
+#lateral li.selecionado span {
+    display: block;
+    opacity: 1;
+}
+
+#lateral li.selecionado:after {
+    width: 0px;
+    height: 0px;
+    border: 5px solid black;
+}
+
+#lateral li:not(.selecionado):hover span {
+    opacity: .5;
+}
+
+#lateral li {
+    margin-bottom: 10px;
+    text-align: right;
+    position: relative;
+    opacity: .5;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: ubuntu;
+    cursor: pointer;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+#lateral li span {
+    opacity: 0;
+    font-size: .8em;
+    transition: .3s ease;
+}
+
+#lateral li:after {
+    content: "";
+    position: absolute;
+    right: -15px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    width: 6px;
+    height: 6px;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+
+section#inicio {
+    margin-top: 60px;
+    position: relative;
+    padding-bottom: 30px;
+    text-align: center;
+    color: white;
+    background-image: url("../img/back-inicio.jpg"); 
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#inicio #fundo {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+/*    background-color: #273b7b;*/
+    background: linear-gradient(to bottom, #273b7b, #000000);
+    opacity: .5;
+}
+
+#inicio >div:not(#fundo) {
+    z-index: 1;
+    position: relative;
+}
+
+#inicio h1 {
+    font-size: 5em;
+    width: 60%;
+    margin: auto;
+    padding: 100px 0
+}
+
+#inicio h3 {
+    font-size: 2em;
+    width: 60%;
+    margin: 0 auto 40px;
+}
+
+#servicos, #mais, #clientes, #sobre {
+    padding: 80px 0;
+}
+
+#servicos > div, #sobre > div, #mais > div {
+    display: flex;
+/*    justify-content: space-between;*/
+    justify-content: center;
+    width: 1000px;
+    margin: auto
+}
+
+#servicos > div > div, #sobre > div > div, #mais >div > div {
+    width: 48%;
+/*    padding: 20px;*/
+}
+
+#servicos > div > div > img {
+    width: 60%;
+    margin: auto;
+    display: block;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #eee;
+}
+
+#servicos > div > div:nth-child(1) {
+    margin-right: 20px;
+}
+
+#simular {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px auto 0;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    box-shadow: 0 0 5px rgba(0,0,0,.2);
+    border-radius: 3px;
+    background: #f16876;
+    color: white;
+    font-weight: bold;
+    font-size: 1.3em;
+    position: relative;
+    cursor: pointer;
+    box-shadow: inset 0 0 0 rgba(0,0,0,.05);
+    transition: .3s ease;
+    max-width: 300px;
+    text-align: center;
+}
+
+#simular:hover {
+    box-shadow: inset 0 -80px 0 rgba(0,0,0,.2)
+}
+
+#simular img {
+    width: 50px;
+    transform: rotate(90deg);
+    vertical-align: middle;
+    margin: -10px 10px;
+    margin-left: 0;
+/*    background: rgba(0,0,0,.3);*/
+    background: rgba(255, 255, 255, 0.3);
+    padding: 4px;
+    border-radius: 3px;
+}
+
+#servicos img:nth-child(2) {
+    clip-path: polygon(0 0, 100% 0%, 100% 80%, 0% 90%);
+    cursor: pointer;
+}
+
+section h2 {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+/*    text-transform: uppercase*/
+}
+
+section p {
+    margin-bottom: 30px;
+    text-align: justify;
+    line-height: 22px;
+}
+
+#sobre, #mais {
+    background: #eaeaea;
+}
+
+#sobre div:nth-child(2) {
+    width: 40%;
+    cursor: pointer;
+}
+
+#sobre img {
+    margin-left: 20px;
+    width: 100%;
+    display: block;
+    padding: 4px;
+    background: white;
+    border-radius: 2px;
+    box-shadow: 0 0 5px rgba(0,0,0,.2);
+}
+
+#simulador {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,.75);
+    z-index: 11;
+    display: none; 
+    justify-content: center;
+    align-items: center;
+    font-family: ubuntu
+}
+
+#simulador > div {
+    position: relative;
+}
+
+#simulador > img {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 20px;
+    cursor: pointer;
+}
+
+#simulador h3 {
+    margin-bottom: 30px;
+    font-size: 1.8em;
+    text-align: center;
+    color: white;
+}
+
+#simulador .input {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    background: #fcfcfc;
+    border-radius: 3px;
+    margin: 15px;
+}
+
+#simulador .input label {
+    color: #000;
+    font-size: .9em;
+    margin-bottom: 10px;
+}
+
+#simulador .input select {
+    padding: 10px;
+    border: 1px solid #e9e9e9;
+    width: 100%;
+    box-sizing: border-box;
+    transition: .3s ease;
+}
+
+#simulador > div > div {
+    display: flex;
+    padding: 10px;
+    background: #fcfcfc;
+    border-radius: 3px;
+}
+
+#simulador #resultados {
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    flex-direction: column;
+    justify-content: center;
+    border-left: 1px solid rgba(0,0,0,.1);
+    position: relative;
+}
+
+#resultados .result {
+    padding: 10px 40px;
+    color: black;
+    background: #fcfcfc;
+    border-radius: 3px;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.result p {
+   margin-top: 10px;
+}
+
+.result p span {
+    font-size: .5em
+}
+
+#simulador #resultados a {
+    padding: 12px 15px;
+    color: white;
+    border-radius: 3px;
+    text-decoration: none;
+    background: #03A9F4;
+    display: table;
+    margin: 40px auto 25px;
+    box-shadow: 0 0 5px rgba(0,0,0,.5);
+    display: none;
+}
+
+#simulador #cifrao {
+    position: absolute;
+    right: -38px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    width: 38px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0,0,0,.4);
+    background: white;
+    transform: rotate(-135deg);
+}
+
+#clientes h2 {
+    text-align: center;
+}
+
+#clientes > div {
+    width: 800px;
+    margin: 40px auto;
+    border-left: 1px solid #e9e9e9;
+    border-right: 1px solid #e9e9e9;
+    overflow-x: hidden;
+    position: relative;
+    height: 200px;
+}
+
+#clientes .container {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 10px;
+    margin: auto;
+    width: 100%;
+/*    transition: .3s ease;*/
+}
+
+#clientes .container img {
+    width: 180px;
+    display: block;
+    padding: 4px;
+}
+
+#clientes .container a:hover {
+    box-shadow: 0 0 5px rgba(0,0,0,.5);
+}
+
+#clientes .container a {
+    display: flex;
+    margin: 5px 42px 5px 0;
+    height: calc(100% - 20px);
+    box-shadow: 0 0 5px rgba(0,0,0,.2);
+    align-items: center;
+    border-radius: 2px;
+    text-decoration: none;
+    color: black;
+}
+
+#clientes .container a:last-child {
+/*
+    background: #f16876;
+    color: white;
+*/
+}
+
+#clientes .container h3 {
+    width: 180px;
+    text-align: center;
+}
+
+#mais {
+    border-top: 1px solid rgba(0,0,0,.3)
+}
+
+#mais.branco {
+    background-image: url(../img/back-sobre.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+#mais > div > div:first-child {
+    width: 60%;
+}
+
+#mais div:nth-child(2) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+}
+
+footer {
+/*    margin-top: 20px;*/
+    background: #2C3E50;
+    color: white;
+}
+
+footer * {
+    font-family: ubuntu;
+}
+
+footer div:first-child {
+    display: flex; 
+    justify-content: space-between;
+    width: 80%;
+    max-width: 1000px;
+    margin: auto;
+    padding: 40px 0;
+}
+
+footer ul {
+    list-style: none;
+    text-align: center;
+}
+
+#redes li {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer li a {
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .3s ease;
+    text-decoration: none;
+    color: white;
+}
+
+footer li a:hover {
+    text-decoration: underline;
+}
+
+#redes img {
+    width: 25px;
+    display: block;
+    filter: invert(1);
+    transition: .3s ease;
+    margin-right: 10px;
+}
+
+footer h4 {
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    text-align: center
+}
+
+footer ul li {
+    margin-bottom: 5px;
+    font-size: .9em
+}
+
+footer #itsoftwares {
+    text-align: center;
+    font-size: .9em;
+    background: rgba(0,0,0,.15);
+    padding: 15px 0;
+    color: rgba(255,255,255,.5)
+}
+
+#titulo {
+    padding: 100px 50px;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 60px 0 0;
+    position: relative;
+}
+
+#titulo #shadow {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.58), transparent);
+    z-index: 1;
+}
+
+#titulo h1 {
+    font-size: 3em;
+    color: white;
+    text-transform: uppercase;
+    z-index: 2;
+    position: relative;
+}
+
+/* quem somos */
+#quem #titulo {
+    background-image: url(../img/back-sobre.jpg);
+}
+
+#quem-somos {
+    display: flex;
+    align-items: center;
+    width: 1000px;
+    margin: 60px auto;
+/*    border-bottom: 1px solid #eee;*/ 
+    padding: 30px 50px;
+    box-sizing: border-box;
+}
+
+#quem-somos img {
+    width: 200px;
+    margin-left: 30px;
+}
+
+#trio {
+    width: 1000px;
+    margin: 60px auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 30px;
+    box-sizing: border-box;
+}
+
+#trio h2 {
+    text-align: center; 
+}
+
+#trio > div {
+    width: 32%;
+    padding: 15px;
+    box-sizing: border-box;
+    background: rgba(0,0,0,.01);
+    border-radius: 3px;
+    box-shadow: 0 0 5px rgba(0,0,0,.1);
+    border-top: 3px solid #03a9f4;
+    border-bottom: 3px solid #03a9f4;
+}
+
+#trio > div img {
+    width: 40%;
+    margin: 0 auto 10px;
+    display: block;
+    background: white;
+    border-radius: 4px;
+    box-shadow: 0 0 5px rgba(0,0,0,.1);
+    padding: 5px;
+}
+
+#trio ul {
+    margin-left: 35px;
+    margin-bottom: 10px;
+}
+
+#equipe {
+    background: #eaeaea;
+    padding: 50px 0;
+}
+
+#equipe > div {
+    width: 1000px;
+    margin: auto;
+    padding: 30px 50px;
+    box-sizing: border-box;
+}
+
+#equipe > div > div {
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid rgba(0,0,0,.1);
+    padding-bottom: 10px;
+}
+
+.funcionario {
+    width: 45%;
+}
+
+.funcionario header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.funcionario img {
+    width: 100px;
+    margin-right: 20px;
+    padding: 4px;
+    border-radius: 2px;
+    box-shadow: 0 0 5px rgba(0,0,0,.2);
+    background: white;
+}
+
+.funcionario h3 {
+    margin-bottom: 5px;
+}
+
+.funcionario header div div {
+    font-size: .85em;
+    color: #8999D0;
+}
+
+.funcionario .email {
+    font-family: Ubuntu;
+}
+
+.funcionario p {
+    font-size: .85em;
+    line-height: 24px;
+    display: none;  
+}
+
+#equipe .botao {
+    margin: 40px auto -40px;
+}
+
+/*
+#especificacoes > div:last-child {
+    margin-bottom: 60px;
+}
+
+#quem div img {
+    width: 200px;
+    margin: 40px auto;
+    display: block;
+}
+
+#quem p, #quem h2 {
+    width: 600px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+#quem > div > div {
+    flex-direction: row-reverse !important;
+    margin-top: 0px !important
+}
+
+#quem > div > div > div {
+    justify-content: center;
+    width: 1000px;
+    margin: auto;
+    display: flex !important;
+    align-items: center !important;
+}
+
+#quem > div:not(#titulo) > div:nth-child(odd) {
+    background: #eaeaea;
+    padding: 60px 0;
+    margin-bottom: 60px;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+#quem ul li {
+    margin-left: 50px;
+    margin-bottom: 10px;
+}
+
+*/
+/* CONTATO */
+#contato > div:not(#titulo) {
+    width: 1000px;
+    margin: auto;
+    box-sizing: border-box;
+    display: flex;
+    margin: 40px auto;
+}
+
+#contato #titulo {
+    background-image: url(../img/back-contato.jpg);
+}
+
+#contato form {
+    width: 400px;
+    margin: auto;
+    background: #f9f9f9;
+    color: black;
+    padding: 20px;
+    border: 1px solid rgba(0,0,0,.1)
+}
+
+#contato h2 {
+    text-align: center;
+    margin: 20px 0;
+}
+
+#contato .input {
+    width: 100%;
+    padding: 0 10px;
+    position: relative;
+    box-sizing: border-box;
+}
+
+#contato .input label {
+    font-size: .75em;
+    color: #999;
+}
+
+#contato .input input, #contato .input textarea {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #e9e9e9;
+    width: 100%;
+    box-sizing: border-box;
+    transition: .3s ease;
+}
+
+#contato .input input:focus, #contato .input textarea:focus {
+    border-color: #1688ce;
+    box-shadow: 0 0 3px rgba(0,0,0,.1);
+}
+
+#contato .input textarea {
+    height: 200px;
+    resize: none;
+}
+
+#contato > div {
+}
+
+#contato #informacoes {
+    display: flex;
+    justify-content: space-around;
+    width: 51%;
+    flex-wrap: wrap;
+}
+
+#informacoes ul {
+/*    margin-right: 40px;*/
+    list-style: none;
+}
+
+#informacoes h3 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#informacoes li {
+    text-align: center;
+    font-size: .9em;
+    color: #999;
+    margin-bottom: 5px;
+    font-family: ubuntu;
+}
+
+#informacoes li * {
+    font-family: ubuntu;
+}
+
+#informacoes li a {
+    color: #999;
+    text-decoration: none;
+}
+
+/* CLIENTES */
+#lista-clientes > div:not(#titulo) {
+    width: 1000px;
+    margin: auto;
+    padding: 30px 50px;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; 
+}
+
+#lista-clientes #titulo {
+    background-image: url("../img/back-clientes.jpg");
+}
+
+#lista-clientes .empresa {
+    width: 45%;
+}
+
+#lista-clientes .empresa header {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #e9e9e9
+}
+
+#lista-clientes .empresa header img {
+    margin-right: 10px;
+    filter: grayscale(1);
+    width: 80px;
+}
+
+#lista-clientes .empresa p {
+    font-size: .9em;
+}
+
+/* SERVICOS */
+#titulo.servicos {
+    background-image: url(../img/back-clientes.jpg)
+}
+
+#servicos.pagina {
+    margin: 60px auto 0;
+    padding: 30px 50px;
+    width: 1000px;
+    box-sizing: border-box;
+}
+
+#servicos.pagina > ul {
+    margin-top: 30px;    
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#servicos.pagina > ul li {
+    margin: 10px 1px;
+    border: 1px solid rgba(0,0,0,.1);
+/*    box-sizing: border-box;*/
+    width: 32%;
+    text-align: left;
+    border-radius: 2px;
+    position: relative;
+    cursor: pointer;
+}
+
+#servicos.pagina > ul li:not(:nth-child(3n+3)) {
+/*    border-right: 1px solid #e9e9e9*/
+}
+
+#servicos.pagina > ul li a {
+    padding: 10px;
+    display: block;
+    width: 100%;
+    text-decoration: none;
+    color: #999;
+    transition: .3s ease;
+}
+
+#servicos.pagina > ul li a img {
+    width: 40px;
+    margin-right: 12px;
+    border-radius: 10%;
+    box-shadow: 0 0 5px rgba(0,0,0,.2);
+    vertical-align: middle;
+    padding: 3px;
+    background: #273b7b;
+}
+
+#servicos.pagina > ul li a:hover {
+    color: black;
+}
+
+#servicos.pagina > ul li:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 2px;
+    width: 100%;
+    background: #03a9f4;
+    z-index: -1;
+    transition: .3s ease;
+}
+
+#servicos.pagina > ul li:hover:before {
+/*    height: 66px;*/
+}
+
+#servicos.pagina > ul li.selecionado {
+    background: #03a9f4;
+}
+
+#servicos.pagina > ul li.selecionado a {
+    color: white;
+}
+
+#servicos.pagina > ul li:after {
+/*    content: ">";*/
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: .8em;
+    height: 100%;
+    background: rgba(0,0,0,.3);
+    padding: 0 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-weight: bold;
+}
+
+#servicos.pagina #descricao {
+    border-top: 1px solid #e9e9e9;
+    margin-top: 20px;
+    padding: 20px;
+    z-index: 3;
+    position: relative;
+}
+
+#servicos.pagina #descricao p {
+    padding: 10px 0 20px;
+}
+
+#descricao ol {
+    counter-reset: my-badass-counter;
+    list-style: none;
+    text-align: left
+}
+
+#descricao ol ul {
+    margin-left: 20px;
+    padding-left: 20px;
+    border-bottom: 1px solid rgba(0,0,0,.15);
+    margin-bottom: 10px;
+}
+
+#descricao > div > ul li {
+    list-style: none;
+    margin-left: 10px;
+    position: relative;
+}
+
+#descricao > div > ul li:before {
+    content: "";
+    position: absolute;    
+    width: 7px;
+    height: 7px;
+    background: #03a9f4;
+    left: -15px;
+    top: 7px;
+    border-radius: 50%;
+    box-shadow: 1px 1px 1px rgba(0,0,0,.5);
+}
+
+#descricao h3 {
+    margin: 30px 0 20px;
+}
+
+#descricao ol li, #descricao > div > ul li {
+    /*font-size: 1.2em;*/
+    margin-bottom: 10px;
+}
+
+#descricao ol > li:before {
+    content: counter(my-badass-counter);
+    /* counter-increment: my-badass-counter; */
+    margin-right: 10px;
+    padding: 3px;
+    width: 15px;
+    height: 15px;
+    background: #03a9f4;
+    border-radius: 50%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: .8em;
+    color: #03a9f4;
+    box-shadow: inset 0 0 0px 5px white;
+    border: 1px solid;
+}

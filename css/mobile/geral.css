@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+}
+
+*:focus {
+    outline: 0;
+}
+
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0px 1000px transparent inset;
+    background: transparent !important;
+}
+
+input:focus, select:focus, button:focus, textarea:focus {
+    outline: none;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    transition: background-color 5000s ease-in-out 0s;
+}
+
+select:disabled {
+    background: rgb(235, 235, 228);
+}
+
+@font-face {
+    src: url("../../fonts/EncodeSans.ttf");
+    font-family: encode;
+}
+
+@font-face {
+    src: url("../../fonts/ReitamRegular.otf");
+    font-family: reitam;
+}
+
+#container {
+    font-family: encode;
+    padding: 70px 10px 10px;
+    box-sizing: border-box;
+}
+
+#container > div {
+	max-width: 1000px;
+    margin: auto;
+}
+
+#acesso-rapido {
+    margin-bottom: 15px;
+}
+
+#acesso-rapido ul {
+    list-style: none;
+}
+
+#acesso-rapido ul li {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-top: 5px;
+    background: white;
+    border: 1px solid #efefef;
+    padding: 10px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+#acesso-rapido li div {
+    z-index: 2;
+}
+
+#acesso-rapido li div:first-child {
+	width: 30px;
+	height: 30px;
+    border-radius: 50%;
+    padding: 5px;
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#acesso-rapido li div:first-child img {
+    width: 50%;
+}
+
+#acesso-rapido li div p {
+	font-size: .9em;
+    color: #999;
+}
+
+#acesso-rapido li * {
+    transition: color .3s ease;
+}
+
+#acesso-rapido .bola {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    border-radius: 50%;
+    transform: translate(-50%,-50%);
+    left: 30px;
+    top: 30px;
+    transition: .5s ease;
+}
+
+#acesso-rapido .selecionado div:first-child {
+    background: rgba(0,0,0,.3) !important
+}
+
+#acesso-rapido .selecionado .bola {
+    width: 700px;
+    height: 700px;
+}
+
+#acesso-rapido .selecionado * {
+    color: white !important;
+}
+
+.clear {
+    clear: both;
+}
+
+button:disabled, *.disabled {
+    opacity: .3;
+    cursor: default !important;
+}

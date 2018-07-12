@@ -1,0 +1,67 @@
+#solicitacoes * {font-family: encode}
+
+#acesso-rapido li:nth-child(1) div:first-child, #acesso-rapido li:nth-child(1) .bola {
+	background: #2196F3;
+} 
+
+#acesso-rapido li:nth-child(2) div:first-child, #acesso-rapido li:nth-child(2) .bola {
+	background: #FFC107;
+}
+
+#acesso-rapido li:nth-child(3) div:first-child, #acesso-rapido li:nth-child(3) .bola {
+	background: #8bc34a;
+}
+
+#solicitacoes {
+    background: white;
+    border: 1px solid #efefef;
+    padding: 10px;
+    position: relative;
+}
+
+#pesquisa {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-around;
+}
+
+#pesquisa div {
+    width: 48%;
+}
+
+#pesquisa * {
+    padding: 8px;
+    border-bottom: 2px solid #e9e9e9;
+    transition: .4s ease;
+    width: 48%;
+    box-sizing: border-box;
+}
+
+#solicitacoes > div:not(#pesquisa) {
+    margin-top: 40px;
+    height: 65vh;
+    overflow-y: auto;
+}
+
+#solicitacoes table tr td a {
+	color: black;
+    font-weight: bold;
+}
+
+#solicitacoes table tr td:nth-child(2) img {
+    width: 20px;
+    margin-left: 5px;
+    vertical-align: middle;
+    filter: invert(1);
+}
+
+#solicitacoes table tr td:first-child img {
+    width: 18px;
+    padding: 3px;
+    border-radius: 50%;
+    background: #8bc34a;
+}
+
+#solicitacoes table tr td:first-child img.pendente {
+    background: #ffc107;
+}

@@ -1,0 +1,67 @@
+OK - Quantidade de solicitações
+OK - Filtra solicitações por nome da empresa e por data
+OK - Em vez de Obrigações serviços prestados. funcionario tbm
+OK - Colocar campo ao criar empresa para emitir nota fiscal serviço e de venda para que o cliente possa ser redirencionado e abrir. blank
+OK - Financeiro colocar parte de pagamentos realizado.
+OK - Financeiro = Pendente de pagar, Mês atual, Pago, Vencido
+OK - Colocar a possibildiade de adiantar o valor do pagamento.
+OK - Função de Excluir Funcionario em vez de bloquear.
+OK - Atualizar Obrigações campos: Descrição, Periodo (mensal, Trimestral, Semestral, Anual), Dia a ser feito, anexo.
+OK - lembrete esta salvando um dia atrasado
+OK - Colocar anexar junto com criar solicitação.
+OK - Resposta das solicitações como help desk.
+OK - substituir na parte da empresa na pagina de resumo o nome informações da sua empresa por icones relacionados aos menus.
+OK - Adicionar menu de guias.
+OK - Guias de pagamentos para o cliente criar menu copia de arquivos somente com guias. Funcionario tbm
+OK - Funcionario: ajeitar quantidade no acesso rapido empresas inativas
+OK - remover somente função de financeiro do funcionário.
+OK - rever css solicitações
+OK - rever css obrigacoes mobile também
+OK - quando exlue um serviço no qual ele tem dependencia o serviço prestado e solicitações não carrega
+OK - Mudar simples nacional por regime de tributação
+OK - mudar data simples nacional por tipo de empresa 
+OK - abrir nova guia em emitir notas
+OK - teste pagamento 
+OK -desabilitar página de cliente e redirecionar Saiba mais de alguns cliente para contato
+OK - atualizar simulador
+OK - remover equipe deixar somente kerina
+OK - Ordenar as obrigações por data de cadastro
+OK - Anexo da obrigação tem que ser adicionado quando for concluido e não ao criar!
+OK - Editar obrigacao
+OK - Remover pagamento do modo de testes
+OK - colocar contador escolher mes do primeiro periodo.
+OK - data de vencimento de cada empresa personalizado.
+OK - Ajeitar rotina de acordo com requisito anterior.
+OK - verificar se cria sozinho o novo historico - mudar email pra karina@ktprime.com
+
+Tentar mexer no certificado ssl
+
+OK - Total no financeiro do contador, mostrar quanto falta ser pago tbm
+OK - Desfazer pagamento manual
+OK - ajeitar data quando cria serviço prestado
+OK - colocar função pra colocar serviços pra serem colocados automaticamente todo mês junto com a mensalidade
+OK - nova forma de pagamento: "Depósito em conta", logo abaixo um logo do banco Bradesco e os dados da conta que é Ag 3348 / cc 12556-3 fav Karina s n campos contabilidade CNPJ 23.458.288/0001-48 e escrever enviar comprovante para karina@ktprime.com.br
+OK - Ordem das obrigações pelas que vencem primeiro
+OK - Procurar obrigação por mes e ano
+OK - adicionar os textos da karina
+OK - Fazer isso = tambem gostaria que voce alterasse a fonte dos telefones pagina de contato e no quem somos o meu CRC pois a fonte que está aparece tudo todo os numeros! na pag inical o rodape os numeros aparecem bem bonitinhos se puder ser a mesma fonte melhor
+OK - dar desconto - configurar lado do cliente
+OK - Permitir pagamento manual de valor parcial e permitir que restante seja pago de qualquer outra forma.
+OK - quando for paga gerar automaticamente o novo periodo explicar pra ele
+OK - Colocar time no final da url pra sempre pegar a versão mais atualizada do arquivo
+OK - Ajeitar questão de vencimento na visão da empresa
+OK - Ver inconsistencias de inadimplencia entre financeiro e empresas
+ok - Adicionar campo complemento de endereço
+OK - Tipos de empresa: Prestação de serviços, -Prestação de serviços e comércio, -Comercio, -Outros
+OK - No campo regime de tributação também é legal a opção de selecionar: Simples nacional, Lucro presumido, Lucro real, Outros
+OK - Separ historico financeiro por mês e por ano- ano ok, em pagamentos tbm
+OK - Menu superir para separar entre pagamentos Pendente, pago e inadimplente, todos
+OK - colocar o que foi pago nos pagamentos
+OK - Excluir cobranças que não foram pagas
+OK - Colocar opção excluir pagamento manual individualmente
+OK - tirar limitador de pagamentos exceto pra quando estiver tudo pago
+OK - ver questão de exclusão de historicos
+OK - atualizar todas as telas dependetes de pagamentos
+OK - mudar rotina de gerar novo periodo, para cada dia 1 do mês.
+
+explicar como funciona o financeiro

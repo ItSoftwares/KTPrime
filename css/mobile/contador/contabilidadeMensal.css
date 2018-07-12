@@ -1,0 +1,170 @@
+#mensal h3 {
+    float: left;
+}
+
+#mensal .input {
+    float: right;   
+    width: initial;
+    margin-top: 0;
+}
+
+#mensal {
+    background: white;
+    border: 1px solid #efefef;
+    padding: 10px;
+    position: relative;
+}
+
+#mensal > div:not(.input):not(.clear) {
+    margin-top: 30px;
+    height: 75vh;
+    overflow-y: auto;
+}
+
+#mensal table {
+    width: 96%;
+    border-collapse:collapse;
+    margin: auto;
+    /*border-spacing:10px;*/
+}
+
+#mensal table tr.spacer {
+    padding: 10px 0;
+}
+
+#mensal table tr:not(.spacer):not(:first-child) {
+    background: #fcfcfc;
+    border-radius: 3px;
+    box-shadow: 0 0 0 1px #ddd;
+    cursor: default;
+}
+
+#mensal table tr td.img {
+    text-align: center;
+}
+
+#mensal table tr td.img img.tem {
+    width: 20px;
+    padding: 3px;
+    border-radius: 4px;
+    cursor: pointer;
+    background: #8bc34a
+}
+
+#mensal table th {
+    font-size: 0.8em;
+    position: relative;
+    text-align: left;
+    cursor: pointer;
+    padding-left: 10px;
+}
+
+#mensal table td {
+    text-align: left;
+    padding: 8px;
+    font-size: .9em;
+    border-radius: 3px;
+}
+
+#adicionar {
+    background: #1a8be4;
+    width: 20px;
+    transition: .3s ease;
+    cursor: pointer;
+    z-index: 1;
+    border-radius: 50%;
+    padding: 10px;
+    box-shadow: 0 0 5px rgba(0,0,0,.3);
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+}
+
+#novo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,.5);
+    display: none;;
+    justify-content: center;
+    align-items: center;
+    z-index: 3;
+}
+
+#novo > div {
+    width: 96%;
+    background: #fcfcfc;
+    padding: 10px;
+    border-radius: 2px;
+    position: relative;
+    box-sizing: border-box;
+}
+
+#novo h3 {
+    
+}
+
+#novo img {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    filter: invert(100);
+    width: 25px;
+    cursor: pointer;
+}
+
+#novo .input {
+    margin: 15px 0 0;
+}
+
+#novo button {
+    width: 30%;
+    padding: 10px 0;
+    color: white;
+    background: rgb(22, 136, 206);
+    margin-top: 15px;
+    cursor: pointer;
+    float: right;
+    font-family: encode;
+}
+
+.input {
+    display: flex;    
+    flex-direction: column;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.metade {
+    display: flex;
+    justify-content: space-between;
+}
+
+.metade .input {
+    width: 49%;
+}
+
+.input label {
+    color: #aaa;
+    font-size: .8em;
+}
+
+.input input, .input select {
+    margin: 5px 0 10px;
+    padding: 10px;
+    border: 1px solid #e9e9e9;
+    width: 100%;
+    box-sizing: border-box;
+    font-family: encode;
+}
+
+.input select {
+    padding: 9px 10px;
+}
+
+.input input:focus, .input select:focus {
+    border-color: #1688ce;
+    box-shadow: 0 0 3px rgba(0,0,0,.1);
+}

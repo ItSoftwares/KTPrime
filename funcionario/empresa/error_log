@@ -1,0 +1,101 @@
+[08-Oct-2017 14:55:06 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/cnpjn035/public_html/funcionario/empresa/index.php:1) in /home/cnpjn035/public_html/php/sessao.php on line 6
+[08-Oct-2017 14:56:47 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/cnpjn035/public_html/funcionario/empresa/solicitacoes.php:1) in /home/cnpjn035/public_html/php/sessao.php on line 6
+[08-Oct-2017 14:58:43 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/cnpjn035/public_html/funcionario/empresa/index.php:1) in /home/cnpjn035/public_html/php/sessao.php on line 6
+[08-Oct-2017 14:59:04 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/cnpjn035/public_html/funcionario/empresa/arquivos.php:1) in /home/cnpjn035/public_html/php/sessao.php on line 6
+[08-Oct-2017 14:59:25 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/cnpjn035/public_html/funcionario/empresa/solicitacoes.php:1) in /home/cnpjn035/public_html/php/sessao.php on line 6
+[08-Oct-2017 14:59:35 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/cnpjn035/public_html/funcionario/empresa/funcionarios.php:1) in /home/cnpjn035/public_html/php/sessao.php on line 6
+[23-Oct-2017 19:58:39 America/Chicago] PHP Warning:  require(/home/cnpjn035/public_html/funcionario/php/sessao.php): failed to open stream: No such file or directory in /home/cnpjn035/public_html/funcionario/empresa/solicitacoes.php on line 3
+[23-Oct-2017 19:58:39 America/Chicago] PHP Warning:  require(/home/cnpjn035/public_html/funcionario/php/sessao.php): failed to open stream: No such file or directory in /home/cnpjn035/public_html/funcionario/empresa/solicitacoes.php on line 3
+[23-Oct-2017 19:58:39 America/Chicago] PHP Fatal error:  require(): Failed opening required '/home/cnpjn035/public_html/funcionario/php/sessao.php' (include_path='.:/opt/php70/lib/php') in /home/cnpjn035/public_html/funcionario/empresa/solicitacoes.php on line 3
+[23-Oct-2017 20:01:16 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/cnpjn035/public_html/funcionario/empresa/solicitacoes.php on line 25
+[25-Oct-2017 13:38:52 America/Chicago] PHP Notice:  Undefined index: servicos in /home/cnpjn035/public_html/funcionario/empresa/servicos_prestados.php on line 42
+[25-Oct-2017 13:38:52 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/cnpjn035/public_html/funcionario/empresa/servicos_prestados.php on line 42
+[25-Oct-2017 13:39:07 America/Chicago] PHP Notice:  Undefined index: servicos in /home/cnpjn035/public_html/funcionario/empresa/servicos_prestados.php on line 42
+[25-Oct-2017 13:39:07 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/cnpjn035/public_html/funcionario/empresa/servicos_prestados.php on line 42
+[26-Oct-2017 09:10:08 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/cnpjn035/public_html/funcionario/empresa/servicos_prestados.php on line 43
+[26-Oct-2017 09:49:51 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/cnpjn035/public_html/funcionario/empresa/servicos_prestados.php on line 43
+[26-Oct-2017 09:50:28 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/cnpjn035/public_html/funcionario/empresa/solicitacoes.php on line 27
+[13-Nov-2017 12:04:18 America/Chicago] PHP Notice:  Undefined variable: empresa in /home/cnpjn035/public_html/funcionario/empresa/arquivos.php on line 23
+[13-Nov-2017 12:04:18 America/Chicago] PHP Notice:  Trying to get property of non-object in /home/cnpjn035/public_html/funcionario/empresa/arquivos.php on line 23
+[13-Nov-2017 12:04:19 America/Chicago] PHP Notice:  Undefined variable: empresa in /home/cnpjn035/public_html/funcionario/empresa/arquivos.php on line 99
+[13-Nov-2017 12:04:19 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function toArray() on null in /home/cnpjn035/public_html/funcionario/empresa/arquivos.php:99
+Stack trace:
+#0 {main}
+  thrown in /home/cnpjn035/public_html/funcionario/empresa/arquivos.php on line 99
+[23-Nov-2017 05:33:18 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/cnpjn035/public_html/funcionario/empresa/solicitacoes.php on line 27
+[27-Nov-2017 10:07:38 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/cnpjn035/public_html/funcionario/empresa/solicitacoes.php on line 27
+[30-Nov-2017 05:41:05 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/cnpjn035/public_html/funcionario/empresa/solicitacoes.php on line 27
+[30-Nov-2017 06:18:30 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/cnpjn035/public_html/funcionario/empresa/solicitacoes.php on line 27
+[30-Nov-2017 06:19:23 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/cnpjn035/public_html/funcionario/empresa/solicitacoes.php on line 29
+[02-Jan-2018 16:29:40 America/Chicago] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home/cnpjn035/public_html/funcionario/empresa/servicos_prestados.php on line 26
+[02-Jan-2018 16:29:54 America/Chicago] PHP Notice:  Undefined variable: servicos in /home/cnpjn035/public_html/funcionario/empresa/servicos_prestados.php on line 53
+[02-Jan-2018 16:29:54 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/cnpjn035/public_html/funcionario/empresa/servicos_prestados.php on line 53
+[02-Jan-2018 16:30:18 America/Chicago] PHP Notice:  Undefined variable: servicos in /home/cnpjn035/public_html/funcionario/empresa/servicos_prestados.php on line 53
+[02-Jan-2018 16:30:18 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/cnpjn035/public_html/funcionario/empresa/servicos_prestados.php on line 53
+[02-Jan-2018 16:30:38 America/Chicago] PHP Notice:  Undefined variable: servicos in /home/cnpjn035/public_html/funcionario/empresa/servicos_prestados.php on line 53
+[02-Jan-2018 16:30:38 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/cnpjn035/public_html/funcionario/empresa/servicos_prestados.php on line 53
+[02-Jan-2018 16:30:51 America/Chicago] PHP Notice:  Undefined variable: servicos in /home/cnpjn035/public_html/funcionario/empresa/servicos_prestados.php on line 53
+[02-Jan-2018 16:30:51 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/cnpjn035/public_html/funcionario/empresa/servicos_prestados.php on line 53
+[05-Jan-2018 13:48:09 America/Chicago] PHP Notice:  Undefined variable: servicos in /home/cnpjn035/public_html/funcionario/empresa/servicos_prestados.php on line 53
+[05-Jan-2018 13:48:09 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/cnpjn035/public_html/funcionario/empresa/servicos_prestados.php on line 53
+[05-Jan-2018 13:48:36 America/Chicago] PHP Notice:  Undefined variable: servicos in /home/cnpjn035/public_html/funcionario/empresa/servicos_prestados.php on line 53
+[05-Jan-2018 13:48:36 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/cnpjn035/public_html/funcionario/empresa/servicos_prestados.php on line 53
+[10-Jan-2018 13:18:37 America/Chicago] PHP Notice:  Undefined variable: servicos in /home/cnpjn035/public_html/funcionario/empresa/servicos_prestados.php on line 53
+[10-Jan-2018 13:18:37 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/cnpjn035/public_html/funcionario/empresa/servicos_prestados.php on line 53
+[10-Jan-2018 13:21:04 America/Chicago] PHP Notice:  Undefined variable: servicos in /home/cnpjn035/public_html/funcionario/empresa/servicos_prestados.php on line 53
+[10-Jan-2018 13:21:04 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/cnpjn035/public_html/funcionario/empresa/servicos_prestados.php on line 53
+[10-Jan-2018 13:23:54 America/Chicago] PHP Notice:  Undefined variable: servicos in /home/cnpjn035/public_html/funcionario/empresa/servicos_prestados.php on line 53
+[10-Jan-2018 13:23:54 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/cnpjn035/public_html/funcionario/empresa/servicos_prestados.php on line 53
+[10-Jan-2018 13:24:32 America/Chicago] PHP Notice:  Undefined variable: servicos in /home/cnpjn035/public_html/funcionario/empresa/servicos_prestados.php on line 53
+[10-Jan-2018 13:24:32 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/cnpjn035/public_html/funcionario/empresa/servicos_prestados.php on line 53
+[10-Jan-2018 13:25:26 America/Chicago] PHP Notice:  Undefined index: servicos in /home/cnpjn035/public_html/funcionario/empresa/servicos_prestados.php on line 53
+[10-Jan-2018 13:25:26 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/cnpjn035/public_html/funcionario/empresa/servicos_prestados.php on line 53
+[02-Mar-2018 05:17:22 America/Chicago] PHP Notice:  Undefined index: funcionario in /home/cnpjn035/public_html/funcionario/menus.php on line 8
+[02-Mar-2018 05:17:23 America/Chicago] PHP Notice:  Trying to get property of non-object in /home/cnpjn035/public_html/funcionario/menus.php on line 147
+[02-Mar-2018 05:17:23 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function toArray() on boolean in /home/cnpjn035/public_html/funcionario/menus.php:173
+Stack trace:
+#0 /home/cnpjn035/public_html/funcionario/empresa/index.php(22): include()
+#1 {main}
+  thrown in /home/cnpjn035/public_html/funcionario/menus.php on line 173
+[13-Mar-2018 07:14:19 America/Chicago] PHP Notice:  Undefined index: funcionario in /home/cnpjn035/public_html/funcionario/menus.php on line 8
+[13-Mar-2018 07:14:19 America/Chicago] PHP Notice:  Trying to get property of non-object in /home/cnpjn035/public_html/funcionario/menus.php on line 147
+[13-Mar-2018 07:14:19 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function toArray() on boolean in /home/cnpjn035/public_html/funcionario/menus.php:173
+Stack trace:
+#0 /home/cnpjn035/public_html/funcionario/empresa/index.php(22): include()
+#1 {main}
+  thrown in /home/cnpjn035/public_html/funcionario/menus.php on line 173
+[29-Mar-2018 06:59:54 America/Chicago] PHP Notice:  Undefined index: funcionario in /home/cnpjn035/public_html/funcionario/menus.php on line 8
+[29-Mar-2018 06:59:54 America/Chicago] PHP Notice:  Trying to get property of non-object in /home/cnpjn035/public_html/funcionario/menus.php on line 147
+[29-Mar-2018 06:59:54 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function toArray() on boolean in /home/cnpjn035/public_html/funcionario/menus.php:173
+Stack trace:
+#0 /home/cnpjn035/public_html/funcionario/empresa/index.php(22): include()
+#1 {main}
+  thrown in /home/cnpjn035/public_html/funcionario/menus.php on line 173
+[02-Apr-2018 09:19:31 America/Chicago] PHP Notice:  Undefined index: funcionario in /home/cnpjn035/public_html/funcionario/menus.php on line 8
+[02-Apr-2018 09:19:32 America/Chicago] PHP Notice:  Trying to get property of non-object in /home/cnpjn035/public_html/funcionario/menus.php on line 147
+[02-Apr-2018 09:19:32 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function toArray() on boolean in /home/cnpjn035/public_html/funcionario/menus.php:173
+Stack trace:
+#0 /home/cnpjn035/public_html/funcionario/empresa/index.php(22): include()
+#1 {main}
+  thrown in /home/cnpjn035/public_html/funcionario/menus.php on line 173
+[02-Apr-2018 09:51:54 America/Chicago] PHP Notice:  Undefined index: funcionario in /home/cnpjn035/public_html/funcionario/menus.php on line 8
+[02-Apr-2018 09:51:54 America/Chicago] PHP Notice:  Trying to get property of non-object in /home/cnpjn035/public_html/funcionario/menus.php on line 147
+[02-Apr-2018 09:51:54 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function toArray() on boolean in /home/cnpjn035/public_html/funcionario/menus.php:173
+Stack trace:
+#0 /home/cnpjn035/public_html/funcionario/empresa/index.php(22): include()
+#1 {main}
+  thrown in /home/cnpjn035/public_html/funcionario/menus.php on line 173
+[02-Apr-2018 09:52:01 America/Chicago] PHP Notice:  Undefined index: funcionario in /home/cnpjn035/public_html/funcionario/menus.php on line 8
+[02-Apr-2018 09:52:01 America/Chicago] PHP Notice:  Trying to get property of non-object in /home/cnpjn035/public_html/funcionario/menus.php on line 147
+[02-Apr-2018 09:52:01 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function toArray() on boolean in /home/cnpjn035/public_html/funcionario/menus.php:173
+Stack trace:
+#0 /home/cnpjn035/public_html/funcionario/empresa/index.php(22): include()
+#1 {main}
+  thrown in /home/cnpjn035/public_html/funcionario/menus.php on line 173
+[02-Apr-2018 09:52:12 America/Chicago] PHP Notice:  Undefined index: funcionario in /home/cnpjn035/public_html/funcionario/menus.php on line 8
+[02-Apr-2018 09:52:12 America/Chicago] PHP Notice:  Trying to get property of non-object in /home/cnpjn035/public_html/funcionario/menus.php on line 147
+[02-Apr-2018 09:52:12 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function toArray() on boolean in /home/cnpjn035/public_html/funcionario/menus.php:173
+Stack trace:
+#0 /home/cnpjn035/public_html/funcionario/empresa/solicitacoes.php(24): include()
+#1 {main}
+  thrown in /home/cnpjn035/public_html/funcionario/menus.php on line 173

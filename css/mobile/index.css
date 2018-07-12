@@ -1,0 +1,1704 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+@font-face {
+    font-family: "raleway";
+    src: url("../../fonts/Raleway-Regular.ttf");
+}
+
+@font-face {
+    font-family: "roboto";
+    src: url("../../fonts/Roboto-Regular.ttf"); 
+}
+ 
+* {
+    font-family: raleway
+}
+
+body {
+    position: relative;
+}
+
+body > header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    border-bottom: 1px solid rgba(0,0,0,.1);
+    background: white;
+    z-index: 10;
+}
+
+body > header > div {
+    box-sizing: border-box;
+    padding: 20px 10px;
+    width: 96%;
+    margin: auto;
+}
+
+body > header a {
+    color: #999;
+    text-decoration: none;
+} 
+
+body > header a h3 {
+    font-weight: normal;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    font-size: 1em;
+}
+
+body > header a h3 span {
+    padding: 4px 10px;
+    color: white;
+    margin-right: 10px;
+    background: #f16876;
+}
+
+body > header a h3 img {
+    width: 40px;
+    display: block;
+    margin-right: 10px;
+}
+
+#menu {
+    display: none;
+}
+
+#menu.aberto {
+    display: block;
+    position: absolute;
+    background: white;
+    top: 115%;
+    right: 20px;
+    width: 70%;
+    margin: auto;
+    border-radius: 3px;
+    box-shadow: 0 0 5px rgba(0,0,0,.2);
+}
+
+#menu:after {
+    content: "";
+    position: absolute;
+    top: -15px;
+    right: 3px;
+    border: 8px solid transparent;
+    border-bottom-color: white;
+}
+
+#menu:before {
+    content: "";
+    position: absolute;
+    top: -16px;
+    right: 3px;
+    border: 8px solid transparent;
+    border-bottom-color: rgba(0,0,0,.1);
+}
+
+#menu-botao {
+    width: 25px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 20px;
+    filter: invert(1);
+    margin: auto;
+}
+
+#menu ul {
+    list-style: none;
+}
+
+#menu ul li {
+    position: relative;
+}
+
+#menu ul li a {
+    font-size: .9em;
+    padding: 10px;
+    transition: .3s ease;
+    display: block;
+    text-align: center;
+}
+
+#menu ul li:not(:last-child) a {
+    border-bottom: 1px solid rgba(0,0,0,.2);
+}
+
+#menu .botao {
+    border-radius: 0 0 3px 3px;
+}
+
+#menu ul li:hover span {
+    display: block;
+}
+
+#menu ul li a:not(.botao):hover {
+    color: #000;
+}
+
+.botao {
+    padding: 15px 25px;
+    background: #03a9f4;
+    color: white;
+    font-size: 1.2em;
+    text-decoration: none;
+    transition: .3s ease;
+    box-shadow: inset 0 0 0 rgba(0,0,0,.3);
+    display: table;
+    margin: auto;
+    cursor: pointer;
+}
+
+.botao:hover {
+    box-shadow: inset 0 -60px 0 #f16876;
+}
+
+#lateral {
+    display: none;
+}
+
+section#inicio {
+    margin-top: 60px;
+    position: relative;
+    padding-bottom: 30px;
+    text-align: center;
+    color: white;
+    
+    background-image: url("../../img/back-inicio.jpg"); 
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#inicio #fundo {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+/*    background-color: #273b7b;*/
+    background: linear-gradient(to bottom, #273b7b, #000000);
+    opacity: .5;
+}
+
+#inicio >div:not(#fundo) {
+    z-index: 1;
+    position: relative;
+}
+
+#inicio h1 {
+    font-size: 2em;
+    width: 60%;
+    margin: auto;
+    padding: 100px 0
+}
+
+#inicio h3 {
+    font-size: 1.2em;
+    width: 60%;
+    margin: 0 auto 40px;
+}
+
+#servicos, #mais, #clientes, #sobre {
+    padding: 40px 0;
+}
+
+#servicos > div, #sobre > div, #mais > div {
+    max-width: 400px;
+    width: 100%;
+    margin: auto;
+}
+
+#servicos > div > div, #sobre > div > div, #mais >div > div {
+    width: 100%;
+    padding: 0 10px;
+    box-sizing: border-box
+}
+
+#servicos > div > div:first-child {
+    border-bottom: 1px solid #e9e9e9;
+    margin-bottom: 20px;
+}
+
+#simular {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px auto;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    box-shadow: 0 0 5px rgba(0,0,0,.2);
+    border-radius: 3px;
+    background: #f16876;
+    color: white;
+    font-weight: bold;
+    font-size: 1.3em;
+    position: relative;
+    cursor: pointer;
+    box-shadow: inset 0 0 0 rgba(0,0,0,.05);
+    transition: .3s ease;
+}
+
+#simular img {
+    width: 50px;
+    transform: rotate(90deg);
+    vertical-align: middle;
+    margin: -10px 10px;
+    margin-left: 0;
+/*    background: rgba(0,0,0,.3);*/
+    background: rgba(255, 255, 255, 0.3);
+    padding: 4px;
+    border-radius: 3px;
+}
+
+#servicos > div > div > img {
+    width: 80%;
+    margin: auto;
+    display: block;
+    padding-bottom: 30px;
+}
+
+#servicos img:nth-child(2) {
+    clip-path: polygon(0 0, 100% 0%, 100% 80%, 0% 90%);
+    cursor: pointer;
+}
+
+section h2 {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+section:not(#simulador) p {
+    margin-bottom: 30px;
+    text-align: justify;
+    line-height: 22px;
+}
+
+#sobre, #mais {
+    background: #eaeaea;
+}
+
+#sobre div:nth-child(2) {
+    width: 50%;
+    cursor: pointer;
+    margin: 20px auto 0
+}
+
+#sobre img {
+    width: 100%;
+    display: block;
+    padding: 4px;
+    background: white;
+    border-radius: 2px;
+    box-shadow: 0 0 5px rgba(0,0,0,.2);
+    box-sizing: border-box
+}
+
+#simulador {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,.75);
+    z-index: 11;
+    display: none; 
+    justify-content: center;
+    align-items: center;
+    font-family: ubuntu
+}
+
+#simulador > div {
+    position: relative;
+    width: 96%;
+}
+
+#simulador > img {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 20px;
+    cursor: pointer;
+}
+
+#simulador h3 {
+    margin-bottom: 30px;
+    font-size: 1.8em;
+    text-align: center;
+    color: white;
+}
+
+#simulador .input {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    background: #fcfcfc;
+    border-radius: 3px;
+    margin: 15px;
+}
+
+#simulador .input label {
+    color: #000;
+    font-size: .9em;
+    margin-bottom: 10px;
+}
+
+#simulador .input select {
+    padding: 10px;
+    border: 1px solid #e9e9e9;
+    width: 100%;
+    box-sizing: border-box;
+    transition: .3s ease;
+}
+
+#simulador > div > div {
+    padding: 10px;
+    background: #fcfcfc;
+    border-radius: 3px;
+}
+
+#simulador #resultados {
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+    flex-direction: column;
+    justify-content: center;
+    border-top: 1px solid rgba(0,0,0,.1);
+    position: relative;
+}
+
+#resultados .result {
+    padding: 10px 40px;
+    color: black;
+    background: #fcfcfc;
+    border-radius: 3px;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.result p {
+   margin-top: 10px;
+}
+
+.result p span {
+    font-size: .5em
+}
+
+#simulador #resultados a {
+    padding: 12px 15px;
+    color: white;
+    border-radius: 3px;
+    text-decoration: none;
+    background: #03A9F4;
+    display: table;
+    margin: 20px auto;
+    box-shadow: 0 0 5px rgba(0,0,0,.5);
+    display: none;
+}
+
+#simulador #cifrao {
+    position: absolute;
+    right: 10px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    width: 38px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0,0,0,.4);
+    background: white;
+    transform: rotate(-135deg);
+}
+
+#clientes h2 {
+    text-align: center;
+    
+}
+
+#clientes > div {
+    width: 96%;
+    max-width: 400px;
+    margin: 40px auto;
+    border-left: 1px solid #e9e9e9;
+    border-right: 1px solid #e9e9e9;
+    overflow-x: hidden;
+    position: relative;
+    height: 200px;
+}
+
+#clientes .container {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 10px;
+    margin: auto;
+    width: 100%;
+/*    transition: .3s ease;*/
+}
+
+#clientes .container img {
+    width: 180px;
+    display: block;
+    padding: 4px;
+}
+
+#clientes .container a:hover img {
+    box-shadow: 0 0 5px rgba(0,0,0,.5);
+}
+
+#clientes .container a {
+    display: flex;
+    margin: 5px 42px 5px 0;
+    height: calc(100% - 20px);
+    box-shadow: 0 0 5px rgba(0,0,0,.2);
+    align-items: center;
+    border-radius: 2px;
+    text-decoration: none;
+    color: black;
+}
+
+#clientes .container a:last-child {
+/*
+    background: #f16876;
+    color: white;
+*/
+}
+
+#clientes .container h3 {
+    width: 180px;
+    text-align: center;
+}
+
+#mais {
+    border-top: 1px solid rgba(0,0,0,.3)
+}
+
+#mais.branco {
+    background-image: url(../../img/back-sobre.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+footer {
+    background: #2C3E50;
+    color: white;
+}
+
+footer div:first-child {
+    width: 80%;
+    max-width: 1000px;
+    margin: auto;
+    padding-top: 40px;
+}
+
+footer ul {
+    list-style: none;
+    text-align: center;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+}
+
+footer ul:not(:nth-child(3)) {
+    box-shadow: inset 0 -1px 0 rgba(0,0,0,.3)
+}
+
+footer li {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer li a {
+    border-radius: 50%;
+    padding: 8px;
+    transition: .3s ease;
+    margin-right: 5px;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+#redes img {
+    width: 25px;
+    display: block;
+    filter: invert(1);
+    transition: .3s ease;
+    margin-right: 10px;
+}
+
+footer h4 {
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+footer ul li {
+    margin-bottom: 5px;
+    font-size: .9em
+}
+
+footer #itsoftwares {
+    text-align: center;
+    font-size: .9em;
+    background: rgba(0,0,0,.15);
+    padding: 15px 10px;
+    box-sizing: border-box;
+    color: rgba(255,255,255,.5)
+}
+
+#titulo {
+    padding: 50px;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 60px 0 0;
+    position: relative;
+}
+
+#titulo #shadow {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.58), transparent);
+    z-index: 1;
+}
+
+#titulo h1 {
+    font-size: 2.5em;
+    color: white;
+    text-transform: uppercase;
+    position: relative;
+    z-index: 2;
+}
+
+/* quem somos */
+
+#quem #titulo {
+    background-image: url(../../img/back-sobre.jpg);
+}
+
+#quem-somos {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    width: 96%;
+    margin: 30px auto;
+/*    border-bottom: 1px solid #eee;*/
+    padding: 30px 10px;
+    box-sizing: border-box;
+}
+ 
+#quem-somos img {
+    width: 50%;
+}
+
+#trio {
+    width: 96%;
+    margin: 20px auto;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#trio h2 {
+    text-align: center; 
+}
+
+#trio > div {
+    width: 96%;
+    margin: 0px auto 20px;
+    padding: 10px;
+    box-sizing: border-box;
+    background: rgba(0,0,0,.01);
+    border-radius: 3px;
+    box-shadow: 0 0 5px rgba(0,0,0,.1);
+    border-left: 3px solid #03a9f4;
+    border-right: 3px solid #03a9f4;
+}
+
+#trio > div img {
+    width: 30%;
+    margin: 0 auto 10px;
+    display: block;
+    background: white;
+    border-radius: 4px;
+    box-shadow: 0 0 5px rgba(0,0,0,.1);
+    padding: 5px;
+}
+
+#trio ul {
+    margin-left: 50px;
+    margin-bottom: 10px;
+}
+
+#equipe {
+    background: #eaeaea;
+    padding: 00px 0;
+}
+
+#equipe > div {
+    width: 100%;
+    margin: auto;
+    padding: 30px 10px;
+    box-sizing: border-box;
+}
+
+#equipe > div > div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#equipe h2 {
+    margin-bottom: 30px;
+}
+
+.funcionario {
+    width: 96%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.funcionario:not(:last-child) {
+    border-bottom: 1px solid rgba(0,0,0,.1);
+}
+
+.funcionario header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.funcionario img {
+    width: 100px;
+    margin-right: 20px;
+    padding: 4px;
+    border-radius: 2px;
+    box-shadow: 0 0 5px rgba(0,0,0,.2);
+    background: white;
+}
+
+.funcionario h3 {
+    margin-bottom: 5px;
+}
+
+.funcionario header div div {
+    font-size: .85em;
+    color: #8999D0;
+}
+
+.funcionario .email {
+    font-family: Ubuntu;
+}
+
+.funcionario p {
+    font-size: .85em;
+    line-height: 24px;
+    display: none;
+}
+
+/*
+#especificacoes > div:last-child {
+    margin-bottom: 60px;
+}
+
+#quem div img {
+    width: 200px;
+    margin: 40px auto;
+    display: block;
+}
+
+#quem p, #quem h2 {
+    width: 600px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+#quem > div > div {
+    
+    flex-direction: row-reverse !important;
+    margin-top: 0px !important
+}
+
+#quem > div > div > div {
+    justify-content: center;
+    width: 1000px;
+    margin: auto;
+    display: flex !important;
+    align-items: center !important;
+}
+
+#quem > div:not(#titulo) > div:nth-child(odd) {
+    background: #eaeaea;
+    padding: 60px 0;
+    margin-bottom: 60px;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+#quem ul li {
+    margin-left: 50px;
+    margin-bottom: 10px;
+}
+*/
+
+/* CONTATO */
+
+#contato > div:not(#titulo) {
+    width: 100%;
+    max-width: 400px;
+    margin: auto;
+    box-sizing: border-box;
+    margin: 40px auto;
+}
+
+#contato #titulo {
+    background-image: url(../../img/back-contato.jpg);
+}
+
+#contato form {
+    width: 96%;
+    margin: auto;
+    background: #f9f9f9;
+    color: black;
+    padding: 20px 10px;
+    box-sizing: border-box;
+    border: 1px solid rgba(0,0,0,.1)
+}
+
+#contato h2 {
+    text-align: center;
+    margin: 20px 0;
+}
+
+#contato .input {
+    width: 100%;
+    padding: 0 10px;
+    position: relative;
+    box-sizing: border-box;
+}
+
+#contato .input label {
+    font-size: .75em;
+    color: #999;
+}
+
+#contato .input input, #contato .input textarea {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #e9e9e9;
+    width: 100%;
+    box-sizing: border-box;
+    transition: .3s ease;
+}
+
+#contato .input input:focus, #contato .input textarea:focus {
+    border-color: #1688ce;
+    box-shadow: 0 0 3px rgba(0,0,0,.1);
+}
+
+#contato .input textarea {
+    height: 200px;
+    resize: none;
+}
+
+#contato > div {
+    
+}
+
+#contato #informacoes {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 20px 0;
+    padding: 10px;
+    box-sizing: border-box
+}
+
+#informacoes ul {
+/*    margin-right: 40px;*/
+    list-style: none;
+}
+
+#informacoes h3 {
+    margin-bottom: 20px;
+}
+
+#informacoes li {
+    font-size: .9em;
+    color: #999;
+    margin-bottom: 5px;
+}
+
+#informacoes li * {
+    font-family: ubuntu;
+}
+
+#informacoes li a {
+    color: #999;
+    text-decoration: none;
+}
+
+/* CLIENTES */
+
+#lista-clientes > div:not(#titulo) {
+    width: 96%;
+    max-width: 400px;
+    margin: auto;
+    padding: 30px 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; 
+}
+
+#lista-clientes #titulo {
+    background-image: url("../../img/back-clientes.jpg");
+}
+
+#lista-clientes .empresa {
+    width: 100%;
+}
+
+#lista-clientes .empresa header {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #e9e9e9
+}
+
+#lista-clientes .empresa header img {
+    margin-right: 10px;
+    filter: grayscale(1);
+    width: 80px;
+}
+
+#lista-clientes .empresa p {
+    font-size: .9em;
+}
+
+/* SERVICOS */
+
+#titulo.servicos {
+    background-image: url(../../img/back-clientes.jpg);
+}
+
+#servicos.pagina {
+    margin: 20px auto 0;
+    padding: 30px 10px;
+    width: 100%;
+    max-width: 400px;
+    box-sizing: border-box;
+}
+
+#servicos.pagina > ul {
+    margin-top: 30px;    
+    list-style: none;
+}
+
+#servicos.pagina > ul li {
+    margin: 10px 1px;
+    border: 1px solid rgba(0,0,0,.1);
+/*    box-sizing: border-box;*/
+    width: 100%;
+    text-align: left;
+    border-radius: 2px;
+    position: relative;
+    cursor: pointer;
+}
+
+#servicos.pagina > ul li:not(:nth-child(3n+3)) {
+/*    border-right: 1px solid #e9e9e9*/
+}
+
+#servicos.pagina > ul li a {
+    padding: 10px;
+    display: block;
+    width: 100%;
+    text-decoration: none;
+    color: #999;
+    transition: .3s ease;
+    box-sizing: border-box;
+}
+
+#servicos.pagina > ul li a img {
+    width: 40px;
+    margin-right: 12px;
+    border-radius: 10%;
+    box-shadow: 0 0 5px rgba(0,0,0,.2);
+    vertical-align: middle;
+    padding: 3px;
+    background: #273b7b;
+}
+
+#servicos.pagina > ul li a:hover {
+    color: black;
+}
+
+#servicos.pagina > ul li:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 2px;
+    width: 100%;
+    background: #03a9f4;
+    z-index: -1;
+    transition: .3s ease;
+}
+
+#servicos.pagina > ul li:hover:before {
+/*    height: 66px;*/
+}
+
+#servicos.pagina > ul li.selecionado {
+    background: #03a9f4;
+}
+
+#servicos.pagina > ul li.selecionado a {
+    color: white;
+}
+
+#servicos.pagina > ul li:after {
+/*    content: ">";*/
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: .8em;
+    height: 100%;
+    background: rgba(0,0,0,.3);
+    padding: 0 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-weight: bold;
+}
+
+#servicos.pagina #descricao {
+    border-top: 1px solid #e9e9e9;
+    margin-top: 20px;
+    padding: 20px 5px;
+    z-index: 3;
+    position: relative;
+}
+
+#servicos.pagina #descricao p {
+    padding: 10px 0 20px;
+}
+
+#descricao ol {
+    counter-reset: my-badass-counter;
+    list-style: none;
+    text-align: left
+}
+
+#descricao ol ul {
+    margin-left: 20px;
+    padding-left: 20px;
+    border-bottom: 1px solid rgba(0,0,0,.15);
+    margin-bottom: 10px;
+}
+
+#descricao > div > ul li {
+    list-style: none;
+    margin-left: 10px;
+    position: relative;
+}
+
+#descricao > div > ul li:before {
+    content: "";
+    position: absolute;    
+    width: 7px;
+    height: 7px;
+    background: #03a9f4;
+    left: -15px;
+    top: 7px;
+    border-radius: 50%;
+    box-shadow: 1px 1px 1px rgba(0,0,0,.5);
+}
+
+#descricao h3 {
+    margin: 30px 0 20px;
+}
+
+#descricao ol li, #descricao > div > ul li {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+#descricao ol > li:before {
+	content: counter(my-badass-counter);
+    counter-increment: my-badass-counter;
+    margin-right: 10px;
+    padding: 3px;
+    width: 20px;
+    height: 20px;
+    background: #03a9f4;
+    border-radius: 50%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: .8em;
+}
+/*
+* {
+    font-family: Ubuntu;
+}
+
+html {
+    height: 100%;
+}
+
+body, html {
+    position: relative;
+}
+
+body {
+    background-image: url(../../img/back-index.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#fundo {
+    height: 100%;
+    background-image: radial-gradient(rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 0.7));
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 0;
+}
+
+#geral {
+    color: white;
+    z-index: 1;
+    position: relative;
+}
+
+header {
+    width: 90%;
+    max-width: 1000px;
+    margin: 20px auto 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative
+}
+
+header h3 {
+    display: flex;
+    align-items: center;
+}
+
+header > a {
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+header h3 img {
+    width: 55px;
+    margin-right: 10px;
+    background: rgb(255, 255, 255);
+    padding: 10px 5px;
+    border-radius: 2px;
+}
+
+header nav img {
+    width: 30px;
+    display: block;
+    position: absolute;
+    right: 10px;
+    top: 0;
+    bottom: 0;
+    margin: auto 0;
+    height: 30px;
+    z-index: 5;
+    transition: .3s ease;
+}
+
+header nav.aberto img {
+    right: 88%;
+}
+
+header nav ul {
+    list-style: none;
+    position: fixed;
+    top: 0;
+    transition: .3s ease;
+    right: -100%;
+    box-shadow: inset 2px 0 0 rgba(0,0,0,.5);
+}
+
+header nav ul:before {
+    content: "";
+    position: absolute;
+    right: 100%;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0,0,0,.5);
+    opacity: 0;
+    transition: .3s ease;
+}
+
+header nav.aberto ul {
+    right: 0;
+    z-index: 4;
+    width: 80%;
+    background: #2D3E4E;
+    height: 100%;
+}
+
+header nav.aberto ul:before {
+    opacity: 1;
+}
+
+header nav ul li {
+    border-bottom: 1px solid rgba(255,255,255,.2);
+}
+
+header nav ul li a {
+    padding: 15px;
+    color: white;
+    border-radius: 3px;
+    text-decoration: none;
+    display: block
+}
+
+header nav ul li#serv {
+    display: none;
+}
+
+header nav:not(.aberto) ul li:last-child a {
+    background: #03A9F4;
+    box-shadow: 0 0 5px rgba(0,0,0,.5)
+}
+
+section#inicio {
+    text-align: center;
+    width: 90%;
+    max-width: 400px;
+    margin: 100px auto;
+    padding: 20px 0;
+    background: linear-gradient(rgba(0, 0, 0, 0.26) 70%, transparent);
+    border-radius: 10px;
+}
+
+section#inicio h1 {
+    max-width: 60%;
+    margin: 20px auto 20px;
+    font-size: 2em
+}
+
+section#inicio p {
+    max-width: 70%;
+    margin: 20px auto;
+    padding-top: 20px;
+    display: block;
+}
+
+section#inicio a {
+    padding: 12px 15px;
+    color: white;
+    border-radius: 3px;
+    text-decoration: none;
+    background: #03A9F4;
+    display: table;
+    margin: 40px auto;
+    box-shadow: 0 0 5px rgba(0,0,0,.5)
+}
+
+section#servicos {
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto 50px;
+    min-height: 600px;
+    border-radius: 4px;
+    background: white;
+    position: relative;
+    box-shadow: 0 0 5px rgba(0,0,0,.5);
+    color: black;
+    background-image: linear-gradient(transparent 65%, rgba(3, 169, 244, 0.37) 100%);
+    padding: 20px 0
+}
+
+section#servicos > div:first-child {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: url(../../img/back-index-bottom.png);
+    height: 100%;
+    background-size: cover;
+    opacity: .15;
+    filter: invert(1);
+    z-index: 0;
+}
+
+section#servicos h2 {
+    text-align: center;
+}
+
+section#servicos h2.final {
+    font-weight: normal;
+    cursor: pointer;
+    position: absolute;
+    right: -9px;
+    top: -30px;
+    padding: 12px 15px;
+    font-size: .9em;
+    border-radius: 3px;
+    text-decoration: none;
+    background: #03A9F4;
+    color: white;
+}
+
+section#servicos > ul {
+    z-index: 1;
+    list-style: none;
+    margin: auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+section#servicos > ul li {
+    width: 80%;
+    text-align: center;
+    margin-top: 40px;
+    cursor: default;
+}
+
+section#servicos:not(.pagina) li a {
+    color: black;
+    text-decoration: none;
+}
+
+section#servicos > ul li span {
+    padding: 30px;
+    border-radius: 50%;
+    border: 5px dotted rgba(0,0,0,.5);
+    display: block;
+    width: 80px;
+    margin: 0 auto 20px;
+}
+
+section#servicos > ul li img {
+    width: 80px;
+    display: block;
+}
+
+footer {
+    margin-top: 100px;
+    background: #2C3E50;
+}
+
+footer div:first-child {
+    width: 80%;
+    max-width: 1000px;
+    margin: auto;
+    padding-top: 40px;
+}
+
+footer ul {
+    list-style: none;
+    text-align: center;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+}
+
+footer ul:not(:nth-child(3)) {
+    box-shadow: inset 0 -1px 0 rgba(0,0,0,.3)
+}
+
+#redes li {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#redes li a {
+    border-radius: 50%;
+    padding: 8px;
+    display: block;
+    transition: .3s ease;
+    margin-right: 5px;
+}
+
+#redes li a:hover {
+    background: white;
+}
+
+#redes li a:hover img {
+    filter: invert(0);
+}
+
+#redes img {
+    width: 25px;
+    display: block;
+    filter: invert(1);
+    transition: .3s ease;
+}
+
+footer h4 {
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+footer ul li {
+    margin-bottom: 5px;
+    font-size: .9em
+}
+
+footer #itsoftwares {
+    text-align: center;
+    font-size: .9em;
+    background: rgba(0,0,0,.15);
+    padding: 15px 0;
+    color: rgba(255,255,255,.5)
+}
+
+#simulador {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,.75);
+    z-index: 4;
+    display: none; 
+    justify-content: center;
+    align-items: center;
+}
+
+#simulador > div {
+    position: relative;
+    width: 96%;
+    max-width: 400px;
+}
+
+#simulador img {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 20px;
+    cursor: pointer;
+}
+
+#simulador h3 {
+    margin-bottom: 30px;
+    font-size: 1.8em;
+    text-align: center;
+}
+
+#simulador .input {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    background: #fcfcfc;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+#simulador .input label {
+    color: #000;
+    font-size: .9em;
+    margin-bottom: 10px;
+}
+
+#simulador .input select {
+    padding: 10px;
+    border: 1px solid #e9e9e9;
+    width: 100%;
+    box-sizing: border-box;
+    transition: .3s ease;
+}
+
+#simulador > div > div {
+    display: flex;
+    padding: 10px;
+    background: #fcfcfc;
+    border-radius: 3px;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+#simulador #resultados {
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+    flex-direction: column;
+    justify-content: center;
+    border-top: 1px solid rgba(0,0,0,.1);
+}
+
+#resultados .result {
+    padding: 10px 40px;
+    color: black;
+    background: #fcfcfc;
+    border-radius: 3px;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.result p {
+   margin-top: 10px;
+}
+
+.result p span {
+    font-size: .5em
+}
+
+#simulador #resultados a {
+    padding: 12px 15px;
+    color: white;
+    border-radius: 3px;
+    text-decoration: none;
+    background: #03A9F4;
+    display: table;
+    margin: 25px auto;
+    box-shadow: 0 0 5px rgba(0,0,0,.5);
+    display: none;
+}
+
+section#contato {
+    width: 96%;
+    max-width: 400px;
+    margin: 40px auto 0;
+    background: #fcfcfc;
+    color: black;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+section#contato h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.input {
+    width: 100%;
+    padding: 0 10px;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.input label {
+    font-size: .75em;
+    color: #999;
+}
+
+.input input, .input textarea {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #e9e9e9;
+    width: 100%;
+    box-sizing: border-box;
+    transition: .3s ease;
+}
+
+.input input:focus, .input textarea:focus {
+    border-color: #1688ce;
+    box-shadow: 0 0 3px rgba(0,0,0,.1);
+}
+
+.input textarea {
+    height: 200px;
+    resize: none;
+}
+
+#contato button {
+    width: 100px;
+    padding: 10px 0;
+    color: white;
+    background: rgb(22, 136, 206);
+    margin: 10px auto 0;
+    cursor: pointer;
+    display: block;
+}
+
+#quem > img {
+    display: block;
+    width: 200px;
+    margin: 40px auto;
+    background: rgba(255,255,255,.3);
+    padding: 20px 0;
+    border-radius: 3px;
+}
+
+#quem h2 {
+    margin-bottom: 20px;
+}
+
+#quem p {
+    font-weight: normal;
+    text-align: justify;
+    margin-bottom: 20px;
+    border-bottom: 1px solid rgba(255,255,255,.3);
+    padding-bottom: 20px;
+}
+
+#quem > div:nth-child(2) {
+    text-align: center;
+    width: 96%;
+    max-width: 400px;
+    margin: 40px auto;
+    padding: 10px;
+    box-sizing: border-box;
+    background: linear-gradient(rgba(0, 0, 0, 0.4) 70%, transparent);
+    border-radius: 10px;
+}
+
+#quem > div > div ul li {
+    text-align: left;
+    margin-left: 20px;
+}
+
+#quem ol {
+    width: 100%;
+    margin-top: 40px;
+    counter-reset: my-badass-counter;
+    list-style: none;
+    text-align: left
+}
+
+#quem li, #descricao ol li {
+    margin-bottom: 10px;
+}
+
+#quem ol li:before, #descricao ol > li:before {
+	content: counter(my-badass-counter);
+    counter-increment: my-badass-counter;
+    margin-right: 10px;
+    padding: 3px;
+    width: 30px;
+    height: 30px;
+    background: #03a9f4;
+    border-radius: 50%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+#servicos.pagina {
+    margin-top: 60px; 
+}
+
+#servicos.pagina > ul {
+    margin-top: 30px;    
+    width: 96%
+}
+
+#servicos.pagina > ul li {
+    margin: 5px 0;
+    border: 1px solid rgba(0,0,0,.1);
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+    border-radius: 2px;
+    position: relative;
+    cursor: pointer;
+}
+
+#servicos.pagina > ul li a {
+    padding: 15px;
+    display: block;
+    width: 100%;
+    text-decoration: none;
+    color: #999;
+    transition: .3s ease;
+}
+
+#servicos.pagina > ul li a:hover {
+    color: black;
+}
+
+#servicos.pagina > ul li:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 4px;
+    height: 100%;
+    background: #03a9f4;
+}
+
+#servicos.pagina > ul li.selecionado {
+    background: #03a9f4;
+}
+
+#servicos.pagina > ul li.selecionado a {
+    color: white;
+}
+
+#servicos.pagina > ul li:after {
+    content: ">";
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: .8em;
+    height: 100%;
+    background: rgba(0,0,0,.3);
+    padding: 0 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-weight: bold;
+}
+
+#servicos.pagina #descricao {
+    border-top: 1px solid #e9e9e9;
+    margin-top: 20px;
+    padding: 8px;
+    z-index: 3;
+    position: relative;
+}
+
+#servicos.pagina #descricao p {
+    padding: 10px 0 20px;
+}
+
+#descricao ol {
+    counter-reset: my-badass-counter;
+    list-style: none;
+    text-align: left
+}
+
+#descricao ol ul {
+    margin-left: 20px;
+    padding-left: 20px;
+    border-bottom: 1px solid rgba(0,0,0,.15);
+    margin-bottom: 10px;
+}
+
+#descricao h3 {
+    margin: 30px 0 20px;
+}
+*/

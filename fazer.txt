@@ -1,0 +1,80 @@
+1 - Fazer Nova tela de pesquisa com as seguintes opções:
+- código do cliente 
+- regime de tributação 
+- Cliente desde 
+- celular WhatsApp 
+- email acesso site ( que é o email principal) do cliente
+- Nome procurador
+- Data de vencimento (mensalidade)
+- Quantidade de funcionários.
+- Ramo de atividades
+- Inscrição estadual
+- Municipio
+
+2 - Desabilitar valor da mensalidade para o funcionario
+
+3 - Colocar para criar pastas automaticamente ao criar nova empresa e criar nas que já estão cadastradas (esperar ela me passar quais são as pastas).
+
+4 - Adicionar Pro-labore (Sim ou não).
+
+5 - Adicionar lista de Contabilidade Mensal (Atividade) Com funcionario, Funcionario e Prolabore, Prolabore e Nenhum dos dois.
+
+6 - Colocar pesquisa por apelido no financeiro tbm.
+
+7 - Adicionar aba de funcionarios para a empresa ver tbm.
+
+8 - Add campo de login e senha do seguro desemprego cadastro.
+
+9 - Adicionar reenviar email com dados do cliente.
+
+1 - R$ 50,00 OK 		PAGO
+2 - R$  5,00 OK 		PAGO
+3 - R$ 30,00 OK 		PAGO
+4 - R$  5,00 OK 		PAGO
+5 - R$ 25,00 OK 		PAGO
+6 - R$  5,00 OK 		PAGO
+7 - R$ 15,00 OK 		PAGO
+8 - R$  5,00 OK 		PAGO
+9 - R$ 20,00 OK 		PAGO
+============ 150,00
+ 
+10 - Adicionar tela inicial para empresa.
+
+11 - Adicionar pasta privada (somente Karina) em cada empresa. OK
+
+12 - Habilitar faturamento para funcionario e colocar calculo automatico.
+
+13 - Renomear sócios para:
+    Responsável legal (sócio 1)
+    Sócio 2
+    Sócio 3
+    Procurador / Representante
+    
+14 - Renomear DAS para % DAS; e Imposto para Valor DAS
+
+15 - Pessoa física no regime de tributação
+
+16 - Aparecer informações(descrição) dos serviços no financeiro, mostrar o que foi avulso e o que foi mensal (automatico).
+
+10- R$ 30,00 FAZENDO
+11- R$ 15,00 OK
+12- R$ 20,00 OK
+13- R$  5,00 OK
+14- R$  5,00 OK
+15- R$ 10,00 OK
+16- R$ 20,00 OK
+============ R$ 105,00 
+
+17 - Criar funcionario Master onde ele pode criar empresas e ver as que estão inativas. OK
+
+18 - Habilitar serviços para Func Master. OK
+
+19 - Mostrar todos os historicos financeiros de uma vez. OK
+
+20 - Pagina inicial para a empresa. OK
+
+21 - Visualizar Arquivo img ou pdf. OK
+
+22 - Parte de arquivos padrão para todas as empresas. OK
+
+23 - Acrescentar campo Tipo de Vinculo.

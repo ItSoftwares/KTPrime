@@ -1,0 +1,280 @@
+#obrigacoes, #adicionar {
+    background: white;
+    border: 1px solid #efefef;
+    padding: 10px;
+    position: relative;
+}
+
+#adicionar #nome-anexo {
+    float: right;
+    font-size: .8em;
+    font-style: italic;
+    font-weight: bold;
+}
+
+#obrigacoes > p {
+    font-size: .8em;
+    color: #999;
+    margin-top: 5px;
+}
+
+#obrigacoes #estado {
+	position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+#obrigacoes #estado select {
+    border: 1px solid #e9e9e9;
+    padding: 9px 10px;
+    margin-left: 10px;
+    font-family: encode;
+}
+
+#obrigacoes input {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #e9e9e9;
+    width: 63px;
+    box-sizing: border-box;
+    transition: .3s ease;
+    font-family: encode;
+}
+
+#obrigacoes > div:not(#estado) {
+    margin-top: 20px;
+    height: 68vh;
+    overflow-y: auto;
+}
+
+#obrigacoes table th:last-child {
+    text-align: center;
+}
+
+#obrigacoes table tr td:first-child img {
+    width: 18px;
+    padding: 3px;
+    border-radius: 4px;
+    background: #8bc34a;
+}
+
+#obrigacoes table tr td:first-child img.pendente {
+    background: #ffc107;
+}
+
+#obrigacoes table tr td.anexo img {
+    background: #717171;
+}
+
+#obrigacoes table tr td img {
+    width: 20px;
+}
+
+#obrigacoes table tr td:last-child img.realizado {
+    opacity: .3;
+    cursor: default;
+}
+
+#obrigacoes table tr td.anexo img.sem-anexo {
+    opacity: .3;
+    cursor: default;
+}
+
+#obrigacoes table tr td:nth-child(3) {
+    width: 35%;
+}
+
+#obrigacoes table tr td button {
+    width: 100px;
+}
+
+#adicionar {
+    margin-bottom: 20px;
+    
+}
+
+#adicionar form {
+    display: flex;
+    align-items: center;
+}
+
+.input:nth-child(2) {
+    width: 22%;
+}
+
+.input {
+    width: 40%;
+    padding-right: 15px;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.input label {
+    font-size: .75em;
+    color: #999;
+}
+
+.input input, .input select {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #e9e9e9;
+    width: 100%;
+    box-sizing: border-box;
+    transition: .3s ease;
+}
+
+input:focus, select:focus {
+    border-color: #1688ce !important;
+    box-shadow: 0 0 3px rgba(0,0,0,.1) !important;
+}
+
+#adicionar button {
+    width: 100px;
+    margin: 17px auto 0;
+}
+
+#adicionar form > label {
+/*    background: rgb(22, 136, 206);*/
+    padding: 7px;
+    color: white;
+    background: #cacaca;
+    margin: 17px 5px 0 auto;
+    cursor: pointer;
+    display: block;
+    border-radius: 4px;
+}
+
+#adicionar form > label img {
+    width: 21px;
+    display: block;
+}
+
+#adicionar input[type=file] {
+    display: none;
+} 
+
+#adicionar #cancelar {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    width: 20px;
+    background: red;
+    padding: 3px;
+    border-radius: 3px;
+    cursor: pointer;
+    display: none;
+}
+
+.fundo-extra {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,.8);
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+    flex-direction: column;
+}
+
+.fundo-extra > img {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    width: 30px;
+    background: #F44336;
+    padding: 5px;
+    border-radius: 3px;
+    display: block;
+    cursor: pointer;
+}
+
+#upload {
+    width: 40vw;
+    height: 30vw;
+    background: #fcfcfc;
+    border-radius: 3px;
+    padding: 8px;
+}
+
+#upload * {
+    font-family: encode;
+}
+
+#upload label {
+    width: 100%;
+    height: 100%;
+    background: rgba(71, 170, 234, 0.57);
+    border: 3px dashed #2980b9;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+#upload label.over {
+    background: #2980b9;
+    border-color: rgba(0,0,0,.5);
+}
+
+#upload label img {
+    width: 20%;
+    margin-bottom: 10px;
+    padding: 5px;
+    border-radius: 3px;
+    filter: invert(1);
+    opacity: .75;
+    transition: .3s ease;
+}
+
+#upload label.over img {
+    filter: invert(0);
+}
+
+#upload input {
+    display: none;
+/*
+    opacity: 0;
+    position: absolute;
+    top: -1000px;
+*/
+}
+
+#upload-imagem #button {
+    width: 40vw;
+    padding-top: 8px;
+}
+
+#upload-imagem #button button {
+    width: 80px;
+    padding: 15px;
+    display: block;
+    background: #2980b9;
+    cursor: pointer;
+    font-size: .9em;
+    color: white;
+    border-radius: 3px;
+    box-shadow: inset 0 -2px 0 rgba(6,6,6,.6);
+    text-shadow: 1px 1px 2px #424242;
+    font-weight: bold;
+    float: right;
+}
+
+#upload #teste {
+	display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 10px;
+}
+
+#upload #nome {
+    font-weight: bold;
+    border-top: 1px solid rgba(0,0,0,.2);
+    padding-top: 5px;
+    margin-top: 5px;
+}

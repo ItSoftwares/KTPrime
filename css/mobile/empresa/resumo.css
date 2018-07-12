@@ -1,0 +1,127 @@
+#informacoes {
+    background: white;
+    border: 1px solid #efefef;
+    padding: 10px;
+    position: relative;
+}
+
+#informacoes > div > div, #informacoes > form > div {
+    margin-top: 10px;
+    padding-top: 10px;
+    border-top: 1px solid #e9e9e9;
+}
+
+#cliente, #empresa, #outros, #bancarios, #cadastro_senhas {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#informacoes h4 {
+    margin: 10px 0;
+    padding: 10px;
+    color: #999;
+    text-align: center;
+    position: relative;
+}
+
+#informacoes h4 span {
+    position: absolute;
+    left: 10px;
+    top: 8px;
+    padding: 2px;
+    width: 20px;
+    height: 20px;
+    background: rgba(0,0,0,.3);
+    text-align: center;
+    color: white;
+    border-radius: 3px;
+    font-weight: bold;
+}
+
+hr {
+    width: 100%;
+    border-bottom: 1px dashed rgba(0, 0, 0, 0.15);
+    margin: 10px 0;
+}
+
+.input * {
+    font-family: encode;
+}
+
+.metade.input {
+    width: 49%;
+    padding-left: 5px;
+}
+
+.input {
+    width: 100%;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.input label {
+    font-size: .75em;
+    color: #999;
+}
+
+.input input, .input textarea, .input select {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #e5e5e5;
+    width: 100%;
+    box-sizing: border-box;
+    transition: .3s ease;
+}
+
+.input input:disabled, .input textarea:disabled, .input select:disabled {
+    background: #eee;
+}
+
+.input input:focus, .input textarea:focus, .input select:focus {
+    border-color: #1688ce;
+    box-shadow: 0 0 3px rgba(0,0,0,.05);
+}
+
+/* PARTE DO CONTADOR */
+#editar, #ativar {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    width: 20px;
+    padding: 4px;
+    border-radius: 3px;
+    transition: .3s ease;
+    cursor: pointer;
+}
+
+#ativar {
+    right: 40px;
+    display: none;
+}
+
+#editar:hover {
+    background: #1a8be4;
+}
+
+#editar.salvar:hover {
+    background: #8BC34A;
+}
+
+#ativar:hover {
+    background: red;
+}
+
+#editar:hover img, #ativar:hover img {
+    filter: invert(0);
+}
+
+#editar img, #ativar img {
+    filter: invert(1);
+    width: 100%;
+    display: block;
+    transition: .3s ease;
+}
+
+#ativar.desbloquear:hover {
+    background: #8BC34A !important;
+}

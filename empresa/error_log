@@ -1,0 +1,1216 @@
+[08-Oct-2017 09:47:33 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/cnpjn035/public_html/empresa/index.php:2) in /home/cnpjn035/public_html/empresa/menus.php on line 5
+[08-Oct-2017 11:14:25 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/cnpjn035/public_html/empresa/index.php:2) in /home/cnpjn035/public_html/empresa/menus.php on line 5
+[08-Oct-2017 11:16:14 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/cnpjn035/public_html/empresa/index.php:2) in /home/cnpjn035/public_html/empresa/menus.php on line 5
+[08-Oct-2017 11:16:25 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/cnpjn035/public_html/empresa/index.php:2) in /home/cnpjn035/public_html/empresa/menus.php on line 5
+[08-Oct-2017 11:16:31 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/cnpjn035/public_html/empresa/index.php:2) in /home/cnpjn035/public_html/empresa/menus.php on line 5
+[08-Oct-2017 11:16:42 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/cnpjn035/public_html/empresa/index.php:2) in /home/cnpjn035/public_html/empresa/menus.php on line 5
+[08-Oct-2017 11:16:47 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/cnpjn035/public_html/empresa/index.php:2) in /home/cnpjn035/public_html/empresa/menus.php on line 5
+[08-Oct-2017 11:16:54 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/cnpjn035/public_html/empresa/index.php:2) in /home/cnpjn035/public_html/empresa/menus.php on line 5
+[08-Oct-2017 11:17:10 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/cnpjn035/public_html/empresa/index.php:2) in /home/cnpjn035/public_html/empresa/menus.php on line 5
+[08-Oct-2017 11:23:09 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/cnpjn035/public_html/empresa/solicitacoes.php:2) in /home/cnpjn035/public_html/php/sessao.php on line 6
+[08-Oct-2017 15:35:06 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/cnpjn035/public_html/empresa/financeiro.php:1) in /home/cnpjn035/public_html/php/sessao.php on line 6
+[08-Oct-2017 15:35:06 America/Sao_Paulo] PHP Notice:  Undefined offset: 1 in /home/cnpjn035/public_html/empresa/financeiro.php on line 124
+[08-Oct-2017 15:35:06 America/Sao_Paulo] PHP Notice:  Undefined offset: 2 in /home/cnpjn035/public_html/empresa/financeiro.php on line 124
+[08-Oct-2017 15:35:06 America/Sao_Paulo] PHP Notice:  Undefined offset: 3 in /home/cnpjn035/public_html/empresa/financeiro.php on line 124
+[08-Oct-2017 15:35:06 America/Sao_Paulo] PHP Notice:  Undefined offset: 4 in /home/cnpjn035/public_html/empresa/financeiro.php on line 124
+[08-Oct-2017 15:35:06 America/Sao_Paulo] PHP Notice:  Undefined offset: 5 in /home/cnpjn035/public_html/empresa/financeiro.php on line 124
+[08-Oct-2017 15:35:06 America/Sao_Paulo] PHP Notice:  Undefined offset: 6 in /home/cnpjn035/public_html/empresa/financeiro.php on line 124
+[08-Oct-2017 15:35:06 America/Sao_Paulo] PHP Notice:  Undefined offset: 7 in /home/cnpjn035/public_html/empresa/financeiro.php on line 124
+[08-Oct-2017 15:35:06 America/Sao_Paulo] PHP Notice:  Undefined offset: 8 in /home/cnpjn035/public_html/empresa/financeiro.php on line 124
+[08-Oct-2017 13:42:25 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function listar() in /home/cnpjn035/public_html/empresa/arquivos.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/cnpjn035/public_html/empresa/arquivos.php on line 23
+[08-Oct-2017 13:42:37 America/Chicago] PHP Warning:  require(../../php/listarArquivos.php): failed to open stream: No such file or directory in /home/cnpjn035/public_html/empresa/arquivos.php on line 5
+[08-Oct-2017 13:42:37 America/Chicago] PHP Warning:  require(../../php/listarArquivos.php): failed to open stream: No such file or directory in /home/cnpjn035/public_html/empresa/arquivos.php on line 5
+[08-Oct-2017 13:42:37 America/Chicago] PHP Fatal error:  require(): Failed opening required '../../php/listarArquivos.php' (include_path='.:/opt/php70/lib/php') in /home/cnpjn035/public_html/empresa/arquivos.php on line 5
+[08-Oct-2017 13:42:42 America/Chicago] PHP Notice:  Undefined variable: empresa in /home/cnpjn035/public_html/empresa/arquivos.php on line 24
+[08-Oct-2017 13:42:42 America/Chicago] PHP Notice:  Trying to get property of non-object in /home/cnpjn035/public_html/empresa/arquivos.php on line 24
+[08-Oct-2017 13:42:42 America/Chicago] PHP Warning:  scandir(): Directory name cannot be empty in /home/cnpjn035/public_html/php/listarArquivos.php on line 7
+[08-Oct-2017 13:42:42 America/Chicago] PHP Warning:  array_diff(): Argument #1 is not an array in /home/cnpjn035/public_html/php/listarArquivos.php on line 8
+[08-Oct-2017 13:42:42 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/cnpjn035/public_html/php/listarArquivos.php on line 10
+[08-Oct-2017 13:42:58 America/Chicago] PHP Warning:  scandir(): Directory name cannot be empty in /home/cnpjn035/public_html/php/listarArquivos.php on line 7
+[08-Oct-2017 13:42:58 America/Chicago] PHP Warning:  array_diff(): Argument #1 is not an array in /home/cnpjn035/public_html/php/listarArquivos.php on line 8
+[08-Oct-2017 13:42:58 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/cnpjn035/public_html/php/listarArquivos.php on line 10
+[08-Oct-2017 13:46:22 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/cnpjn035/public_html/empresa/obrigacoes.php:1) in /home/cnpjn035/public_html/php/sessao.php on line 6
+[08-Oct-2017 15:47:27 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/cnpjn035/public_html/empresa/financeiro.php:1) in /home/cnpjn035/public_html/php/sessao.php on line 6
+[08-Oct-2017 15:47:27 America/Sao_Paulo] PHP Notice:  Undefined offset: 1 in /home/cnpjn035/public_html/empresa/financeiro.php on line 124
+[08-Oct-2017 15:47:27 America/Sao_Paulo] PHP Notice:  Undefined offset: 2 in /home/cnpjn035/public_html/empresa/financeiro.php on line 124
+[08-Oct-2017 15:47:27 America/Sao_Paulo] PHP Notice:  Undefined offset: 3 in /home/cnpjn035/public_html/empresa/financeiro.php on line 124
+[08-Oct-2017 15:47:27 America/Sao_Paulo] PHP Notice:  Undefined offset: 4 in /home/cnpjn035/public_html/empresa/financeiro.php on line 124
+[08-Oct-2017 15:47:27 America/Sao_Paulo] PHP Notice:  Undefined offset: 5 in /home/cnpjn035/public_html/empresa/financeiro.php on line 124
+[08-Oct-2017 15:47:27 America/Sao_Paulo] PHP Notice:  Undefined offset: 6 in /home/cnpjn035/public_html/empresa/financeiro.php on line 124
+[08-Oct-2017 15:47:27 America/Sao_Paulo] PHP Notice:  Undefined offset: 7 in /home/cnpjn035/public_html/empresa/financeiro.php on line 124
+[08-Oct-2017 15:47:27 America/Sao_Paulo] PHP Notice:  Undefined offset: 8 in /home/cnpjn035/public_html/empresa/financeiro.php on line 124
+[08-Oct-2017 15:49:54 America/Sao_Paulo] PHP Notice:  Undefined offset: 1 in /home/cnpjn035/public_html/empresa/financeiro.php on line 125
+[08-Oct-2017 15:49:54 America/Sao_Paulo] PHP Notice:  Undefined offset: 2 in /home/cnpjn035/public_html/empresa/financeiro.php on line 125
+[08-Oct-2017 15:49:54 America/Sao_Paulo] PHP Notice:  Undefined offset: 3 in /home/cnpjn035/public_html/empresa/financeiro.php on line 125
+[08-Oct-2017 15:49:54 America/Sao_Paulo] PHP Notice:  Undefined offset: 4 in /home/cnpjn035/public_html/empresa/financeiro.php on line 125
+[08-Oct-2017 15:49:54 America/Sao_Paulo] PHP Notice:  Undefined offset: 5 in /home/cnpjn035/public_html/empresa/financeiro.php on line 125
+[08-Oct-2017 15:49:54 America/Sao_Paulo] PHP Notice:  Undefined offset: 6 in /home/cnpjn035/public_html/empresa/financeiro.php on line 125
+[08-Oct-2017 15:49:54 America/Sao_Paulo] PHP Notice:  Undefined offset: 7 in /home/cnpjn035/public_html/empresa/financeiro.php on line 125
+[08-Oct-2017 15:49:54 America/Sao_Paulo] PHP Notice:  Undefined offset: 8 in /home/cnpjn035/public_html/empresa/financeiro.php on line 125
+[08-Oct-2017 14:00:35 America/Chicago] PHP Warning:  require_once(../php/pagseguro/config.php): failed to open stream: No such file or directory in /home/cnpjn035/public_html/empresa/financeiro.php on line 5
+[08-Oct-2017 14:00:35 America/Chicago] PHP Fatal error:  require_once(): Failed opening required '../php/pagseguro/config.php' (include_path='.:/opt/php70/lib/php') in /home/cnpjn035/public_html/empresa/financeiro.php on line 5
+[08-Oct-2017 16:22:21 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/cnpjn035/public_html/empresa/index.php:4) in /home/cnpjn035/public_html/php/sessao.php on line 16
+[08-Oct-2017 16:22:21 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function toArray() on boolean in /home/cnpjn035/public_html/empresa/menus.php:85
+Stack trace:
+#0 /home/cnpjn035/public_html/empresa/index.php(19): include()
+#1 {main}
+  thrown in /home/cnpjn035/public_html/empresa/menus.php on line 85
+[08-Oct-2017 16:23:42 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/cnpjn035/public_html/empresa/index.php:4) in /home/cnpjn035/public_html/php/sessao.php on line 16
+[08-Oct-2017 16:23:42 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function toArray() on boolean in /home/cnpjn035/public_html/empresa/menus.php:85
+Stack trace:
+#0 /home/cnpjn035/public_html/empresa/index.php(19): include()
+#1 {main}
+  thrown in /home/cnpjn035/public_html/empresa/menus.php on line 85
+[08-Oct-2017 16:23:47 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/cnpjn035/public_html/empresa/index.php:4) in /home/cnpjn035/public_html/php/sessao.php on line 16
+[08-Oct-2017 16:23:47 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function toArray() on boolean in /home/cnpjn035/public_html/empresa/menus.php:85
+Stack trace:
+#0 /home/cnpjn035/public_html/empresa/index.php(19): include()
+#1 {main}
+  thrown in /home/cnpjn035/public_html/empresa/menus.php on line 85
+[08-Oct-2017 16:24:38 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/cnpjn035/public_html/empresa/index.php:4) in /home/cnpjn035/public_html/php/sessao.php on line 16
+[08-Oct-2017 16:24:38 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function toArray() on boolean in /home/cnpjn035/public_html/empresa/menus.php:85
+Stack trace:
+#0 /home/cnpjn035/public_html/empresa/index.php(19): include()
+#1 {main}
+  thrown in /home/cnpjn035/public_html/empresa/menus.php on line 85
+[08-Oct-2017 16:24:50 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/cnpjn035/public_html/empresa/index.php:4) in /home/cnpjn035/public_html/php/sessao.php on line 16
+[08-Oct-2017 16:24:50 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function toArray() on boolean in /home/cnpjn035/public_html/empresa/menus.php:85
+Stack trace:
+#0 /home/cnpjn035/public_html/empresa/index.php(19): include()
+#1 {main}
+  thrown in /home/cnpjn035/public_html/empresa/menus.php on line 85
+[11-Oct-2017 05:57:32 America/Chicago] PHP Warning:  scandir(): Directory name cannot be empty in /home/cnpjn035/public_html/php/listarArquivos.php on line 7
+[11-Oct-2017 05:57:32 America/Chicago] PHP Warning:  array_diff(): Argument #1 is not an array in /home/cnpjn035/public_html/php/listarArquivos.php on line 8
+[11-Oct-2017 05:57:32 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/cnpjn035/public_html/php/listarArquivos.php on line 10
+[11-Oct-2017 06:03:57 America/Chicago] PHP Warning:  scandir(): Directory name cannot be empty in /home/cnpjn035/public_html/php/listarArquivos.php on line 7
+[11-Oct-2017 06:03:57 America/Chicago] PHP Warning:  array_diff(): Argument #1 is not an array in /home/cnpjn035/public_html/php/listarArquivos.php on line 8
+[11-Oct-2017 06:03:57 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/cnpjn035/public_html/php/listarArquivos.php on line 10
+[12-Oct-2017 10:31:19 America/Chicago] PHP Warning:  scandir(): Directory name cannot be empty in /home/cnpjn035/public_html/php/listarArquivos.php on line 7
+[12-Oct-2017 10:31:19 America/Chicago] PHP Warning:  array_diff(): Argument #1 is not an array in /home/cnpjn035/public_html/php/listarArquivos.php on line 8
+[12-Oct-2017 10:31:19 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/cnpjn035/public_html/php/listarArquivos.php on line 10
+[16-Oct-2017 17:20:36 America/Sao_Paulo] PHP Notice:  Undefined offset: 2 in /home/cnpjn035/public_html/empresa/financeiro.php on line 128
+[16-Oct-2017 17:20:36 America/Sao_Paulo] PHP Notice:  Undefined offset: 2 in /home/cnpjn035/public_html/empresa/financeiro.php on line 128
+[16-Oct-2017 17:37:47 America/Sao_Paulo] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/cnpjn035/public_html/empresa/financeiro.php:2) in /home/cnpjn035/public_html/php/sessao.php on line 16
+[16-Oct-2017 17:39:02 America/Sao_Paulo] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/cnpjn035/public_html/empresa/financeiro.php:2) in /home/cnpjn035/public_html/php/sessao.php on line 16
+[16-Oct-2017 17:39:58 America/Sao_Paulo] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/cnpjn035/public_html/empresa/financeiro.php:2) in /home/cnpjn035/public_html/php/sessao.php on line 16
+[16-Oct-2017 17:40:55 America/Sao_Paulo] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/cnpjn035/public_html/empresa/financeiro.php:5) in /home/cnpjn035/public_html/php/sessao.php on line 16
+[16-Oct-2017 14:42:18 America/Chicago] PHP Fatal error:  Cannot redeclare verificarSeSessaoExpirou() (previously declared in /home/cnpjn035/public_html/php/sessao.php:4) in /home/cnpjn035/public_html/php/sessao.php on line 25
+[17-Oct-2017 21:05:41 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/cnpjn035/public_html/empresa/financeiro.php on line 58
+[17-Oct-2017 21:07:35 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/cnpjn035/public_html/empresa/financeiro.php on line 58
+[17-Oct-2017 21:09:06 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/cnpjn035/public_html/empresa/financeiro.php on line 59
+[24-Oct-2017 08:36:30 America/Chicago] PHP Notice:  Undefined index: servicos in /home/cnpjn035/public_html/empresa/servicos_prestados.php on line 32
+[24-Oct-2017 08:36:30 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/cnpjn035/public_html/empresa/servicos_prestados.php on line 32
+[24-Oct-2017 16:09:41 America/Sao_Paulo] PHP Notice:  Undefined index: servicos_array in /home/cnpjn035/public_html/empresa/financeiro.php on line 51
+[24-Oct-2017 16:09:41 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/cnpjn035/public_html/empresa/financeiro.php on line 128
+[24-Oct-2017 16:09:41 America/Sao_Paulo] PHP Notice:  Undefined variable: obrigacoes in /home/cnpjn035/public_html/empresa/financeiro.php on line 316
+[24-Oct-2017 16:10:11 America/Sao_Paulo] PHP Notice:  Undefined index: servicos_array in /home/cnpjn035/public_html/empresa/financeiro.php on line 124
+[24-Oct-2017 16:10:11 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/cnpjn035/public_html/empresa/financeiro.php on line 124
+[24-Oct-2017 16:10:11 America/Sao_Paulo] PHP Notice:  Undefined variable: obrigacoes in /home/cnpjn035/public_html/empresa/financeiro.php on line 312
+[24-Oct-2017 16:11:25 America/Sao_Paulo] PHP Notice:  Undefined variable: obrigacoes in /home/cnpjn035/public_html/empresa/financeiro.php on line 312
+[24-Oct-2017 16:12:13 America/Sao_Paulo] PHP Warning:  Illegal offset type in isset or empty in /home/cnpjn035/public_html/empresa/financeiro.php on line 125
+[24-Oct-2017 16:12:13 America/Sao_Paulo] PHP Warning:  Illegal offset type in isset or empty in /home/cnpjn035/public_html/empresa/financeiro.php on line 125
+[24-Oct-2017 16:12:13 America/Sao_Paulo] PHP Notice:  Undefined variable: obrigacoes in /home/cnpjn035/public_html/empresa/financeiro.php on line 308
+[24-Oct-2017 16:13:03 America/Sao_Paulo] PHP Notice:  Undefined variable: obrigacoes in /home/cnpjn035/public_html/empresa/financeiro.php on line 305
+[24-Oct-2017 16:22:12 America/Sao_Paulo] PHP Notice:  Undefined variable: obrigacoes in /home/cnpjn035/public_html/empresa/financeiro.php on line 308
+[24-Oct-2017 16:58:04 America/Sao_Paulo] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/cnpjn035/public_html/empresa/financeiro.php on line 131
+[24-Oct-2017 16:58:04 America/Sao_Paulo] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/cnpjn035/public_html/empresa/financeiro.php on line 131
+[25-Oct-2017 19:52:40 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/cnpjn035/public_html/empresa/solicitacoes.php on line 33
+[25-Oct-2017 19:52:50 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/cnpjn035/public_html/empresa/solicitacoes.php on line 33
+[25-Oct-2017 23:14:30 America/Sao_Paulo] PHP Notice:  Undefined index: id_servico in /home/cnpjn035/public_html/empresa/financeiro.php on line 132
+[25-Oct-2017 23:14:30 America/Sao_Paulo] PHP Notice:  Undefined index:  in /home/cnpjn035/public_html/empresa/financeiro.php on line 133
+[25-Oct-2017 23:15:06 America/Sao_Paulo] PHP Notice:  Undefined index: id_servico in /home/cnpjn035/public_html/empresa/financeiro.php on line 132
+[25-Oct-2017 23:15:06 America/Sao_Paulo] PHP Notice:  Undefined index:  in /home/cnpjn035/public_html/empresa/financeiro.php on line 133
+[25-Oct-2017 23:15:38 America/Sao_Paulo] PHP Notice:  Undefined index: id_servico in /home/cnpjn035/public_html/empresa/financeiro.php on line 132
+[25-Oct-2017 23:15:38 America/Sao_Paulo] PHP Notice:  Undefined index:  in /home/cnpjn035/public_html/empresa/financeiro.php on line 133
+[25-Oct-2017 20:20:55 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/cnpjn035/public_html/empresa/solicitacoes.php on line 33
+[25-Oct-2017 20:41:26 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/cnpjn035/public_html/empresa/solicitacoes.php on line 33
+[26-Oct-2017 07:38:09 America/Chicago] PHP Warning:  scandir(): Directory name cannot be empty in /home/cnpjn035/public_html/php/listarArquivos.php on line 7
+[26-Oct-2017 07:38:09 America/Chicago] PHP Warning:  array_diff(): Argument #1 is not an array in /home/cnpjn035/public_html/php/listarArquivos.php on line 8
+[26-Oct-2017 07:38:09 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/cnpjn035/public_html/php/listarArquivos.php on line 10
+[26-Oct-2017 07:38:15 America/Chicago] PHP Warning:  scandir(): Directory name cannot be empty in /home/cnpjn035/public_html/php/listarArquivos.php on line 7
+[26-Oct-2017 07:38:15 America/Chicago] PHP Warning:  array_diff(): Argument #1 is not an array in /home/cnpjn035/public_html/php/listarArquivos.php on line 8
+[26-Oct-2017 07:38:15 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/cnpjn035/public_html/php/listarArquivos.php on line 10
+[26-Oct-2017 07:38:21 America/Chicago] PHP Warning:  scandir(): Directory name cannot be empty in /home/cnpjn035/public_html/php/listarArquivos.php on line 7
+[26-Oct-2017 07:38:21 America/Chicago] PHP Warning:  array_diff(): Argument #1 is not an array in /home/cnpjn035/public_html/php/listarArquivos.php on line 8
+[26-Oct-2017 07:38:21 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/cnpjn035/public_html/php/listarArquivos.php on line 10
+[27-Oct-2017 13:26:51 America/Chicago] PHP Parse error:  syntax error, unexpected end of file, expecting ',' or ';' in /home/cnpjn035/public_html/empresa/financeiro.php on line 201
+[29-Oct-2017 09:51:14 America/Chicago] PHP Parse error:  syntax error, unexpected ':' in /home/cnpjn035/public_html/empresa/financeiro.php on line 280
+[09-Nov-2017 15:37:06 America/Chicago] PHP Parse error:  syntax error, unexpected end of file, expecting ',' or ';' in /home/cnpjn035/public_html/empresa/financeiro.php on line 362
+[13-Nov-2017 14:56:43 America/Sao_Paulo] PHP Notice:  Undefined index: empresa in /home/cnpjn035/public_html/empresa/menus.php on line 4
+[13-Nov-2017 14:56:43 America/Sao_Paulo] PHP Notice:  Trying to get property of non-object in /home/cnpjn035/public_html/empresa/menus.php on line 72
+[13-Nov-2017 14:56:43 America/Sao_Paulo] PHP Notice:  Trying to get property of non-object in /home/cnpjn035/public_html/empresa/menus.php on line 78
+[13-Nov-2017 14:56:43 America/Sao_Paulo] PHP Notice:  Trying to get property of non-object in /home/cnpjn035/public_html/empresa/menus.php on line 88
+[13-Nov-2017 14:56:43 America/Sao_Paulo] PHP Notice:  Trying to get property of non-object in /home/cnpjn035/public_html/empresa/menus.php on line 111
+[13-Nov-2017 14:56:43 America/Sao_Paulo] PHP Notice:  Trying to get property of non-object in /home/cnpjn035/public_html/empresa/menus.php on line 112
+[13-Nov-2017 14:56:43 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function toArray() on boolean in /home/cnpjn035/public_html/empresa/menus.php:123
+Stack trace:
+#0 /home/cnpjn035/public_html/empresa/financeiro.php(39): include()
+#1 {main}
+  thrown in /home/cnpjn035/public_html/empresa/menus.php on line 123
+[13-Nov-2017 14:56:54 America/Sao_Paulo] PHP Notice:  Undefined index: empresa in /home/cnpjn035/public_html/empresa/menus.php on line 4
+[13-Nov-2017 14:56:54 America/Sao_Paulo] PHP Notice:  Trying to get property of non-object in /home/cnpjn035/public_html/empresa/menus.php on line 72
+[13-Nov-2017 14:56:54 America/Sao_Paulo] PHP Notice:  Trying to get property of non-object in /home/cnpjn035/public_html/empresa/menus.php on line 78
+[13-Nov-2017 14:56:54 America/Sao_Paulo] PHP Notice:  Trying to get property of non-object in /home/cnpjn035/public_html/empresa/menus.php on line 88
+[13-Nov-2017 14:56:54 America/Sao_Paulo] PHP Notice:  Trying to get property of non-object in /home/cnpjn035/public_html/empresa/menus.php on line 111
+[13-Nov-2017 14:56:54 America/Sao_Paulo] PHP Notice:  Trying to get property of non-object in /home/cnpjn035/public_html/empresa/menus.php on line 112
+[13-Nov-2017 14:56:54 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function toArray() on boolean in /home/cnpjn035/public_html/empresa/menus.php:123
+Stack trace:
+#0 /home/cnpjn035/public_html/empresa/financeiro.php(39): include()
+#1 {main}
+  thrown in /home/cnpjn035/public_html/empresa/menus.php on line 123
+[13-Nov-2017 14:56:56 America/Sao_Paulo] PHP Notice:  Undefined index: empresa in /home/cnpjn035/public_html/empresa/menus.php on line 4
+[13-Nov-2017 14:56:56 America/Sao_Paulo] PHP Notice:  Trying to get property of non-object in /home/cnpjn035/public_html/empresa/menus.php on line 72
+[13-Nov-2017 14:56:56 America/Sao_Paulo] PHP Notice:  Trying to get property of non-object in /home/cnpjn035/public_html/empresa/menus.php on line 78
+[13-Nov-2017 14:56:56 America/Sao_Paulo] PHP Notice:  Trying to get property of non-object in /home/cnpjn035/public_html/empresa/menus.php on line 88
+[13-Nov-2017 14:56:56 America/Sao_Paulo] PHP Notice:  Trying to get property of non-object in /home/cnpjn035/public_html/empresa/menus.php on line 111
+[13-Nov-2017 14:56:56 America/Sao_Paulo] PHP Notice:  Trying to get property of non-object in /home/cnpjn035/public_html/empresa/menus.php on line 112
+[13-Nov-2017 14:56:56 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function toArray() on boolean in /home/cnpjn035/public_html/empresa/menus.php:123
+Stack trace:
+#0 /home/cnpjn035/public_html/empresa/financeiro.php(39): include()
+#1 {main}
+  thrown in /home/cnpjn035/public_html/empresa/menus.php on line 123
+[13-Nov-2017 10:57:06 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function toArray() on boolean in /home/cnpjn035/public_html/empresa/menus.php:123
+Stack trace:
+#0 /home/cnpjn035/public_html/empresa/index.php(23): include()
+#1 {main}
+  thrown in /home/cnpjn035/public_html/empresa/menus.php on line 123
+[13-Nov-2017 10:57:09 America/Chicago] PHP Notice:  Undefined index: empresa in /home/cnpjn035/public_html/empresa/menus.php on line 4
+[13-Nov-2017 10:57:09 America/Chicago] PHP Notice:  Trying to get property of non-object in /home/cnpjn035/public_html/empresa/menus.php on line 72
+[13-Nov-2017 10:57:09 America/Chicago] PHP Notice:  Trying to get property of non-object in /home/cnpjn035/public_html/empresa/menus.php on line 78
+[13-Nov-2017 10:57:09 America/Chicago] PHP Notice:  Trying to get property of non-object in /home/cnpjn035/public_html/empresa/menus.php on line 88
+[13-Nov-2017 10:57:09 America/Chicago] PHP Notice:  Trying to get property of non-object in /home/cnpjn035/public_html/empresa/menus.php on line 111
+[13-Nov-2017 10:57:09 America/Chicago] PHP Notice:  Trying to get property of non-object in /home/cnpjn035/public_html/empresa/menus.php on line 112
+[13-Nov-2017 10:57:09 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function toArray() on boolean in /home/cnpjn035/public_html/empresa/menus.php:123
+Stack trace:
+#0 /home/cnpjn035/public_html/empresa/servicos_prestados.php(27): include()
+#1 {main}
+  thrown in /home/cnpjn035/public_html/empresa/menus.php on line 123
+[26-Nov-2017 14:45:14 America/Sao_Paulo] PHP Notice:  Undefined index: empresa in /home/cnpjn035/public_html/empresa/menus.php on line 4
+[26-Nov-2017 14:45:14 America/Sao_Paulo] PHP Notice:  Trying to get property of non-object in /home/cnpjn035/public_html/empresa/menus.php on line 72
+[26-Nov-2017 14:45:14 America/Sao_Paulo] PHP Notice:  Trying to get property of non-object in /home/cnpjn035/public_html/empresa/menus.php on line 78
+[26-Nov-2017 14:45:14 America/Sao_Paulo] PHP Notice:  Trying to get property of non-object in /home/cnpjn035/public_html/empresa/menus.php on line 88
+[26-Nov-2017 14:45:14 America/Sao_Paulo] PHP Notice:  Trying to get property of non-object in /home/cnpjn035/public_html/empresa/menus.php on line 111
+[26-Nov-2017 14:45:14 America/Sao_Paulo] PHP Notice:  Trying to get property of non-object in /home/cnpjn035/public_html/empresa/menus.php on line 112
+[26-Nov-2017 14:45:14 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function toArray() on boolean in /home/cnpjn035/public_html/empresa/menus.php:123
+Stack trace:
+#0 /home/cnpjn035/public_html/empresa/financeiro.php(39): include()
+#1 {main}
+  thrown in /home/cnpjn035/public_html/empresa/menus.php on line 123
+[26-Nov-2017 14:45:18 America/Sao_Paulo] PHP Notice:  Undefined index: empresa in /home/cnpjn035/public_html/empresa/menus.php on line 4
+[26-Nov-2017 14:45:18 America/Sao_Paulo] PHP Notice:  Trying to get property of non-object in /home/cnpjn035/public_html/empresa/menus.php on line 72
+[26-Nov-2017 14:45:18 America/Sao_Paulo] PHP Notice:  Trying to get property of non-object in /home/cnpjn035/public_html/empresa/menus.php on line 78
+[26-Nov-2017 14:45:18 America/Sao_Paulo] PHP Notice:  Trying to get property of non-object in /home/cnpjn035/public_html/empresa/menus.php on line 88
+[26-Nov-2017 14:45:18 America/Sao_Paulo] PHP Notice:  Trying to get property of non-object in /home/cnpjn035/public_html/empresa/menus.php on line 111
+[26-Nov-2017 14:45:18 America/Sao_Paulo] PHP Notice:  Trying to get property of non-object in /home/cnpjn035/public_html/empresa/menus.php on line 112
+[26-Nov-2017 14:45:18 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function toArray() on boolean in /home/cnpjn035/public_html/empresa/menus.php:123
+Stack trace:
+#0 /home/cnpjn035/public_html/empresa/financeiro.php(39): include()
+#1 {main}
+  thrown in /home/cnpjn035/public_html/empresa/menus.php on line 123
+[26-Nov-2017 10:45:21 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function toArray() on boolean in /home/cnpjn035/public_html/empresa/menus.php:123
+Stack trace:
+#0 /home/cnpjn035/public_html/empresa/index.php(23): include()
+#1 {main}
+  thrown in /home/cnpjn035/public_html/empresa/menus.php on line 123
+[26-Nov-2017 16:28:19 America/Sao_Paulo] PHP Notice:  Undefined offset: 49 in /home/cnpjn035/public_html/empresa/financeiro.php on line 158
+[26-Nov-2017 16:28:19 America/Sao_Paulo] PHP Notice:  Undefined offset: 49 in /home/cnpjn035/public_html/empresa/financeiro.php on line 158
+[26-Nov-2017 16:34:35 America/Sao_Paulo] PHP Notice:  Undefined index: empresa in /home/cnpjn035/public_html/empresa/menus.php on line 4
+[26-Nov-2017 16:34:35 America/Sao_Paulo] PHP Notice:  Trying to get property of non-object in /home/cnpjn035/public_html/empresa/menus.php on line 72
+[26-Nov-2017 16:34:35 America/Sao_Paulo] PHP Notice:  Trying to get property of non-object in /home/cnpjn035/public_html/empresa/menus.php on line 78
+[26-Nov-2017 16:34:35 America/Sao_Paulo] PHP Notice:  Trying to get property of non-object in /home/cnpjn035/public_html/empresa/menus.php on line 88
+[26-Nov-2017 16:34:35 America/Sao_Paulo] PHP Notice:  Trying to get property of non-object in /home/cnpjn035/public_html/empresa/menus.php on line 111
+[26-Nov-2017 16:34:35 America/Sao_Paulo] PHP Notice:  Trying to get property of non-object in /home/cnpjn035/public_html/empresa/menus.php on line 112
+[26-Nov-2017 16:34:35 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function toArray() on boolean in /home/cnpjn035/public_html/empresa/menus.php:123
+Stack trace:
+#0 /home/cnpjn035/public_html/empresa/financeiro.php(39): include()
+#1 {main}
+  thrown in /home/cnpjn035/public_html/empresa/menus.php on line 123
+[26-Nov-2017 17:16:23 America/Chicago] PHP Notice:  Undefined index: empresa in /home/cnpjn035/public_html/empresa/menus.php on line 4
+[26-Nov-2017 17:16:23 America/Chicago] PHP Notice:  Trying to get property of non-object in /home/cnpjn035/public_html/empresa/menus.php on line 72
+[26-Nov-2017 17:16:23 America/Chicago] PHP Notice:  Trying to get property of non-object in /home/cnpjn035/public_html/empresa/menus.php on line 78
+[26-Nov-2017 17:16:23 America/Chicago] PHP Notice:  Trying to get property of non-object in /home/cnpjn035/public_html/empresa/menus.php on line 88
+[26-Nov-2017 17:16:23 America/Chicago] PHP Notice:  Trying to get property of non-object in /home/cnpjn035/public_html/empresa/menus.php on line 111
+[26-Nov-2017 17:16:23 America/Chicago] PHP Notice:  Trying to get property of non-object in /home/cnpjn035/public_html/empresa/menus.php on line 112
+[26-Nov-2017 17:16:23 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function toArray() on boolean in /home/cnpjn035/public_html/empresa/menus.php:123
+Stack trace:
+#0 /home/cnpjn035/public_html/empresa/solicitacoes.php(28): include()
+#1 {main}
+  thrown in /home/cnpjn035/public_html/empresa/menus.php on line 123
+[26-Nov-2017 17:16:25 America/Chicago] PHP Notice:  Undefined index: empresa in /home/cnpjn035/public_html/empresa/menus.php on line 4
+[26-Nov-2017 17:16:25 America/Chicago] PHP Notice:  Trying to get property of non-object in /home/cnpjn035/public_html/empresa/menus.php on line 72
+[26-Nov-2017 17:16:25 America/Chicago] PHP Notice:  Trying to get property of non-object in /home/cnpjn035/public_html/empresa/menus.php on line 78
+[26-Nov-2017 17:16:25 America/Chicago] PHP Notice:  Trying to get property of non-object in /home/cnpjn035/public_html/empresa/menus.php on line 88
+[26-Nov-2017 17:16:25 America/Chicago] PHP Notice:  Trying to get property of non-object in /home/cnpjn035/public_html/empresa/menus.php on line 111
+[26-Nov-2017 17:16:25 America/Chicago] PHP Notice:  Trying to get property of non-object in /home/cnpjn035/public_html/empresa/menus.php on line 112
+[26-Nov-2017 17:16:25 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function toArray() on boolean in /home/cnpjn035/public_html/empresa/menus.php:123
+Stack trace:
+#0 /home/cnpjn035/public_html/empresa/solicitacoes.php(28): include()
+#1 {main}
+  thrown in /home/cnpjn035/public_html/empresa/menus.php on line 123
+[26-Nov-2017 17:16:26 America/Chicago] PHP Notice:  Undefined index: empresa in /home/cnpjn035/public_html/empresa/menus.php on line 4
+[26-Nov-2017 17:16:26 America/Chicago] PHP Notice:  Trying to get property of non-object in /home/cnpjn035/public_html/empresa/menus.php on line 72
+[26-Nov-2017 17:16:26 America/Chicago] PHP Notice:  Trying to get property of non-object in /home/cnpjn035/public_html/empresa/menus.php on line 78
+[26-Nov-2017 17:16:26 America/Chicago] PHP Notice:  Trying to get property of non-object in /home/cnpjn035/public_html/empresa/menus.php on line 88
+[26-Nov-2017 17:16:26 America/Chicago] PHP Notice:  Trying to get property of non-object in /home/cnpjn035/public_html/empresa/menus.php on line 111
+[26-Nov-2017 17:16:26 America/Chicago] PHP Notice:  Trying to get property of non-object in /home/cnpjn035/public_html/empresa/menus.php on line 112
+[26-Nov-2017 17:16:26 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function toArray() on boolean in /home/cnpjn035/public_html/empresa/menus.php:123
+Stack trace:
+#0 /home/cnpjn035/public_html/empresa/servicos_prestados.php(27): include()
+#1 {main}
+  thrown in /home/cnpjn035/public_html/empresa/menus.php on line 123
+[26-Nov-2017 17:16:27 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function toArray() on boolean in /home/cnpjn035/public_html/empresa/menus.php:123
+Stack trace:
+#0 /home/cnpjn035/public_html/empresa/index.php(23): include()
+#1 {main}
+  thrown in /home/cnpjn035/public_html/empresa/menus.php on line 123
+[26-Nov-2017 17:16:30 America/Chicago] PHP Notice:  Undefined index: empresa in /home/cnpjn035/public_html/empresa/menus.php on line 4
+[26-Nov-2017 17:16:30 America/Chicago] PHP Notice:  Trying to get property of non-object in /home/cnpjn035/public_html/empresa/menus.php on line 72
+[26-Nov-2017 17:16:30 America/Chicago] PHP Notice:  Trying to get property of non-object in /home/cnpjn035/public_html/empresa/menus.php on line 78
+[26-Nov-2017 17:16:30 America/Chicago] PHP Notice:  Trying to get property of non-object in /home/cnpjn035/public_html/empresa/menus.php on line 88
+[26-Nov-2017 17:16:30 America/Chicago] PHP Notice:  Trying to get property of non-object in /home/cnpjn035/public_html/empresa/menus.php on line 111
+[26-Nov-2017 17:16:30 America/Chicago] PHP Notice:  Trying to get property of non-object in /home/cnpjn035/public_html/empresa/menus.php on line 112
+[26-Nov-2017 17:16:30 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function toArray() on boolean in /home/cnpjn035/public_html/empresa/menus.php:123
+Stack trace:
+#0 /home/cnpjn035/public_html/empresa/solicitacoes.php(28): include()
+#1 {main}
+  thrown in /home/cnpjn035/public_html/empresa/menus.php on line 123
+[26-Nov-2017 17:16:32 America/Chicago] PHP Notice:  Undefined index: empresa in /home/cnpjn035/public_html/empresa/menus.php on line 4
+[26-Nov-2017 17:16:32 America/Chicago] PHP Notice:  Trying to get property of non-object in /home/cnpjn035/public_html/empresa/menus.php on line 72
+[26-Nov-2017 17:16:32 America/Chicago] PHP Notice:  Trying to get property of non-object in /home/cnpjn035/public_html/empresa/menus.php on line 78
+[26-Nov-2017 17:16:32 America/Chicago] PHP Notice:  Trying to get property of non-object in /home/cnpjn035/public_html/empresa/menus.php on line 88
+[26-Nov-2017 17:16:32 America/Chicago] PHP Notice:  Trying to get property of non-object in /home/cnpjn035/public_html/empresa/menus.php on line 111
+[26-Nov-2017 17:16:32 America/Chicago] PHP Notice:  Trying to get property of non-object in /home/cnpjn035/public_html/empresa/menus.php on line 112
+[26-Nov-2017 17:16:32 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function toArray() on boolean in /home/cnpjn035/public_html/empresa/menus.php:123
+Stack trace:
+#0 /home/cnpjn035/public_html/empresa/solicitacoes.php(28): include()
+#1 {main}
+  thrown in /home/cnpjn035/public_html/empresa/menus.php on line 123
+[26-Nov-2017 17:26:15 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function toArray() on boolean in /home/cnpjn035/public_html/empresa/menus.php:123
+Stack trace:
+#0 /home/cnpjn035/public_html/empresa/index.php(23): include()
+#1 {main}
+  thrown in /home/cnpjn035/public_html/empresa/menus.php on line 123
+[26-Nov-2017 17:26:23 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function toArray() on boolean in /home/cnpjn035/public_html/empresa/menus.php:123
+Stack trace:
+#0 /home/cnpjn035/public_html/empresa/index.php(23): include()
+#1 {main}
+  thrown in /home/cnpjn035/public_html/empresa/menus.php on line 123
+[26-Nov-2017 17:26:24 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function toArray() on boolean in /home/cnpjn035/public_html/empresa/menus.php:123
+Stack trace:
+#0 /home/cnpjn035/public_html/empresa/index.php(23): include()
+#1 {main}
+  thrown in /home/cnpjn035/public_html/empresa/menus.php on line 123
+[26-Nov-2017 17:26:26 America/Chicago] PHP Notice:  Undefined index: empresa in /home/cnpjn035/public_html/empresa/menus.php on line 4
+[26-Nov-2017 17:26:26 America/Chicago] PHP Notice:  Trying to get property of non-object in /home/cnpjn035/public_html/empresa/menus.php on line 72
+[26-Nov-2017 17:26:26 America/Chicago] PHP Notice:  Trying to get property of non-object in /home/cnpjn035/public_html/empresa/menus.php on line 78
+[26-Nov-2017 17:26:26 America/Chicago] PHP Notice:  Trying to get property of non-object in /home/cnpjn035/public_html/empresa/menus.php on line 88
+[26-Nov-2017 17:26:26 America/Chicago] PHP Notice:  Trying to get property of non-object in /home/cnpjn035/public_html/empresa/menus.php on line 111
+[26-Nov-2017 17:26:26 America/Chicago] PHP Notice:  Trying to get property of non-object in /home/cnpjn035/public_html/empresa/menus.php on line 112
+[26-Nov-2017 17:26:26 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function toArray() on boolean in /home/cnpjn035/public_html/empresa/menus.php:123
+Stack trace:
+#0 /home/cnpjn035/public_html/empresa/solicitacoes.php(28): include()
+#1 {main}
+  thrown in /home/cnpjn035/public_html/empresa/menus.php on line 123
+[27-Nov-2017 05:18:40 America/Chicago] PHP Parse error:  syntax error, unexpected end of file, expecting variable (T_VARIABLE) or ${ (T_DOLLAR_OPEN_CURLY_BRACES) or {$ (T_CURLY_OPEN) in /home/cnpjn035/public_html/empresa/financeiro.php on line 131
+[27-Nov-2017 05:32:56 America/Chicago] PHP Parse error:  syntax error, unexpected '=' in /home/cnpjn035/public_html/empresa/financeiro.php on line 158
+[27-Nov-2017 05:32:58 America/Chicago] PHP Parse error:  syntax error, unexpected '=' in /home/cnpjn035/public_html/empresa/financeiro.php on line 158
+[27-Nov-2017 05:33:07 America/Chicago] PHP Parse error:  syntax error, unexpected end of file, expecting variable (T_VARIABLE) or ${ (T_DOLLAR_OPEN_CURLY_BRACES) or {$ (T_CURLY_OPEN) in /home/cnpjn035/public_html/empresa/financeiro.php on line 131
+[12-Dec-2017 08:25:02 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/cnpjn035/public_html/empresa/guias.php:2) in /home/cnpjn035/public_html/php/sessao.php on line 16
+[17-Dec-2017 11:58:21 America/Sao_Paulo] PHP Notice:  Undefined offset: 77 in /home/cnpjn035/public_html/empresa/financeiro.php on line 117
+[17-Dec-2017 11:58:21 America/Sao_Paulo] PHP Notice:  Undefined offset: 77 in /home/cnpjn035/public_html/empresa/financeiro.php on line 130
+[17-Dec-2017 11:58:21 America/Sao_Paulo] PHP Notice:  Undefined offset: 77 in /home/cnpjn035/public_html/empresa/financeiro.php on line 164
+[17-Dec-2017 11:58:21 America/Sao_Paulo] PHP Notice:  Undefined offset: 77 in /home/cnpjn035/public_html/empresa/financeiro.php on line 164
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined offset: 12 in /home/cnpjn035/public_html/empresa/financeiro.php on line 105
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined offset: 12 in /home/cnpjn035/public_html/empresa/financeiro.php on line 105
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined offset: 55 in /home/cnpjn035/public_html/empresa/financeiro.php on line 105
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined offset: 55 in /home/cnpjn035/public_html/empresa/financeiro.php on line 105
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined offset: 33 in /home/cnpjn035/public_html/empresa/financeiro.php on line 105
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined offset: 33 in /home/cnpjn035/public_html/empresa/financeiro.php on line 105
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined offset: 60 in /home/cnpjn035/public_html/empresa/financeiro.php on line 105
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined offset: 60 in /home/cnpjn035/public_html/empresa/financeiro.php on line 105
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined offset: 32 in /home/cnpjn035/public_html/empresa/financeiro.php on line 105
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined offset: 32 in /home/cnpjn035/public_html/empresa/financeiro.php on line 105
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined offset: 53 in /home/cnpjn035/public_html/empresa/financeiro.php on line 105
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined offset: 53 in /home/cnpjn035/public_html/empresa/financeiro.php on line 105
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined offset: 57 in /home/cnpjn035/public_html/empresa/financeiro.php on line 105
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined offset: 57 in /home/cnpjn035/public_html/empresa/financeiro.php on line 105
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined offset: 65 in /home/cnpjn035/public_html/empresa/financeiro.php on line 105
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined offset: 65 in /home/cnpjn035/public_html/empresa/financeiro.php on line 105
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined offset: 66 in /home/cnpjn035/public_html/empresa/financeiro.php on line 105
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined offset: 66 in /home/cnpjn035/public_html/empresa/financeiro.php on line 105
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined offset: 61 in /home/cnpjn035/public_html/empresa/financeiro.php on line 105
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined offset: 61 in /home/cnpjn035/public_html/empresa/financeiro.php on line 105
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined offset: 48 in /home/cnpjn035/public_html/empresa/financeiro.php on line 105
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined offset: 48 in /home/cnpjn035/public_html/empresa/financeiro.php on line 105
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined offset: 54 in /home/cnpjn035/public_html/empresa/financeiro.php on line 105
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined offset: 54 in /home/cnpjn035/public_html/empresa/financeiro.php on line 105
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined offset: 41 in /home/cnpjn035/public_html/empresa/financeiro.php on line 105
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined offset: 41 in /home/cnpjn035/public_html/empresa/financeiro.php on line 105
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined offset: 37 in /home/cnpjn035/public_html/empresa/financeiro.php on line 105
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined offset: 37 in /home/cnpjn035/public_html/empresa/financeiro.php on line 105
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined offset: 44 in /home/cnpjn035/public_html/empresa/financeiro.php on line 105
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined offset: 44 in /home/cnpjn035/public_html/empresa/financeiro.php on line 105
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined offset: 36 in /home/cnpjn035/public_html/empresa/financeiro.php on line 105
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined offset: 36 in /home/cnpjn035/public_html/empresa/financeiro.php on line 105
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined offset: 30 in /home/cnpjn035/public_html/empresa/financeiro.php on line 105
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined offset: 30 in /home/cnpjn035/public_html/empresa/financeiro.php on line 105
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined offset: 35 in /home/cnpjn035/public_html/empresa/financeiro.php on line 105
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined offset: 35 in /home/cnpjn035/public_html/empresa/financeiro.php on line 105
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined offset: 34 in /home/cnpjn035/public_html/empresa/financeiro.php on line 105
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined offset: 34 in /home/cnpjn035/public_html/empresa/financeiro.php on line 105
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined offset: 63 in /home/cnpjn035/public_html/empresa/financeiro.php on line 105
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined offset: 63 in /home/cnpjn035/public_html/empresa/financeiro.php on line 105
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined offset: 62 in /home/cnpjn035/public_html/empresa/financeiro.php on line 105
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined offset: 62 in /home/cnpjn035/public_html/empresa/financeiro.php on line 105
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined offset: 42 in /home/cnpjn035/public_html/empresa/financeiro.php on line 105
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined offset: 42 in /home/cnpjn035/public_html/empresa/financeiro.php on line 105
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined offset: 64 in /home/cnpjn035/public_html/empresa/financeiro.php on line 105
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined offset: 64 in /home/cnpjn035/public_html/empresa/financeiro.php on line 105
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined offset: 67 in /home/cnpjn035/public_html/empresa/financeiro.php on line 105
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined offset: 67 in /home/cnpjn035/public_html/empresa/financeiro.php on line 105
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined offset: 43 in /home/cnpjn035/public_html/empresa/financeiro.php on line 105
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined offset: 43 in /home/cnpjn035/public_html/empresa/financeiro.php on line 105
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined offset: 69 in /home/cnpjn035/public_html/empresa/financeiro.php on line 105
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined offset: 69 in /home/cnpjn035/public_html/empresa/financeiro.php on line 105
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined offset: 68 in /home/cnpjn035/public_html/empresa/financeiro.php on line 105
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined offset: 68 in /home/cnpjn035/public_html/empresa/financeiro.php on line 105
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined offset: 50 in /home/cnpjn035/public_html/empresa/financeiro.php on line 105
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined offset: 50 in /home/cnpjn035/public_html/empresa/financeiro.php on line 105
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined offset: 56 in /home/cnpjn035/public_html/empresa/financeiro.php on line 105
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined offset: 56 in /home/cnpjn035/public_html/empresa/financeiro.php on line 105
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined variable: estado in /home/cnpjn035/public_html/empresa/financeiro.php on line 225
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined variable: de in /home/cnpjn035/public_html/empresa/financeiro.php on line 226
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined variable: de in /home/cnpjn035/public_html/empresa/financeiro.php on line 227
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined variable: ate in /home/cnpjn035/public_html/empresa/financeiro.php on line 228
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined index: total in /home/cnpjn035/public_html/empresa/financeiro.php on line 232
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined index: total in /home/cnpjn035/public_html/empresa/financeiro.php on line 238
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined variable: estado in /home/cnpjn035/public_html/empresa/financeiro.php on line 225
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined variable: de in /home/cnpjn035/public_html/empresa/financeiro.php on line 226
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined variable: de in /home/cnpjn035/public_html/empresa/financeiro.php on line 227
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined variable: ate in /home/cnpjn035/public_html/empresa/financeiro.php on line 228
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined index: total in /home/cnpjn035/public_html/empresa/financeiro.php on line 232
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined index: total in /home/cnpjn035/public_html/empresa/financeiro.php on line 238
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined variable: estado in /home/cnpjn035/public_html/empresa/financeiro.php on line 225
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined variable: de in /home/cnpjn035/public_html/empresa/financeiro.php on line 226
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined variable: de in /home/cnpjn035/public_html/empresa/financeiro.php on line 227
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined variable: ate in /home/cnpjn035/public_html/empresa/financeiro.php on line 228
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined index: total in /home/cnpjn035/public_html/empresa/financeiro.php on line 232
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined index: total in /home/cnpjn035/public_html/empresa/financeiro.php on line 238
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined index: id in /home/cnpjn035/public_html/empresa/financeiro.php on line 224
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined variable: estado in /home/cnpjn035/public_html/empresa/financeiro.php on line 225
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined variable: de in /home/cnpjn035/public_html/empresa/financeiro.php on line 226
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined variable: de in /home/cnpjn035/public_html/empresa/financeiro.php on line 227
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined variable: ate in /home/cnpjn035/public_html/empresa/financeiro.php on line 228
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined index: total in /home/cnpjn035/public_html/empresa/financeiro.php on line 232
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined index: mes in /home/cnpjn035/public_html/empresa/financeiro.php on line 234
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined index: ano in /home/cnpjn035/public_html/empresa/financeiro.php on line 235
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined index: id in /home/cnpjn035/public_html/empresa/financeiro.php on line 236
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined index: total in /home/cnpjn035/public_html/empresa/financeiro.php on line 238
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined index: id in /home/cnpjn035/public_html/empresa/financeiro.php on line 224
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined variable: estado in /home/cnpjn035/public_html/empresa/financeiro.php on line 225
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined variable: de in /home/cnpjn035/public_html/empresa/financeiro.php on line 226
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined variable: de in /home/cnpjn035/public_html/empresa/financeiro.php on line 227
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined variable: ate in /home/cnpjn035/public_html/empresa/financeiro.php on line 228
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined index: total in /home/cnpjn035/public_html/empresa/financeiro.php on line 232
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined index: mes in /home/cnpjn035/public_html/empresa/financeiro.php on line 234
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined index: ano in /home/cnpjn035/public_html/empresa/financeiro.php on line 235
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined index: id in /home/cnpjn035/public_html/empresa/financeiro.php on line 236
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined index: total in /home/cnpjn035/public_html/empresa/financeiro.php on line 238
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined index: id in /home/cnpjn035/public_html/empresa/financeiro.php on line 224
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined variable: estado in /home/cnpjn035/public_html/empresa/financeiro.php on line 225
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined variable: de in /home/cnpjn035/public_html/empresa/financeiro.php on line 226
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined variable: de in /home/cnpjn035/public_html/empresa/financeiro.php on line 227
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined variable: ate in /home/cnpjn035/public_html/empresa/financeiro.php on line 228
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined index: total in /home/cnpjn035/public_html/empresa/financeiro.php on line 232
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined index: mes in /home/cnpjn035/public_html/empresa/financeiro.php on line 234
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined index: ano in /home/cnpjn035/public_html/empresa/financeiro.php on line 235
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined index: id in /home/cnpjn035/public_html/empresa/financeiro.php on line 236
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined index: total in /home/cnpjn035/public_html/empresa/financeiro.php on line 238
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined index: id in /home/cnpjn035/public_html/empresa/financeiro.php on line 224
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined variable: estado in /home/cnpjn035/public_html/empresa/financeiro.php on line 225
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined variable: de in /home/cnpjn035/public_html/empresa/financeiro.php on line 226
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined variable: de in /home/cnpjn035/public_html/empresa/financeiro.php on line 227
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined variable: ate in /home/cnpjn035/public_html/empresa/financeiro.php on line 228
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined index: total in /home/cnpjn035/public_html/empresa/financeiro.php on line 232
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined index: mes in /home/cnpjn035/public_html/empresa/financeiro.php on line 234
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined index: ano in /home/cnpjn035/public_html/empresa/financeiro.php on line 235
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined index: id in /home/cnpjn035/public_html/empresa/financeiro.php on line 236
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined index: total in /home/cnpjn035/public_html/empresa/financeiro.php on line 238
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined index: id in /home/cnpjn035/public_html/empresa/financeiro.php on line 224
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined variable: estado in /home/cnpjn035/public_html/empresa/financeiro.php on line 225
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined variable: de in /home/cnpjn035/public_html/empresa/financeiro.php on line 226
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined variable: de in /home/cnpjn035/public_html/empresa/financeiro.php on line 227
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined variable: ate in /home/cnpjn035/public_html/empresa/financeiro.php on line 228
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined index: total in /home/cnpjn035/public_html/empresa/financeiro.php on line 232
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined index: mes in /home/cnpjn035/public_html/empresa/financeiro.php on line 234
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined index: ano in /home/cnpjn035/public_html/empresa/financeiro.php on line 235
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined index: id in /home/cnpjn035/public_html/empresa/financeiro.php on line 236
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined index: total in /home/cnpjn035/public_html/empresa/financeiro.php on line 238
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined index: id in /home/cnpjn035/public_html/empresa/financeiro.php on line 224
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined variable: estado in /home/cnpjn035/public_html/empresa/financeiro.php on line 225
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined variable: de in /home/cnpjn035/public_html/empresa/financeiro.php on line 226
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined variable: de in /home/cnpjn035/public_html/empresa/financeiro.php on line 227
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined variable: ate in /home/cnpjn035/public_html/empresa/financeiro.php on line 228
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined index: total in /home/cnpjn035/public_html/empresa/financeiro.php on line 232
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined index: mes in /home/cnpjn035/public_html/empresa/financeiro.php on line 234
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined index: ano in /home/cnpjn035/public_html/empresa/financeiro.php on line 235
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined index: id in /home/cnpjn035/public_html/empresa/financeiro.php on line 236
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined index: total in /home/cnpjn035/public_html/empresa/financeiro.php on line 238
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined index: id in /home/cnpjn035/public_html/empresa/financeiro.php on line 224
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined variable: estado in /home/cnpjn035/public_html/empresa/financeiro.php on line 225
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined variable: de in /home/cnpjn035/public_html/empresa/financeiro.php on line 226
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined variable: de in /home/cnpjn035/public_html/empresa/financeiro.php on line 227
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined variable: ate in /home/cnpjn035/public_html/empresa/financeiro.php on line 228
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined index: total in /home/cnpjn035/public_html/empresa/financeiro.php on line 232
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined index: mes in /home/cnpjn035/public_html/empresa/financeiro.php on line 234
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined index: ano in /home/cnpjn035/public_html/empresa/financeiro.php on line 235
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined index: id in /home/cnpjn035/public_html/empresa/financeiro.php on line 236
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined index: total in /home/cnpjn035/public_html/empresa/financeiro.php on line 238
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined index: id in /home/cnpjn035/public_html/empresa/financeiro.php on line 224
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined variable: estado in /home/cnpjn035/public_html/empresa/financeiro.php on line 225
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined variable: de in /home/cnpjn035/public_html/empresa/financeiro.php on line 226
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined variable: de in /home/cnpjn035/public_html/empresa/financeiro.php on line 227
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined variable: ate in /home/cnpjn035/public_html/empresa/financeiro.php on line 228
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined index: total in /home/cnpjn035/public_html/empresa/financeiro.php on line 232
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined index: mes in /home/cnpjn035/public_html/empresa/financeiro.php on line 234
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined index: ano in /home/cnpjn035/public_html/empresa/financeiro.php on line 235
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined index: id in /home/cnpjn035/public_html/empresa/financeiro.php on line 236
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined index: total in /home/cnpjn035/public_html/empresa/financeiro.php on line 238
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined index: id in /home/cnpjn035/public_html/empresa/financeiro.php on line 224
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined variable: estado in /home/cnpjn035/public_html/empresa/financeiro.php on line 225
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined variable: de in /home/cnpjn035/public_html/empresa/financeiro.php on line 226
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined variable: de in /home/cnpjn035/public_html/empresa/financeiro.php on line 227
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined variable: ate in /home/cnpjn035/public_html/empresa/financeiro.php on line 228
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined index: total in /home/cnpjn035/public_html/empresa/financeiro.php on line 232
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined index: mes in /home/cnpjn035/public_html/empresa/financeiro.php on line 234
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined index: ano in /home/cnpjn035/public_html/empresa/financeiro.php on line 235
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined index: id in /home/cnpjn035/public_html/empresa/financeiro.php on line 236
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined index: total in /home/cnpjn035/public_html/empresa/financeiro.php on line 238
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined index: id in /home/cnpjn035/public_html/empresa/financeiro.php on line 224
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined variable: estado in /home/cnpjn035/public_html/empresa/financeiro.php on line 225
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined variable: de in /home/cnpjn035/public_html/empresa/financeiro.php on line 226
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined variable: de in /home/cnpjn035/public_html/empresa/financeiro.php on line 227
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined variable: ate in /home/cnpjn035/public_html/empresa/financeiro.php on line 228
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined index: total in /home/cnpjn035/public_html/empresa/financeiro.php on line 232
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined index: mes in /home/cnpjn035/public_html/empresa/financeiro.php on line 234
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined index: ano in /home/cnpjn035/public_html/empresa/financeiro.php on line 235
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined index: id in /home/cnpjn035/public_html/empresa/financeiro.php on line 236
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined index: total in /home/cnpjn035/public_html/empresa/financeiro.php on line 238
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined index: id in /home/cnpjn035/public_html/empresa/financeiro.php on line 224
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined variable: estado in /home/cnpjn035/public_html/empresa/financeiro.php on line 225
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined variable: de in /home/cnpjn035/public_html/empresa/financeiro.php on line 226
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined variable: de in /home/cnpjn035/public_html/empresa/financeiro.php on line 227
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined variable: ate in /home/cnpjn035/public_html/empresa/financeiro.php on line 228
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined index: total in /home/cnpjn035/public_html/empresa/financeiro.php on line 232
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined index: mes in /home/cnpjn035/public_html/empresa/financeiro.php on line 234
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined index: ano in /home/cnpjn035/public_html/empresa/financeiro.php on line 235
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined index: id in /home/cnpjn035/public_html/empresa/financeiro.php on line 236
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined index: total in /home/cnpjn035/public_html/empresa/financeiro.php on line 238
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined index: id in /home/cnpjn035/public_html/empresa/financeiro.php on line 224
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined variable: estado in /home/cnpjn035/public_html/empresa/financeiro.php on line 225
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined variable: de in /home/cnpjn035/public_html/empresa/financeiro.php on line 226
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined variable: de in /home/cnpjn035/public_html/empresa/financeiro.php on line 227
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined variable: ate in /home/cnpjn035/public_html/empresa/financeiro.php on line 228
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined index: total in /home/cnpjn035/public_html/empresa/financeiro.php on line 232
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined index: mes in /home/cnpjn035/public_html/empresa/financeiro.php on line 234
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined index: ano in /home/cnpjn035/public_html/empresa/financeiro.php on line 235
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined index: id in /home/cnpjn035/public_html/empresa/financeiro.php on line 236
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined index: total in /home/cnpjn035/public_html/empresa/financeiro.php on line 238
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined index: id in /home/cnpjn035/public_html/empresa/financeiro.php on line 224
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined variable: estado in /home/cnpjn035/public_html/empresa/financeiro.php on line 225
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined variable: de in /home/cnpjn035/public_html/empresa/financeiro.php on line 226
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined variable: de in /home/cnpjn035/public_html/empresa/financeiro.php on line 227
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined variable: ate in /home/cnpjn035/public_html/empresa/financeiro.php on line 228
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined index: total in /home/cnpjn035/public_html/empresa/financeiro.php on line 232
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined index: mes in /home/cnpjn035/public_html/empresa/financeiro.php on line 234
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined index: ano in /home/cnpjn035/public_html/empresa/financeiro.php on line 235
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined index: id in /home/cnpjn035/public_html/empresa/financeiro.php on line 236
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined index: total in /home/cnpjn035/public_html/empresa/financeiro.php on line 238
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined index: id in /home/cnpjn035/public_html/empresa/financeiro.php on line 224
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined variable: estado in /home/cnpjn035/public_html/empresa/financeiro.php on line 225
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined variable: de in /home/cnpjn035/public_html/empresa/financeiro.php on line 226
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined variable: de in /home/cnpjn035/public_html/empresa/financeiro.php on line 227
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined variable: ate in /home/cnpjn035/public_html/empresa/financeiro.php on line 228
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined index: total in /home/cnpjn035/public_html/empresa/financeiro.php on line 232
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined index: mes in /home/cnpjn035/public_html/empresa/financeiro.php on line 234
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined index: ano in /home/cnpjn035/public_html/empresa/financeiro.php on line 235
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined index: id in /home/cnpjn035/public_html/empresa/financeiro.php on line 236
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined index: total in /home/cnpjn035/public_html/empresa/financeiro.php on line 238
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined index: id in /home/cnpjn035/public_html/empresa/financeiro.php on line 224
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined variable: estado in /home/cnpjn035/public_html/empresa/financeiro.php on line 225
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined variable: de in /home/cnpjn035/public_html/empresa/financeiro.php on line 226
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined variable: de in /home/cnpjn035/public_html/empresa/financeiro.php on line 227
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined variable: ate in /home/cnpjn035/public_html/empresa/financeiro.php on line 228
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined index: total in /home/cnpjn035/public_html/empresa/financeiro.php on line 232
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined index: mes in /home/cnpjn035/public_html/empresa/financeiro.php on line 234
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined index: ano in /home/cnpjn035/public_html/empresa/financeiro.php on line 235
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined index: id in /home/cnpjn035/public_html/empresa/financeiro.php on line 236
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined index: total in /home/cnpjn035/public_html/empresa/financeiro.php on line 238
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined index: id in /home/cnpjn035/public_html/empresa/financeiro.php on line 224
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined variable: estado in /home/cnpjn035/public_html/empresa/financeiro.php on line 225
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined variable: de in /home/cnpjn035/public_html/empresa/financeiro.php on line 226
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined variable: de in /home/cnpjn035/public_html/empresa/financeiro.php on line 227
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined variable: ate in /home/cnpjn035/public_html/empresa/financeiro.php on line 228
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined index: total in /home/cnpjn035/public_html/empresa/financeiro.php on line 232
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined index: mes in /home/cnpjn035/public_html/empresa/financeiro.php on line 234
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined index: ano in /home/cnpjn035/public_html/empresa/financeiro.php on line 235
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined index: id in /home/cnpjn035/public_html/empresa/financeiro.php on line 236
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined index: total in /home/cnpjn035/public_html/empresa/financeiro.php on line 238
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined index: id in /home/cnpjn035/public_html/empresa/financeiro.php on line 224
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined variable: estado in /home/cnpjn035/public_html/empresa/financeiro.php on line 225
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined variable: de in /home/cnpjn035/public_html/empresa/financeiro.php on line 226
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined variable: de in /home/cnpjn035/public_html/empresa/financeiro.php on line 227
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined variable: ate in /home/cnpjn035/public_html/empresa/financeiro.php on line 228
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined index: total in /home/cnpjn035/public_html/empresa/financeiro.php on line 232
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined index: mes in /home/cnpjn035/public_html/empresa/financeiro.php on line 234
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined index: ano in /home/cnpjn035/public_html/empresa/financeiro.php on line 235
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined index: id in /home/cnpjn035/public_html/empresa/financeiro.php on line 236
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined index: total in /home/cnpjn035/public_html/empresa/financeiro.php on line 238
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined index: id in /home/cnpjn035/public_html/empresa/financeiro.php on line 224
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined variable: estado in /home/cnpjn035/public_html/empresa/financeiro.php on line 225
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined variable: de in /home/cnpjn035/public_html/empresa/financeiro.php on line 226
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined variable: de in /home/cnpjn035/public_html/empresa/financeiro.php on line 227
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined variable: ate in /home/cnpjn035/public_html/empresa/financeiro.php on line 228
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined index: total in /home/cnpjn035/public_html/empresa/financeiro.php on line 232
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined index: mes in /home/cnpjn035/public_html/empresa/financeiro.php on line 234
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined index: ano in /home/cnpjn035/public_html/empresa/financeiro.php on line 235
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined index: id in /home/cnpjn035/public_html/empresa/financeiro.php on line 236
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined index: total in /home/cnpjn035/public_html/empresa/financeiro.php on line 238
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined index: id in /home/cnpjn035/public_html/empresa/financeiro.php on line 224
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined variable: estado in /home/cnpjn035/public_html/empresa/financeiro.php on line 225
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined variable: de in /home/cnpjn035/public_html/empresa/financeiro.php on line 226
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined variable: de in /home/cnpjn035/public_html/empresa/financeiro.php on line 227
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined variable: ate in /home/cnpjn035/public_html/empresa/financeiro.php on line 228
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined index: total in /home/cnpjn035/public_html/empresa/financeiro.php on line 232
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined index: mes in /home/cnpjn035/public_html/empresa/financeiro.php on line 234
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined index: ano in /home/cnpjn035/public_html/empresa/financeiro.php on line 235
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined index: id in /home/cnpjn035/public_html/empresa/financeiro.php on line 236
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined index: total in /home/cnpjn035/public_html/empresa/financeiro.php on line 238
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined index: id in /home/cnpjn035/public_html/empresa/financeiro.php on line 224
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined variable: estado in /home/cnpjn035/public_html/empresa/financeiro.php on line 225
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined variable: de in /home/cnpjn035/public_html/empresa/financeiro.php on line 226
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined variable: de in /home/cnpjn035/public_html/empresa/financeiro.php on line 227
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined variable: ate in /home/cnpjn035/public_html/empresa/financeiro.php on line 228
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined index: total in /home/cnpjn035/public_html/empresa/financeiro.php on line 232
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined index: mes in /home/cnpjn035/public_html/empresa/financeiro.php on line 234
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined index: ano in /home/cnpjn035/public_html/empresa/financeiro.php on line 235
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined index: id in /home/cnpjn035/public_html/empresa/financeiro.php on line 236
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined index: total in /home/cnpjn035/public_html/empresa/financeiro.php on line 238
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined index: id in /home/cnpjn035/public_html/empresa/financeiro.php on line 224
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined variable: estado in /home/cnpjn035/public_html/empresa/financeiro.php on line 225
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined variable: de in /home/cnpjn035/public_html/empresa/financeiro.php on line 226
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined variable: de in /home/cnpjn035/public_html/empresa/financeiro.php on line 227
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined variable: ate in /home/cnpjn035/public_html/empresa/financeiro.php on line 228
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined index: total in /home/cnpjn035/public_html/empresa/financeiro.php on line 232
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined index: mes in /home/cnpjn035/public_html/empresa/financeiro.php on line 234
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined index: ano in /home/cnpjn035/public_html/empresa/financeiro.php on line 235
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined index: id in /home/cnpjn035/public_html/empresa/financeiro.php on line 236
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined index: total in /home/cnpjn035/public_html/empresa/financeiro.php on line 238
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined index: id in /home/cnpjn035/public_html/empresa/financeiro.php on line 224
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined variable: estado in /home/cnpjn035/public_html/empresa/financeiro.php on line 225
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined variable: de in /home/cnpjn035/public_html/empresa/financeiro.php on line 226
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined variable: de in /home/cnpjn035/public_html/empresa/financeiro.php on line 227
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined variable: ate in /home/cnpjn035/public_html/empresa/financeiro.php on line 228
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined index: total in /home/cnpjn035/public_html/empresa/financeiro.php on line 232
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined index: mes in /home/cnpjn035/public_html/empresa/financeiro.php on line 234
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined index: ano in /home/cnpjn035/public_html/empresa/financeiro.php on line 235
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined index: id in /home/cnpjn035/public_html/empresa/financeiro.php on line 236
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined index: total in /home/cnpjn035/public_html/empresa/financeiro.php on line 238
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined index: id in /home/cnpjn035/public_html/empresa/financeiro.php on line 224
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined variable: estado in /home/cnpjn035/public_html/empresa/financeiro.php on line 225
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined variable: de in /home/cnpjn035/public_html/empresa/financeiro.php on line 226
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined variable: de in /home/cnpjn035/public_html/empresa/financeiro.php on line 227
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined variable: ate in /home/cnpjn035/public_html/empresa/financeiro.php on line 228
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined index: total in /home/cnpjn035/public_html/empresa/financeiro.php on line 232
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined index: mes in /home/cnpjn035/public_html/empresa/financeiro.php on line 234
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined index: ano in /home/cnpjn035/public_html/empresa/financeiro.php on line 235
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined index: id in /home/cnpjn035/public_html/empresa/financeiro.php on line 236
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined index: total in /home/cnpjn035/public_html/empresa/financeiro.php on line 238
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined index: id in /home/cnpjn035/public_html/empresa/financeiro.php on line 224
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined variable: estado in /home/cnpjn035/public_html/empresa/financeiro.php on line 225
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined variable: de in /home/cnpjn035/public_html/empresa/financeiro.php on line 226
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined variable: de in /home/cnpjn035/public_html/empresa/financeiro.php on line 227
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined variable: ate in /home/cnpjn035/public_html/empresa/financeiro.php on line 228
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined index: total in /home/cnpjn035/public_html/empresa/financeiro.php on line 232
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined index: mes in /home/cnpjn035/public_html/empresa/financeiro.php on line 234
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined index: ano in /home/cnpjn035/public_html/empresa/financeiro.php on line 235
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined index: id in /home/cnpjn035/public_html/empresa/financeiro.php on line 236
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined index: total in /home/cnpjn035/public_html/empresa/financeiro.php on line 238
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined index: id in /home/cnpjn035/public_html/empresa/financeiro.php on line 224
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined variable: estado in /home/cnpjn035/public_html/empresa/financeiro.php on line 225
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined variable: de in /home/cnpjn035/public_html/empresa/financeiro.php on line 226
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined variable: de in /home/cnpjn035/public_html/empresa/financeiro.php on line 227
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined variable: ate in /home/cnpjn035/public_html/empresa/financeiro.php on line 228
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined index: total in /home/cnpjn035/public_html/empresa/financeiro.php on line 232
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined index: mes in /home/cnpjn035/public_html/empresa/financeiro.php on line 234
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined index: ano in /home/cnpjn035/public_html/empresa/financeiro.php on line 235
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined index: id in /home/cnpjn035/public_html/empresa/financeiro.php on line 236
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined index: total in /home/cnpjn035/public_html/empresa/financeiro.php on line 238
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined index: id in /home/cnpjn035/public_html/empresa/financeiro.php on line 224
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined variable: estado in /home/cnpjn035/public_html/empresa/financeiro.php on line 225
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined variable: de in /home/cnpjn035/public_html/empresa/financeiro.php on line 226
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined variable: de in /home/cnpjn035/public_html/empresa/financeiro.php on line 227
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined variable: ate in /home/cnpjn035/public_html/empresa/financeiro.php on line 228
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined index: total in /home/cnpjn035/public_html/empresa/financeiro.php on line 232
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined index: mes in /home/cnpjn035/public_html/empresa/financeiro.php on line 234
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined index: ano in /home/cnpjn035/public_html/empresa/financeiro.php on line 235
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined index: id in /home/cnpjn035/public_html/empresa/financeiro.php on line 236
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined index: total in /home/cnpjn035/public_html/empresa/financeiro.php on line 238
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined index: id in /home/cnpjn035/public_html/empresa/financeiro.php on line 224
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined variable: estado in /home/cnpjn035/public_html/empresa/financeiro.php on line 225
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined variable: de in /home/cnpjn035/public_html/empresa/financeiro.php on line 226
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined variable: de in /home/cnpjn035/public_html/empresa/financeiro.php on line 227
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined variable: ate in /home/cnpjn035/public_html/empresa/financeiro.php on line 228
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined index: total in /home/cnpjn035/public_html/empresa/financeiro.php on line 232
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined index: mes in /home/cnpjn035/public_html/empresa/financeiro.php on line 234
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined index: ano in /home/cnpjn035/public_html/empresa/financeiro.php on line 235
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined index: id in /home/cnpjn035/public_html/empresa/financeiro.php on line 236
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined index: total in /home/cnpjn035/public_html/empresa/financeiro.php on line 238
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined index: id in /home/cnpjn035/public_html/empresa/financeiro.php on line 224
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined variable: estado in /home/cnpjn035/public_html/empresa/financeiro.php on line 225
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined variable: de in /home/cnpjn035/public_html/empresa/financeiro.php on line 226
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined variable: de in /home/cnpjn035/public_html/empresa/financeiro.php on line 227
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined variable: ate in /home/cnpjn035/public_html/empresa/financeiro.php on line 228
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined index: total in /home/cnpjn035/public_html/empresa/financeiro.php on line 232
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined index: mes in /home/cnpjn035/public_html/empresa/financeiro.php on line 234
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined index: ano in /home/cnpjn035/public_html/empresa/financeiro.php on line 235
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined index: id in /home/cnpjn035/public_html/empresa/financeiro.php on line 236
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined index: total in /home/cnpjn035/public_html/empresa/financeiro.php on line 238
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined index: id in /home/cnpjn035/public_html/empresa/financeiro.php on line 224
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined variable: estado in /home/cnpjn035/public_html/empresa/financeiro.php on line 225
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined variable: de in /home/cnpjn035/public_html/empresa/financeiro.php on line 226
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined variable: de in /home/cnpjn035/public_html/empresa/financeiro.php on line 227
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined variable: ate in /home/cnpjn035/public_html/empresa/financeiro.php on line 228
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined index: total in /home/cnpjn035/public_html/empresa/financeiro.php on line 232
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined index: mes in /home/cnpjn035/public_html/empresa/financeiro.php on line 234
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined index: ano in /home/cnpjn035/public_html/empresa/financeiro.php on line 235
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined index: id in /home/cnpjn035/public_html/empresa/financeiro.php on line 236
+[17-Dec-2017 12:13:32 America/Sao_Paulo] PHP Notice:  Undefined index: total in /home/cnpjn035/public_html/empresa/financeiro.php on line 238
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined offset: 12 in /home/cnpjn035/public_html/empresa/financeiro.php on line 107
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined offset: 12 in /home/cnpjn035/public_html/empresa/financeiro.php on line 107
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined offset: 55 in /home/cnpjn035/public_html/empresa/financeiro.php on line 107
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined offset: 55 in /home/cnpjn035/public_html/empresa/financeiro.php on line 107
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined offset: 33 in /home/cnpjn035/public_html/empresa/financeiro.php on line 107
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined offset: 33 in /home/cnpjn035/public_html/empresa/financeiro.php on line 107
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined offset: 60 in /home/cnpjn035/public_html/empresa/financeiro.php on line 107
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined offset: 60 in /home/cnpjn035/public_html/empresa/financeiro.php on line 107
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined offset: 32 in /home/cnpjn035/public_html/empresa/financeiro.php on line 107
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined offset: 32 in /home/cnpjn035/public_html/empresa/financeiro.php on line 107
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined offset: 53 in /home/cnpjn035/public_html/empresa/financeiro.php on line 107
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined offset: 53 in /home/cnpjn035/public_html/empresa/financeiro.php on line 107
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined offset: 57 in /home/cnpjn035/public_html/empresa/financeiro.php on line 107
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined offset: 57 in /home/cnpjn035/public_html/empresa/financeiro.php on line 107
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined offset: 65 in /home/cnpjn035/public_html/empresa/financeiro.php on line 107
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined offset: 65 in /home/cnpjn035/public_html/empresa/financeiro.php on line 107
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined offset: 66 in /home/cnpjn035/public_html/empresa/financeiro.php on line 107
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined offset: 66 in /home/cnpjn035/public_html/empresa/financeiro.php on line 107
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined offset: 61 in /home/cnpjn035/public_html/empresa/financeiro.php on line 107
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined offset: 61 in /home/cnpjn035/public_html/empresa/financeiro.php on line 107
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined offset: 48 in /home/cnpjn035/public_html/empresa/financeiro.php on line 107
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined offset: 48 in /home/cnpjn035/public_html/empresa/financeiro.php on line 107
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined offset: 54 in /home/cnpjn035/public_html/empresa/financeiro.php on line 107
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined offset: 54 in /home/cnpjn035/public_html/empresa/financeiro.php on line 107
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined offset: 41 in /home/cnpjn035/public_html/empresa/financeiro.php on line 107
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined offset: 41 in /home/cnpjn035/public_html/empresa/financeiro.php on line 107
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined offset: 37 in /home/cnpjn035/public_html/empresa/financeiro.php on line 107
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined offset: 37 in /home/cnpjn035/public_html/empresa/financeiro.php on line 107
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined offset: 44 in /home/cnpjn035/public_html/empresa/financeiro.php on line 107
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined offset: 44 in /home/cnpjn035/public_html/empresa/financeiro.php on line 107
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined offset: 36 in /home/cnpjn035/public_html/empresa/financeiro.php on line 107
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined offset: 36 in /home/cnpjn035/public_html/empresa/financeiro.php on line 107
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined offset: 30 in /home/cnpjn035/public_html/empresa/financeiro.php on line 107
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined offset: 30 in /home/cnpjn035/public_html/empresa/financeiro.php on line 107
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined offset: 35 in /home/cnpjn035/public_html/empresa/financeiro.php on line 107
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined offset: 35 in /home/cnpjn035/public_html/empresa/financeiro.php on line 107
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined offset: 34 in /home/cnpjn035/public_html/empresa/financeiro.php on line 107
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined offset: 34 in /home/cnpjn035/public_html/empresa/financeiro.php on line 107
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined offset: 63 in /home/cnpjn035/public_html/empresa/financeiro.php on line 107
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined offset: 63 in /home/cnpjn035/public_html/empresa/financeiro.php on line 107
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined offset: 62 in /home/cnpjn035/public_html/empresa/financeiro.php on line 107
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined offset: 62 in /home/cnpjn035/public_html/empresa/financeiro.php on line 107
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined offset: 42 in /home/cnpjn035/public_html/empresa/financeiro.php on line 107
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined offset: 42 in /home/cnpjn035/public_html/empresa/financeiro.php on line 107
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined offset: 64 in /home/cnpjn035/public_html/empresa/financeiro.php on line 107
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined offset: 64 in /home/cnpjn035/public_html/empresa/financeiro.php on line 107
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined offset: 67 in /home/cnpjn035/public_html/empresa/financeiro.php on line 107
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined offset: 67 in /home/cnpjn035/public_html/empresa/financeiro.php on line 107
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined offset: 43 in /home/cnpjn035/public_html/empresa/financeiro.php on line 107
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined offset: 43 in /home/cnpjn035/public_html/empresa/financeiro.php on line 107
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined offset: 69 in /home/cnpjn035/public_html/empresa/financeiro.php on line 107
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined offset: 69 in /home/cnpjn035/public_html/empresa/financeiro.php on line 107
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined offset: 68 in /home/cnpjn035/public_html/empresa/financeiro.php on line 107
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined offset: 68 in /home/cnpjn035/public_html/empresa/financeiro.php on line 107
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined offset: 50 in /home/cnpjn035/public_html/empresa/financeiro.php on line 107
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined offset: 50 in /home/cnpjn035/public_html/empresa/financeiro.php on line 107
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined offset: 56 in /home/cnpjn035/public_html/empresa/financeiro.php on line 107
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined offset: 56 in /home/cnpjn035/public_html/empresa/financeiro.php on line 107
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined variable: estado in /home/cnpjn035/public_html/empresa/financeiro.php on line 227
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined variable: de in /home/cnpjn035/public_html/empresa/financeiro.php on line 228
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined variable: de in /home/cnpjn035/public_html/empresa/financeiro.php on line 229
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined variable: ate in /home/cnpjn035/public_html/empresa/financeiro.php on line 230
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined index: total in /home/cnpjn035/public_html/empresa/financeiro.php on line 234
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined index: total in /home/cnpjn035/public_html/empresa/financeiro.php on line 240
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined variable: estado in /home/cnpjn035/public_html/empresa/financeiro.php on line 227
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined variable: de in /home/cnpjn035/public_html/empresa/financeiro.php on line 228
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined variable: de in /home/cnpjn035/public_html/empresa/financeiro.php on line 229
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined variable: ate in /home/cnpjn035/public_html/empresa/financeiro.php on line 230
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined index: total in /home/cnpjn035/public_html/empresa/financeiro.php on line 234
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined index: total in /home/cnpjn035/public_html/empresa/financeiro.php on line 240
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined variable: estado in /home/cnpjn035/public_html/empresa/financeiro.php on line 227
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined variable: de in /home/cnpjn035/public_html/empresa/financeiro.php on line 228
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined variable: de in /home/cnpjn035/public_html/empresa/financeiro.php on line 229
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined variable: ate in /home/cnpjn035/public_html/empresa/financeiro.php on line 230
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined index: total in /home/cnpjn035/public_html/empresa/financeiro.php on line 234
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined index: total in /home/cnpjn035/public_html/empresa/financeiro.php on line 240
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined index: id in /home/cnpjn035/public_html/empresa/financeiro.php on line 226
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined variable: estado in /home/cnpjn035/public_html/empresa/financeiro.php on line 227
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined variable: de in /home/cnpjn035/public_html/empresa/financeiro.php on line 228
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined variable: de in /home/cnpjn035/public_html/empresa/financeiro.php on line 229
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined variable: ate in /home/cnpjn035/public_html/empresa/financeiro.php on line 230
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined index: total in /home/cnpjn035/public_html/empresa/financeiro.php on line 234
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined index: mes in /home/cnpjn035/public_html/empresa/financeiro.php on line 236
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined index: ano in /home/cnpjn035/public_html/empresa/financeiro.php on line 237
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined index: id in /home/cnpjn035/public_html/empresa/financeiro.php on line 238
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined index: total in /home/cnpjn035/public_html/empresa/financeiro.php on line 240
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined index: id in /home/cnpjn035/public_html/empresa/financeiro.php on line 226
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined variable: estado in /home/cnpjn035/public_html/empresa/financeiro.php on line 227
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined variable: de in /home/cnpjn035/public_html/empresa/financeiro.php on line 228
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined variable: de in /home/cnpjn035/public_html/empresa/financeiro.php on line 229
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined variable: ate in /home/cnpjn035/public_html/empresa/financeiro.php on line 230
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined index: total in /home/cnpjn035/public_html/empresa/financeiro.php on line 234
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined index: mes in /home/cnpjn035/public_html/empresa/financeiro.php on line 236
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined index: ano in /home/cnpjn035/public_html/empresa/financeiro.php on line 237
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined index: id in /home/cnpjn035/public_html/empresa/financeiro.php on line 238
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined index: total in /home/cnpjn035/public_html/empresa/financeiro.php on line 240
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined index: id in /home/cnpjn035/public_html/empresa/financeiro.php on line 226
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined variable: estado in /home/cnpjn035/public_html/empresa/financeiro.php on line 227
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined variable: de in /home/cnpjn035/public_html/empresa/financeiro.php on line 228
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined variable: de in /home/cnpjn035/public_html/empresa/financeiro.php on line 229
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined variable: ate in /home/cnpjn035/public_html/empresa/financeiro.php on line 230
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined index: total in /home/cnpjn035/public_html/empresa/financeiro.php on line 234
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined index: mes in /home/cnpjn035/public_html/empresa/financeiro.php on line 236
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined index: ano in /home/cnpjn035/public_html/empresa/financeiro.php on line 237
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined index: id in /home/cnpjn035/public_html/empresa/financeiro.php on line 238
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined index: total in /home/cnpjn035/public_html/empresa/financeiro.php on line 240
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined index: id in /home/cnpjn035/public_html/empresa/financeiro.php on line 226
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined variable: estado in /home/cnpjn035/public_html/empresa/financeiro.php on line 227
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined variable: de in /home/cnpjn035/public_html/empresa/financeiro.php on line 228
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined variable: de in /home/cnpjn035/public_html/empresa/financeiro.php on line 229
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined variable: ate in /home/cnpjn035/public_html/empresa/financeiro.php on line 230
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined index: total in /home/cnpjn035/public_html/empresa/financeiro.php on line 234
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined index: mes in /home/cnpjn035/public_html/empresa/financeiro.php on line 236
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined index: ano in /home/cnpjn035/public_html/empresa/financeiro.php on line 237
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined index: id in /home/cnpjn035/public_html/empresa/financeiro.php on line 238
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined index: total in /home/cnpjn035/public_html/empresa/financeiro.php on line 240
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined index: id in /home/cnpjn035/public_html/empresa/financeiro.php on line 226
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined variable: estado in /home/cnpjn035/public_html/empresa/financeiro.php on line 227
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined variable: de in /home/cnpjn035/public_html/empresa/financeiro.php on line 228
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined variable: de in /home/cnpjn035/public_html/empresa/financeiro.php on line 229
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined variable: ate in /home/cnpjn035/public_html/empresa/financeiro.php on line 230
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined index: total in /home/cnpjn035/public_html/empresa/financeiro.php on line 234
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined index: mes in /home/cnpjn035/public_html/empresa/financeiro.php on line 236
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined index: ano in /home/cnpjn035/public_html/empresa/financeiro.php on line 237
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined index: id in /home/cnpjn035/public_html/empresa/financeiro.php on line 238
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined index: total in /home/cnpjn035/public_html/empresa/financeiro.php on line 240
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined index: id in /home/cnpjn035/public_html/empresa/financeiro.php on line 226
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined variable: estado in /home/cnpjn035/public_html/empresa/financeiro.php on line 227
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined variable: de in /home/cnpjn035/public_html/empresa/financeiro.php on line 228
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined variable: de in /home/cnpjn035/public_html/empresa/financeiro.php on line 229
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined variable: ate in /home/cnpjn035/public_html/empresa/financeiro.php on line 230
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined index: total in /home/cnpjn035/public_html/empresa/financeiro.php on line 234
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined index: mes in /home/cnpjn035/public_html/empresa/financeiro.php on line 236
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined index: ano in /home/cnpjn035/public_html/empresa/financeiro.php on line 237
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined index: id in /home/cnpjn035/public_html/empresa/financeiro.php on line 238
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined index: total in /home/cnpjn035/public_html/empresa/financeiro.php on line 240
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined index: id in /home/cnpjn035/public_html/empresa/financeiro.php on line 226
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined variable: estado in /home/cnpjn035/public_html/empresa/financeiro.php on line 227
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined variable: de in /home/cnpjn035/public_html/empresa/financeiro.php on line 228
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined variable: de in /home/cnpjn035/public_html/empresa/financeiro.php on line 229
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined variable: ate in /home/cnpjn035/public_html/empresa/financeiro.php on line 230
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined index: total in /home/cnpjn035/public_html/empresa/financeiro.php on line 234
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined index: mes in /home/cnpjn035/public_html/empresa/financeiro.php on line 236
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined index: ano in /home/cnpjn035/public_html/empresa/financeiro.php on line 237
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined index: id in /home/cnpjn035/public_html/empresa/financeiro.php on line 238
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined index: total in /home/cnpjn035/public_html/empresa/financeiro.php on line 240
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined index: id in /home/cnpjn035/public_html/empresa/financeiro.php on line 226
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined variable: estado in /home/cnpjn035/public_html/empresa/financeiro.php on line 227
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined variable: de in /home/cnpjn035/public_html/empresa/financeiro.php on line 228
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined variable: de in /home/cnpjn035/public_html/empresa/financeiro.php on line 229
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined variable: ate in /home/cnpjn035/public_html/empresa/financeiro.php on line 230
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined index: total in /home/cnpjn035/public_html/empresa/financeiro.php on line 234
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined index: mes in /home/cnpjn035/public_html/empresa/financeiro.php on line 236
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined index: ano in /home/cnpjn035/public_html/empresa/financeiro.php on line 237
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined index: id in /home/cnpjn035/public_html/empresa/financeiro.php on line 238
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined index: total in /home/cnpjn035/public_html/empresa/financeiro.php on line 240
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined index: id in /home/cnpjn035/public_html/empresa/financeiro.php on line 226
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined variable: estado in /home/cnpjn035/public_html/empresa/financeiro.php on line 227
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined variable: de in /home/cnpjn035/public_html/empresa/financeiro.php on line 228
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined variable: de in /home/cnpjn035/public_html/empresa/financeiro.php on line 229
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined variable: ate in /home/cnpjn035/public_html/empresa/financeiro.php on line 230
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined index: total in /home/cnpjn035/public_html/empresa/financeiro.php on line 234
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined index: mes in /home/cnpjn035/public_html/empresa/financeiro.php on line 236
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined index: ano in /home/cnpjn035/public_html/empresa/financeiro.php on line 237
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined index: id in /home/cnpjn035/public_html/empresa/financeiro.php on line 238
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined index: total in /home/cnpjn035/public_html/empresa/financeiro.php on line 240
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined index: id in /home/cnpjn035/public_html/empresa/financeiro.php on line 226
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined variable: estado in /home/cnpjn035/public_html/empresa/financeiro.php on line 227
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined variable: de in /home/cnpjn035/public_html/empresa/financeiro.php on line 228
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined variable: de in /home/cnpjn035/public_html/empresa/financeiro.php on line 229
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined variable: ate in /home/cnpjn035/public_html/empresa/financeiro.php on line 230
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined index: total in /home/cnpjn035/public_html/empresa/financeiro.php on line 234
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined index: mes in /home/cnpjn035/public_html/empresa/financeiro.php on line 236
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined index: ano in /home/cnpjn035/public_html/empresa/financeiro.php on line 237
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined index: id in /home/cnpjn035/public_html/empresa/financeiro.php on line 238
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined index: total in /home/cnpjn035/public_html/empresa/financeiro.php on line 240
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined index: id in /home/cnpjn035/public_html/empresa/financeiro.php on line 226
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined variable: estado in /home/cnpjn035/public_html/empresa/financeiro.php on line 227
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined variable: de in /home/cnpjn035/public_html/empresa/financeiro.php on line 228
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined variable: de in /home/cnpjn035/public_html/empresa/financeiro.php on line 229
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined variable: ate in /home/cnpjn035/public_html/empresa/financeiro.php on line 230
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined index: total in /home/cnpjn035/public_html/empresa/financeiro.php on line 234
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined index: mes in /home/cnpjn035/public_html/empresa/financeiro.php on line 236
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined index: ano in /home/cnpjn035/public_html/empresa/financeiro.php on line 237
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined index: id in /home/cnpjn035/public_html/empresa/financeiro.php on line 238
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined index: total in /home/cnpjn035/public_html/empresa/financeiro.php on line 240
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined index: id in /home/cnpjn035/public_html/empresa/financeiro.php on line 226
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined variable: estado in /home/cnpjn035/public_html/empresa/financeiro.php on line 227
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined variable: de in /home/cnpjn035/public_html/empresa/financeiro.php on line 228
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined variable: de in /home/cnpjn035/public_html/empresa/financeiro.php on line 229
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined variable: ate in /home/cnpjn035/public_html/empresa/financeiro.php on line 230
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined index: total in /home/cnpjn035/public_html/empresa/financeiro.php on line 234
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined index: mes in /home/cnpjn035/public_html/empresa/financeiro.php on line 236
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined index: ano in /home/cnpjn035/public_html/empresa/financeiro.php on line 237
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined index: id in /home/cnpjn035/public_html/empresa/financeiro.php on line 238
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined index: total in /home/cnpjn035/public_html/empresa/financeiro.php on line 240
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined index: id in /home/cnpjn035/public_html/empresa/financeiro.php on line 226
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined variable: estado in /home/cnpjn035/public_html/empresa/financeiro.php on line 227
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined variable: de in /home/cnpjn035/public_html/empresa/financeiro.php on line 228
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined variable: de in /home/cnpjn035/public_html/empresa/financeiro.php on line 229
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined variable: ate in /home/cnpjn035/public_html/empresa/financeiro.php on line 230
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined index: total in /home/cnpjn035/public_html/empresa/financeiro.php on line 234
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined index: mes in /home/cnpjn035/public_html/empresa/financeiro.php on line 236
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined index: ano in /home/cnpjn035/public_html/empresa/financeiro.php on line 237
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined index: id in /home/cnpjn035/public_html/empresa/financeiro.php on line 238
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined index: total in /home/cnpjn035/public_html/empresa/financeiro.php on line 240
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined index: id in /home/cnpjn035/public_html/empresa/financeiro.php on line 226
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined variable: estado in /home/cnpjn035/public_html/empresa/financeiro.php on line 227
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined variable: de in /home/cnpjn035/public_html/empresa/financeiro.php on line 228
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined variable: de in /home/cnpjn035/public_html/empresa/financeiro.php on line 229
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined variable: ate in /home/cnpjn035/public_html/empresa/financeiro.php on line 230
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined index: total in /home/cnpjn035/public_html/empresa/financeiro.php on line 234
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined index: mes in /home/cnpjn035/public_html/empresa/financeiro.php on line 236
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined index: ano in /home/cnpjn035/public_html/empresa/financeiro.php on line 237
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined index: id in /home/cnpjn035/public_html/empresa/financeiro.php on line 238
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined index: total in /home/cnpjn035/public_html/empresa/financeiro.php on line 240
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined index: id in /home/cnpjn035/public_html/empresa/financeiro.php on line 226
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined variable: estado in /home/cnpjn035/public_html/empresa/financeiro.php on line 227
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined variable: de in /home/cnpjn035/public_html/empresa/financeiro.php on line 228
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined variable: de in /home/cnpjn035/public_html/empresa/financeiro.php on line 229
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined variable: ate in /home/cnpjn035/public_html/empresa/financeiro.php on line 230
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined index: total in /home/cnpjn035/public_html/empresa/financeiro.php on line 234
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined index: mes in /home/cnpjn035/public_html/empresa/financeiro.php on line 236
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined index: ano in /home/cnpjn035/public_html/empresa/financeiro.php on line 237
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined index: id in /home/cnpjn035/public_html/empresa/financeiro.php on line 238
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined index: total in /home/cnpjn035/public_html/empresa/financeiro.php on line 240
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined index: id in /home/cnpjn035/public_html/empresa/financeiro.php on line 226
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined variable: estado in /home/cnpjn035/public_html/empresa/financeiro.php on line 227
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined variable: de in /home/cnpjn035/public_html/empresa/financeiro.php on line 228
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined variable: de in /home/cnpjn035/public_html/empresa/financeiro.php on line 229
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined variable: ate in /home/cnpjn035/public_html/empresa/financeiro.php on line 230
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined index: total in /home/cnpjn035/public_html/empresa/financeiro.php on line 234
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined index: mes in /home/cnpjn035/public_html/empresa/financeiro.php on line 236
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined index: ano in /home/cnpjn035/public_html/empresa/financeiro.php on line 237
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined index: id in /home/cnpjn035/public_html/empresa/financeiro.php on line 238
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined index: total in /home/cnpjn035/public_html/empresa/financeiro.php on line 240
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined index: id in /home/cnpjn035/public_html/empresa/financeiro.php on line 226
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined variable: estado in /home/cnpjn035/public_html/empresa/financeiro.php on line 227
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined variable: de in /home/cnpjn035/public_html/empresa/financeiro.php on line 228
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined variable: de in /home/cnpjn035/public_html/empresa/financeiro.php on line 229
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined variable: ate in /home/cnpjn035/public_html/empresa/financeiro.php on line 230
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined index: total in /home/cnpjn035/public_html/empresa/financeiro.php on line 234
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined index: mes in /home/cnpjn035/public_html/empresa/financeiro.php on line 236
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined index: ano in /home/cnpjn035/public_html/empresa/financeiro.php on line 237
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined index: id in /home/cnpjn035/public_html/empresa/financeiro.php on line 238
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined index: total in /home/cnpjn035/public_html/empresa/financeiro.php on line 240
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined index: id in /home/cnpjn035/public_html/empresa/financeiro.php on line 226
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined variable: estado in /home/cnpjn035/public_html/empresa/financeiro.php on line 227
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined variable: de in /home/cnpjn035/public_html/empresa/financeiro.php on line 228
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined variable: de in /home/cnpjn035/public_html/empresa/financeiro.php on line 229
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined variable: ate in /home/cnpjn035/public_html/empresa/financeiro.php on line 230
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined index: total in /home/cnpjn035/public_html/empresa/financeiro.php on line 234
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined index: mes in /home/cnpjn035/public_html/empresa/financeiro.php on line 236
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined index: ano in /home/cnpjn035/public_html/empresa/financeiro.php on line 237
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined index: id in /home/cnpjn035/public_html/empresa/financeiro.php on line 238
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined index: total in /home/cnpjn035/public_html/empresa/financeiro.php on line 240
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined index: id in /home/cnpjn035/public_html/empresa/financeiro.php on line 226
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined variable: estado in /home/cnpjn035/public_html/empresa/financeiro.php on line 227
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined variable: de in /home/cnpjn035/public_html/empresa/financeiro.php on line 228
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined variable: de in /home/cnpjn035/public_html/empresa/financeiro.php on line 229
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined variable: ate in /home/cnpjn035/public_html/empresa/financeiro.php on line 230
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined index: total in /home/cnpjn035/public_html/empresa/financeiro.php on line 234
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined index: mes in /home/cnpjn035/public_html/empresa/financeiro.php on line 236
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined index: ano in /home/cnpjn035/public_html/empresa/financeiro.php on line 237
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined index: id in /home/cnpjn035/public_html/empresa/financeiro.php on line 238
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined index: total in /home/cnpjn035/public_html/empresa/financeiro.php on line 240
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined index: id in /home/cnpjn035/public_html/empresa/financeiro.php on line 226
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined variable: estado in /home/cnpjn035/public_html/empresa/financeiro.php on line 227
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined variable: de in /home/cnpjn035/public_html/empresa/financeiro.php on line 228
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined variable: de in /home/cnpjn035/public_html/empresa/financeiro.php on line 229
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined variable: ate in /home/cnpjn035/public_html/empresa/financeiro.php on line 230
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined index: total in /home/cnpjn035/public_html/empresa/financeiro.php on line 234
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined index: mes in /home/cnpjn035/public_html/empresa/financeiro.php on line 236
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined index: ano in /home/cnpjn035/public_html/empresa/financeiro.php on line 237
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined index: id in /home/cnpjn035/public_html/empresa/financeiro.php on line 238
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined index: total in /home/cnpjn035/public_html/empresa/financeiro.php on line 240
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined index: id in /home/cnpjn035/public_html/empresa/financeiro.php on line 226
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined variable: estado in /home/cnpjn035/public_html/empresa/financeiro.php on line 227
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined variable: de in /home/cnpjn035/public_html/empresa/financeiro.php on line 228
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined variable: de in /home/cnpjn035/public_html/empresa/financeiro.php on line 229
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined variable: ate in /home/cnpjn035/public_html/empresa/financeiro.php on line 230
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined index: total in /home/cnpjn035/public_html/empresa/financeiro.php on line 234
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined index: mes in /home/cnpjn035/public_html/empresa/financeiro.php on line 236
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined index: ano in /home/cnpjn035/public_html/empresa/financeiro.php on line 237
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined index: id in /home/cnpjn035/public_html/empresa/financeiro.php on line 238
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined index: total in /home/cnpjn035/public_html/empresa/financeiro.php on line 240
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined index: id in /home/cnpjn035/public_html/empresa/financeiro.php on line 226
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined variable: estado in /home/cnpjn035/public_html/empresa/financeiro.php on line 227
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined variable: de in /home/cnpjn035/public_html/empresa/financeiro.php on line 228
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined variable: de in /home/cnpjn035/public_html/empresa/financeiro.php on line 229
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined variable: ate in /home/cnpjn035/public_html/empresa/financeiro.php on line 230
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined index: total in /home/cnpjn035/public_html/empresa/financeiro.php on line 234
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined index: mes in /home/cnpjn035/public_html/empresa/financeiro.php on line 236
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined index: ano in /home/cnpjn035/public_html/empresa/financeiro.php on line 237
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined index: id in /home/cnpjn035/public_html/empresa/financeiro.php on line 238
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined index: total in /home/cnpjn035/public_html/empresa/financeiro.php on line 240
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined index: id in /home/cnpjn035/public_html/empresa/financeiro.php on line 226
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined variable: estado in /home/cnpjn035/public_html/empresa/financeiro.php on line 227
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined variable: de in /home/cnpjn035/public_html/empresa/financeiro.php on line 228
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined variable: de in /home/cnpjn035/public_html/empresa/financeiro.php on line 229
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined variable: ate in /home/cnpjn035/public_html/empresa/financeiro.php on line 230
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined index: total in /home/cnpjn035/public_html/empresa/financeiro.php on line 234
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined index: mes in /home/cnpjn035/public_html/empresa/financeiro.php on line 236
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined index: ano in /home/cnpjn035/public_html/empresa/financeiro.php on line 237
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined index: id in /home/cnpjn035/public_html/empresa/financeiro.php on line 238
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined index: total in /home/cnpjn035/public_html/empresa/financeiro.php on line 240
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined index: id in /home/cnpjn035/public_html/empresa/financeiro.php on line 226
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined variable: estado in /home/cnpjn035/public_html/empresa/financeiro.php on line 227
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined variable: de in /home/cnpjn035/public_html/empresa/financeiro.php on line 228
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined variable: de in /home/cnpjn035/public_html/empresa/financeiro.php on line 229
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined variable: ate in /home/cnpjn035/public_html/empresa/financeiro.php on line 230
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined index: total in /home/cnpjn035/public_html/empresa/financeiro.php on line 234
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined index: mes in /home/cnpjn035/public_html/empresa/financeiro.php on line 236
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined index: ano in /home/cnpjn035/public_html/empresa/financeiro.php on line 237
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined index: id in /home/cnpjn035/public_html/empresa/financeiro.php on line 238
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined index: total in /home/cnpjn035/public_html/empresa/financeiro.php on line 240
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined index: id in /home/cnpjn035/public_html/empresa/financeiro.php on line 226
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined variable: estado in /home/cnpjn035/public_html/empresa/financeiro.php on line 227
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined variable: de in /home/cnpjn035/public_html/empresa/financeiro.php on line 228
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined variable: de in /home/cnpjn035/public_html/empresa/financeiro.php on line 229
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined variable: ate in /home/cnpjn035/public_html/empresa/financeiro.php on line 230
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined index: total in /home/cnpjn035/public_html/empresa/financeiro.php on line 234
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined index: mes in /home/cnpjn035/public_html/empresa/financeiro.php on line 236
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined index: ano in /home/cnpjn035/public_html/empresa/financeiro.php on line 237
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined index: id in /home/cnpjn035/public_html/empresa/financeiro.php on line 238
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined index: total in /home/cnpjn035/public_html/empresa/financeiro.php on line 240
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined index: id in /home/cnpjn035/public_html/empresa/financeiro.php on line 226
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined variable: estado in /home/cnpjn035/public_html/empresa/financeiro.php on line 227
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined variable: de in /home/cnpjn035/public_html/empresa/financeiro.php on line 228
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined variable: de in /home/cnpjn035/public_html/empresa/financeiro.php on line 229
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined variable: ate in /home/cnpjn035/public_html/empresa/financeiro.php on line 230
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined index: total in /home/cnpjn035/public_html/empresa/financeiro.php on line 234
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined index: mes in /home/cnpjn035/public_html/empresa/financeiro.php on line 236
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined index: ano in /home/cnpjn035/public_html/empresa/financeiro.php on line 237
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined index: id in /home/cnpjn035/public_html/empresa/financeiro.php on line 238
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined index: total in /home/cnpjn035/public_html/empresa/financeiro.php on line 240
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined index: id in /home/cnpjn035/public_html/empresa/financeiro.php on line 226
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined variable: estado in /home/cnpjn035/public_html/empresa/financeiro.php on line 227
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined variable: de in /home/cnpjn035/public_html/empresa/financeiro.php on line 228
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined variable: de in /home/cnpjn035/public_html/empresa/financeiro.php on line 229
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined variable: ate in /home/cnpjn035/public_html/empresa/financeiro.php on line 230
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined index: total in /home/cnpjn035/public_html/empresa/financeiro.php on line 234
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined index: mes in /home/cnpjn035/public_html/empresa/financeiro.php on line 236
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined index: ano in /home/cnpjn035/public_html/empresa/financeiro.php on line 237
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined index: id in /home/cnpjn035/public_html/empresa/financeiro.php on line 238
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined index: total in /home/cnpjn035/public_html/empresa/financeiro.php on line 240
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined index: id in /home/cnpjn035/public_html/empresa/financeiro.php on line 226
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined variable: estado in /home/cnpjn035/public_html/empresa/financeiro.php on line 227
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined variable: de in /home/cnpjn035/public_html/empresa/financeiro.php on line 228
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined variable: de in /home/cnpjn035/public_html/empresa/financeiro.php on line 229
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined variable: ate in /home/cnpjn035/public_html/empresa/financeiro.php on line 230
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined index: total in /home/cnpjn035/public_html/empresa/financeiro.php on line 234
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined index: mes in /home/cnpjn035/public_html/empresa/financeiro.php on line 236
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined index: ano in /home/cnpjn035/public_html/empresa/financeiro.php on line 237
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined index: id in /home/cnpjn035/public_html/empresa/financeiro.php on line 238
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined index: total in /home/cnpjn035/public_html/empresa/financeiro.php on line 240
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined index: id in /home/cnpjn035/public_html/empresa/financeiro.php on line 226
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined variable: estado in /home/cnpjn035/public_html/empresa/financeiro.php on line 227
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined variable: de in /home/cnpjn035/public_html/empresa/financeiro.php on line 228
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined variable: de in /home/cnpjn035/public_html/empresa/financeiro.php on line 229
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined variable: ate in /home/cnpjn035/public_html/empresa/financeiro.php on line 230
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined index: total in /home/cnpjn035/public_html/empresa/financeiro.php on line 234
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined index: mes in /home/cnpjn035/public_html/empresa/financeiro.php on line 236
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined index: ano in /home/cnpjn035/public_html/empresa/financeiro.php on line 237
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined index: id in /home/cnpjn035/public_html/empresa/financeiro.php on line 238
+[17-Dec-2017 12:16:08 America/Sao_Paulo] PHP Notice:  Undefined index: total in /home/cnpjn035/public_html/empresa/financeiro.php on line 240
+[17-Dec-2017 12:17:25 America/Sao_Paulo] PHP Notice:  Undefined offset: 12 in /home/cnpjn035/public_html/empresa/financeiro.php on line 108
+[17-Dec-2017 12:17:25 America/Sao_Paulo] PHP Notice:  Undefined offset: 12 in /home/cnpjn035/public_html/empresa/financeiro.php on line 108
+[17-Dec-2017 12:17:25 America/Sao_Paulo] PHP Notice:  Undefined variable: estado in /home/cnpjn035/public_html/empresa/financeiro.php on line 228
+[17-Dec-2017 12:17:25 America/Sao_Paulo] PHP Notice:  Undefined variable: de in /home/cnpjn035/public_html/empresa/financeiro.php on line 229
+[17-Dec-2017 12:17:25 America/Sao_Paulo] PHP Notice:  Undefined variable: de in /home/cnpjn035/public_html/empresa/financeiro.php on line 230
+[17-Dec-2017 12:17:25 America/Sao_Paulo] PHP Notice:  Undefined variable: ate in /home/cnpjn035/public_html/empresa/financeiro.php on line 231
+[17-Dec-2017 12:17:25 America/Sao_Paulo] PHP Notice:  Undefined index: total in /home/cnpjn035/public_html/empresa/financeiro.php on line 235
+[17-Dec-2017 12:17:25 America/Sao_Paulo] PHP Notice:  Undefined index: total in /home/cnpjn035/public_html/empresa/financeiro.php on line 241
+[17-Dec-2017 12:17:25 America/Sao_Paulo] PHP Notice:  Undefined variable: estado in /home/cnpjn035/public_html/empresa/financeiro.php on line 228
+[17-Dec-2017 12:17:25 America/Sao_Paulo] PHP Notice:  Undefined variable: de in /home/cnpjn035/public_html/empresa/financeiro.php on line 229
+[17-Dec-2017 12:17:25 America/Sao_Paulo] PHP Notice:  Undefined variable: de in /home/cnpjn035/public_html/empresa/financeiro.php on line 230
+[17-Dec-2017 12:17:25 America/Sao_Paulo] PHP Notice:  Undefined variable: ate in /home/cnpjn035/public_html/empresa/financeiro.php on line 231
+[17-Dec-2017 12:17:25 America/Sao_Paulo] PHP Notice:  Undefined index: total in /home/cnpjn035/public_html/empresa/financeiro.php on line 235
+[17-Dec-2017 12:17:25 America/Sao_Paulo] PHP Notice:  Undefined index: total in /home/cnpjn035/public_html/empresa/financeiro.php on line 241
+[17-Dec-2017 12:17:25 America/Sao_Paulo] PHP Notice:  Undefined variable: estado in /home/cnpjn035/public_html/empresa/financeiro.php on line 228
+[17-Dec-2017 12:17:25 America/Sao_Paulo] PHP Notice:  Undefined variable: de in /home/cnpjn035/public_html/empresa/financeiro.php on line 229
+[17-Dec-2017 12:17:25 America/Sao_Paulo] PHP Notice:  Undefined variable: de in /home/cnpjn035/public_html/empresa/financeiro.php on line 230
+[17-Dec-2017 12:17:25 America/Sao_Paulo] PHP Notice:  Undefined variable: ate in /home/cnpjn035/public_html/empresa/financeiro.php on line 231
+[17-Dec-2017 12:17:25 America/Sao_Paulo] PHP Notice:  Undefined index: total in /home/cnpjn035/public_html/empresa/financeiro.php on line 235
+[17-Dec-2017 12:17:25 America/Sao_Paulo] PHP Notice:  Undefined index: total in /home/cnpjn035/public_html/empresa/financeiro.php on line 241
+[17-Dec-2017 12:17:25 America/Sao_Paulo] PHP Notice:  Undefined index: id in /home/cnpjn035/public_html/empresa/financeiro.php on line 227
+[17-Dec-2017 12:17:25 America/Sao_Paulo] PHP Notice:  Undefined variable: estado in /home/cnpjn035/public_html/empresa/financeiro.php on line 228
+[17-Dec-2017 12:17:25 America/Sao_Paulo] PHP Notice:  Undefined variable: de in /home/cnpjn035/public_html/empresa/financeiro.php on line 229
+[17-Dec-2017 12:17:25 America/Sao_Paulo] PHP Notice:  Undefined variable: de in /home/cnpjn035/public_html/empresa/financeiro.php on line 230
+[17-Dec-2017 12:17:25 America/Sao_Paulo] PHP Notice:  Undefined variable: ate in /home/cnpjn035/public_html/empresa/financeiro.php on line 231
+[17-Dec-2017 12:17:25 America/Sao_Paulo] PHP Notice:  Undefined index: total in /home/cnpjn035/public_html/empresa/financeiro.php on line 235
+[17-Dec-2017 12:17:25 America/Sao_Paulo] PHP Notice:  Undefined index: mes in /home/cnpjn035/public_html/empresa/financeiro.php on line 237
+[17-Dec-2017 12:17:25 America/Sao_Paulo] PHP Notice:  Undefined index: ano in /home/cnpjn035/public_html/empresa/financeiro.php on line 238
+[17-Dec-2017 12:17:25 America/Sao_Paulo] PHP Notice:  Undefined index: id in /home/cnpjn035/public_html/empresa/financeiro.php on line 239
+[17-Dec-2017 12:17:25 America/Sao_Paulo] PHP Notice:  Undefined index: total in /home/cnpjn035/public_html/empresa/financeiro.php on line 241
+[17-Dec-2017 12:18:33 America/Sao_Paulo] PHP Notice:  Undefined offset: 12 in /home/cnpjn035/public_html/empresa/financeiro.php on line 108
+[17-Dec-2017 12:18:33 America/Sao_Paulo] PHP Notice:  Undefined offset: 12 in /home/cnpjn035/public_html/empresa/financeiro.php on line 108
+[17-Dec-2017 12:18:33 America/Sao_Paulo] PHP Notice:  Undefined variable: estado in /home/cnpjn035/public_html/empresa/financeiro.php on line 228
+[17-Dec-2017 12:18:33 America/Sao_Paulo] PHP Notice:  Undefined variable: de in /home/cnpjn035/public_html/empresa/financeiro.php on line 229
+[17-Dec-2017 12:18:33 America/Sao_Paulo] PHP Notice:  Undefined variable: de in /home/cnpjn035/public_html/empresa/financeiro.php on line 230
+[17-Dec-2017 12:18:33 America/Sao_Paulo] PHP Notice:  Undefined variable: ate in /home/cnpjn035/public_html/empresa/financeiro.php on line 231
+[17-Dec-2017 12:18:33 America/Sao_Paulo] PHP Notice:  Undefined index: total in /home/cnpjn035/public_html/empresa/financeiro.php on line 235
+[17-Dec-2017 12:18:33 America/Sao_Paulo] PHP Notice:  Undefined index: total in /home/cnpjn035/public_html/empresa/financeiro.php on line 241
+[17-Dec-2017 12:18:33 America/Sao_Paulo] PHP Notice:  Undefined variable: estado in /home/cnpjn035/public_html/empresa/financeiro.php on line 228
+[17-Dec-2017 12:18:33 America/Sao_Paulo] PHP Notice:  Undefined variable: de in /home/cnpjn035/public_html/empresa/financeiro.php on line 229
+[17-Dec-2017 12:18:33 America/Sao_Paulo] PHP Notice:  Undefined variable: de in /home/cnpjn035/public_html/empresa/financeiro.php on line 230
+[17-Dec-2017 12:18:33 America/Sao_Paulo] PHP Notice:  Undefined variable: ate in /home/cnpjn035/public_html/empresa/financeiro.php on line 231
+[17-Dec-2017 12:18:33 America/Sao_Paulo] PHP Notice:  Undefined index: total in /home/cnpjn035/public_html/empresa/financeiro.php on line 235
+[17-Dec-2017 12:18:33 America/Sao_Paulo] PHP Notice:  Undefined index: total in /home/cnpjn035/public_html/empresa/financeiro.php on line 241
+[17-Dec-2017 12:18:33 America/Sao_Paulo] PHP Notice:  Undefined variable: estado in /home/cnpjn035/public_html/empresa/financeiro.php on line 228
+[17-Dec-2017 12:18:33 America/Sao_Paulo] PHP Notice:  Undefined variable: de in /home/cnpjn035/public_html/empresa/financeiro.php on line 229
+[17-Dec-2017 12:18:33 America/Sao_Paulo] PHP Notice:  Undefined variable: de in /home/cnpjn035/public_html/empresa/financeiro.php on line 230
+[17-Dec-2017 12:18:33 America/Sao_Paulo] PHP Notice:  Undefined variable: ate in /home/cnpjn035/public_html/empresa/financeiro.php on line 231
+[17-Dec-2017 12:18:33 America/Sao_Paulo] PHP Notice:  Undefined index: total in /home/cnpjn035/public_html/empresa/financeiro.php on line 235
+[17-Dec-2017 12:18:33 America/Sao_Paulo] PHP Notice:  Undefined index: total in /home/cnpjn035/public_html/empresa/financeiro.php on line 241
+[17-Dec-2017 12:18:33 America/Sao_Paulo] PHP Notice:  Undefined index: id in /home/cnpjn035/public_html/empresa/financeiro.php on line 227
+[17-Dec-2017 12:18:33 America/Sao_Paulo] PHP Notice:  Undefined variable: estado in /home/cnpjn035/public_html/empresa/financeiro.php on line 228
+[17-Dec-2017 12:18:33 America/Sao_Paulo] PHP Notice:  Undefined variable: de in /home/cnpjn035/public_html/empresa/financeiro.php on line 229
+[17-Dec-2017 12:18:33 America/Sao_Paulo] PHP Notice:  Undefined variable: de in /home/cnpjn035/public_html/empresa/financeiro.php on line 230
+[17-Dec-2017 12:18:33 America/Sao_Paulo] PHP Notice:  Undefined variable: ate in /home/cnpjn035/public_html/empresa/financeiro.php on line 231
+[17-Dec-2017 12:18:33 America/Sao_Paulo] PHP Notice:  Undefined index: total in /home/cnpjn035/public_html/empresa/financeiro.php on line 235
+[17-Dec-2017 12:18:33 America/Sao_Paulo] PHP Notice:  Undefined index: mes in /home/cnpjn035/public_html/empresa/financeiro.php on line 237
+[17-Dec-2017 12:18:33 America/Sao_Paulo] PHP Notice:  Undefined index: ano in /home/cnpjn035/public_html/empresa/financeiro.php on line 238
+[17-Dec-2017 12:18:33 America/Sao_Paulo] PHP Notice:  Undefined index: id in /home/cnpjn035/public_html/empresa/financeiro.php on line 239
+[17-Dec-2017 12:18:33 America/Sao_Paulo] PHP Notice:  Undefined index: total in /home/cnpjn035/public_html/empresa/financeiro.php on line 241
+[17-Dec-2017 12:20:06 America/Sao_Paulo] PHP Notice:  Undefined offset: 12 in /home/cnpjn035/public_html/empresa/financeiro.php on line 108
+[17-Dec-2017 12:20:06 America/Sao_Paulo] PHP Notice:  Undefined offset: 12 in /home/cnpjn035/public_html/empresa/financeiro.php on line 108
+[17-Dec-2017 12:20:06 America/Sao_Paulo] PHP Notice:  Undefined variable: estado in /home/cnpjn035/public_html/empresa/financeiro.php on line 228
+[17-Dec-2017 12:20:06 America/Sao_Paulo] PHP Notice:  Undefined variable: de in /home/cnpjn035/public_html/empresa/financeiro.php on line 229
+[17-Dec-2017 12:20:06 America/Sao_Paulo] PHP Notice:  Undefined variable: de in /home/cnpjn035/public_html/empresa/financeiro.php on line 230
+[17-Dec-2017 12:20:06 America/Sao_Paulo] PHP Notice:  Undefined variable: ate in /home/cnpjn035/public_html/empresa/financeiro.php on line 231
+[17-Dec-2017 12:20:06 America/Sao_Paulo] PHP Notice:  Undefined index: total in /home/cnpjn035/public_html/empresa/financeiro.php on line 235
+[17-Dec-2017 12:20:06 America/Sao_Paulo] PHP Notice:  Undefined index: total in /home/cnpjn035/public_html/empresa/financeiro.php on line 241
+[17-Dec-2017 12:20:06 America/Sao_Paulo] PHP Notice:  Undefined variable: estado in /home/cnpjn035/public_html/empresa/financeiro.php on line 228
+[17-Dec-2017 12:20:06 America/Sao_Paulo] PHP Notice:  Undefined variable: de in /home/cnpjn035/public_html/empresa/financeiro.php on line 229
+[17-Dec-2017 12:20:06 America/Sao_Paulo] PHP Notice:  Undefined variable: de in /home/cnpjn035/public_html/empresa/financeiro.php on line 230
+[17-Dec-2017 12:20:06 America/Sao_Paulo] PHP Notice:  Undefined variable: ate in /home/cnpjn035/public_html/empresa/financeiro.php on line 231
+[17-Dec-2017 12:20:06 America/Sao_Paulo] PHP Notice:  Undefined index: total in /home/cnpjn035/public_html/empresa/financeiro.php on line 235
+[17-Dec-2017 12:20:06 America/Sao_Paulo] PHP Notice:  Undefined index: total in /home/cnpjn035/public_html/empresa/financeiro.php on line 241
+[17-Dec-2017 12:20:06 America/Sao_Paulo] PHP Notice:  Undefined variable: estado in /home/cnpjn035/public_html/empresa/financeiro.php on line 228
+[17-Dec-2017 12:20:06 America/Sao_Paulo] PHP Notice:  Undefined variable: de in /home/cnpjn035/public_html/empresa/financeiro.php on line 229
+[17-Dec-2017 12:20:06 America/Sao_Paulo] PHP Notice:  Undefined variable: de in /home/cnpjn035/public_html/empresa/financeiro.php on line 230
+[17-Dec-2017 12:20:06 America/Sao_Paulo] PHP Notice:  Undefined variable: ate in /home/cnpjn035/public_html/empresa/financeiro.php on line 231
+[17-Dec-2017 12:20:06 America/Sao_Paulo] PHP Notice:  Undefined index: total in /home/cnpjn035/public_html/empresa/financeiro.php on line 235
+[17-Dec-2017 12:20:06 America/Sao_Paulo] PHP Notice:  Undefined index: total in /home/cnpjn035/public_html/empresa/financeiro.php on line 241
+[17-Dec-2017 12:20:06 America/Sao_Paulo] PHP Notice:  Undefined index: id in /home/cnpjn035/public_html/empresa/financeiro.php on line 227
+[17-Dec-2017 12:20:06 America/Sao_Paulo] PHP Notice:  Undefined variable: estado in /home/cnpjn035/public_html/empresa/financeiro.php on line 228
+[17-Dec-2017 12:20:06 America/Sao_Paulo] PHP Notice:  Undefined variable: de in /home/cnpjn035/public_html/empresa/financeiro.php on line 229
+[17-Dec-2017 12:20:06 America/Sao_Paulo] PHP Notice:  Undefined variable: de in /home/cnpjn035/public_html/empresa/financeiro.php on line 230
+[17-Dec-2017 12:20:06 America/Sao_Paulo] PHP Notice:  Undefined variable: ate in /home/cnpjn035/public_html/empresa/financeiro.php on line 231
+[17-Dec-2017 12:20:06 America/Sao_Paulo] PHP Notice:  Undefined index: total in /home/cnpjn035/public_html/empresa/financeiro.php on line 235
+[17-Dec-2017 12:20:06 America/Sao_Paulo] PHP Notice:  Undefined index: mes in /home/cnpjn035/public_html/empresa/financeiro.php on line 237
+[17-Dec-2017 12:20:06 America/Sao_Paulo] PHP Notice:  Undefined index: ano in /home/cnpjn035/public_html/empresa/financeiro.php on line 238
+[17-Dec-2017 12:20:06 America/Sao_Paulo] PHP Notice:  Undefined index: id in /home/cnpjn035/public_html/empresa/financeiro.php on line 239
+[17-Dec-2017 12:20:06 America/Sao_Paulo] PHP Notice:  Undefined index: total in /home/cnpjn035/public_html/empresa/financeiro.php on line 241
+[17-Dec-2017 12:20:41 America/Sao_Paulo] PHP Notice:  Undefined offset: 12 in /home/cnpjn035/public_html/empresa/financeiro.php on line 108
+[17-Dec-2017 12:20:41 America/Sao_Paulo] PHP Notice:  Undefined offset: 12 in /home/cnpjn035/public_html/empresa/financeiro.php on line 108
+[17-Dec-2017 12:20:41 America/Sao_Paulo] PHP Notice:  Undefined variable: estado in /home/cnpjn035/public_html/empresa/financeiro.php on line 228
+[17-Dec-2017 12:20:41 America/Sao_Paulo] PHP Notice:  Undefined variable: de in /home/cnpjn035/public_html/empresa/financeiro.php on line 229
+[17-Dec-2017 12:20:41 America/Sao_Paulo] PHP Notice:  Undefined variable: de in /home/cnpjn035/public_html/empresa/financeiro.php on line 230
+[17-Dec-2017 12:20:41 America/Sao_Paulo] PHP Notice:  Undefined variable: ate in /home/cnpjn035/public_html/empresa/financeiro.php on line 231
+[17-Dec-2017 12:20:41 America/Sao_Paulo] PHP Notice:  Undefined index: total in /home/cnpjn035/public_html/empresa/financeiro.php on line 235
+[17-Dec-2017 12:20:41 America/Sao_Paulo] PHP Notice:  Undefined index: total in /home/cnpjn035/public_html/empresa/financeiro.php on line 241
+[17-Dec-2017 12:20:41 America/Sao_Paulo] PHP Notice:  Undefined variable: estado in /home/cnpjn035/public_html/empresa/financeiro.php on line 228
+[17-Dec-2017 12:20:41 America/Sao_Paulo] PHP Notice:  Undefined variable: de in /home/cnpjn035/public_html/empresa/financeiro.php on line 229
+[17-Dec-2017 12:20:41 America/Sao_Paulo] PHP Notice:  Undefined variable: de in /home/cnpjn035/public_html/empresa/financeiro.php on line 230
+[17-Dec-2017 12:20:41 America/Sao_Paulo] PHP Notice:  Undefined variable: ate in /home/cnpjn035/public_html/empresa/financeiro.php on line 231
+[17-Dec-2017 12:20:41 America/Sao_Paulo] PHP Notice:  Undefined index: total in /home/cnpjn035/public_html/empresa/financeiro.php on line 235
+[17-Dec-2017 12:20:41 America/Sao_Paulo] PHP Notice:  Undefined index: total in /home/cnpjn035/public_html/empresa/financeiro.php on line 241
+[17-Dec-2017 12:20:41 America/Sao_Paulo] PHP Notice:  Undefined variable: estado in /home/cnpjn035/public_html/empresa/financeiro.php on line 228
+[17-Dec-2017 12:20:41 America/Sao_Paulo] PHP Notice:  Undefined variable: de in /home/cnpjn035/public_html/empresa/financeiro.php on line 229
+[17-Dec-2017 12:20:41 America/Sao_Paulo] PHP Notice:  Undefined variable: de in /home/cnpjn035/public_html/empresa/financeiro.php on line 230
+[17-Dec-2017 12:20:41 America/Sao_Paulo] PHP Notice:  Undefined variable: ate in /home/cnpjn035/public_html/empresa/financeiro.php on line 231
+[17-Dec-2017 12:20:41 America/Sao_Paulo] PHP Notice:  Undefined index: total in /home/cnpjn035/public_html/empresa/financeiro.php on line 235
+[17-Dec-2017 12:20:41 America/Sao_Paulo] PHP Notice:  Undefined index: total in /home/cnpjn035/public_html/empresa/financeiro.php on line 241
+[17-Dec-2017 12:20:41 America/Sao_Paulo] PHP Notice:  Undefined index: id in /home/cnpjn035/public_html/empresa/financeiro.php on line 227
+[17-Dec-2017 12:20:41 America/Sao_Paulo] PHP Notice:  Undefined variable: estado in /home/cnpjn035/public_html/empresa/financeiro.php on line 228
+[17-Dec-2017 12:20:41 America/Sao_Paulo] PHP Notice:  Undefined variable: de in /home/cnpjn035/public_html/empresa/financeiro.php on line 229
+[17-Dec-2017 12:20:41 America/Sao_Paulo] PHP Notice:  Undefined variable: de in /home/cnpjn035/public_html/empresa/financeiro.php on line 230
+[17-Dec-2017 12:20:41 America/Sao_Paulo] PHP Notice:  Undefined variable: ate in /home/cnpjn035/public_html/empresa/financeiro.php on line 231
+[17-Dec-2017 12:20:41 America/Sao_Paulo] PHP Notice:  Undefined index: total in /home/cnpjn035/public_html/empresa/financeiro.php on line 235
+[17-Dec-2017 12:20:41 America/Sao_Paulo] PHP Notice:  Undefined index: mes in /home/cnpjn035/public_html/empresa/financeiro.php on line 237
+[17-Dec-2017 12:20:41 America/Sao_Paulo] PHP Notice:  Undefined index: ano in /home/cnpjn035/public_html/empresa/financeiro.php on line 238
+[17-Dec-2017 12:20:41 America/Sao_Paulo] PHP Notice:  Undefined index: id in /home/cnpjn035/public_html/empresa/financeiro.php on line 239
+[17-Dec-2017 12:20:41 America/Sao_Paulo] PHP Notice:  Undefined index: total in /home/cnpjn035/public_html/empresa/financeiro.php on line 241
+[17-Dec-2017 12:21:03 America/Sao_Paulo] PHP Notice:  Undefined variable: estado in /home/cnpjn035/public_html/empresa/financeiro.php on line 228
+[17-Dec-2017 12:21:03 America/Sao_Paulo] PHP Notice:  Undefined variable: de in /home/cnpjn035/public_html/empresa/financeiro.php on line 229
+[17-Dec-2017 12:21:03 America/Sao_Paulo] PHP Notice:  Undefined variable: de in /home/cnpjn035/public_html/empresa/financeiro.php on line 230
+[17-Dec-2017 12:21:03 America/Sao_Paulo] PHP Notice:  Undefined variable: ate in /home/cnpjn035/public_html/empresa/financeiro.php on line 231
+[17-Dec-2017 12:21:03 America/Sao_Paulo] PHP Notice:  Undefined index: total in /home/cnpjn035/public_html/empresa/financeiro.php on line 235
+[17-Dec-2017 12:21:03 America/Sao_Paulo] PHP Notice:  Undefined index: total in /home/cnpjn035/public_html/empresa/financeiro.php on line 241
+[17-Dec-2017 12:21:03 America/Sao_Paulo] PHP Notice:  Undefined variable: estado in /home/cnpjn035/public_html/empresa/financeiro.php on line 228
+[17-Dec-2017 12:21:03 America/Sao_Paulo] PHP Notice:  Undefined variable: de in /home/cnpjn035/public_html/empresa/financeiro.php on line 229
+[17-Dec-2017 12:21:03 America/Sao_Paulo] PHP Notice:  Undefined variable: de in /home/cnpjn035/public_html/empresa/financeiro.php on line 230
+[17-Dec-2017 12:21:03 America/Sao_Paulo] PHP Notice:  Undefined variable: ate in /home/cnpjn035/public_html/empresa/financeiro.php on line 231
+[17-Dec-2017 12:21:03 America/Sao_Paulo] PHP Notice:  Undefined index: total in /home/cnpjn035/public_html/empresa/financeiro.php on line 235
+[17-Dec-2017 12:21:03 America/Sao_Paulo] PHP Notice:  Undefined index: total in /home/cnpjn035/public_html/empresa/financeiro.php on line 241
+[17-Dec-2017 12:21:03 America/Sao_Paulo] PHP Notice:  Undefined variable: estado in /home/cnpjn035/public_html/empresa/financeiro.php on line 228
+[17-Dec-2017 12:21:03 America/Sao_Paulo] PHP Notice:  Undefined variable: de in /home/cnpjn035/public_html/empresa/financeiro.php on line 229
+[17-Dec-2017 12:21:03 America/Sao_Paulo] PHP Notice:  Undefined variable: de in /home/cnpjn035/public_html/empresa/financeiro.php on line 230
+[17-Dec-2017 12:21:03 America/Sao_Paulo] PHP Notice:  Undefined variable: ate in /home/cnpjn035/public_html/empresa/financeiro.php on line 231
+[17-Dec-2017 12:21:03 America/Sao_Paulo] PHP Notice:  Undefined index: total in /home/cnpjn035/public_html/empresa/financeiro.php on line 235
+[17-Dec-2017 12:21:03 America/Sao_Paulo] PHP Notice:  Undefined index: total in /home/cnpjn035/public_html/empresa/financeiro.php on line 241
+[17-Dec-2017 12:23:13 America/Sao_Paulo] PHP Notice:  Undefined index: total in /home/cnpjn035/public_html/empresa/financeiro.php on line 158
+[17-Dec-2017 12:23:13 America/Sao_Paulo] PHP Notice:  Undefined index: total in /home/cnpjn035/public_html/empresa/financeiro.php on line 158
+[17-Dec-2017 12:23:13 America/Sao_Paulo] PHP Notice:  Undefined index: total in /home/cnpjn035/public_html/empresa/financeiro.php on line 158
+[17-Dec-2017 12:23:31 America/Sao_Paulo] PHP Notice:  Undefined variable: estado in /home/cnpjn035/public_html/empresa/financeiro.php on line 231
+[17-Dec-2017 12:23:31 America/Sao_Paulo] PHP Notice:  Undefined variable: de in /home/cnpjn035/public_html/empresa/financeiro.php on line 232
+[17-Dec-2017 12:23:31 America/Sao_Paulo] PHP Notice:  Undefined variable: de in /home/cnpjn035/public_html/empresa/financeiro.php on line 233
+[17-Dec-2017 12:23:31 America/Sao_Paulo] PHP Notice:  Undefined variable: ate in /home/cnpjn035/public_html/empresa/financeiro.php on line 234
+[17-Dec-2017 08:30:04 America/Chicago] PHP Parse error:  syntax error, unexpected '"01-"' (T_CONSTANT_ENCAPSED_STRING), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /home/cnpjn035/public_html/empresa/financeiro.php on line 164
+[17-Dec-2017 08:48:31 America/Chicago] PHP Parse error:  syntax error, unexpected '}' in /home/cnpjn035/public_html/empresa/financeiro.php on line 171
+[17-Dec-2017 12:32:09 America/Chicago] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/cnpjn035/public_html/empresa/financeiro.php on line 269
+[17-Dec-2017 12:32:59 America/Chicago] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/cnpjn035/public_html/empresa/financeiro.php on line 269
+[17-Feb-2018 16:46:11 America/Chicago] PHP Warning:  require(../../php/conexao.php): failed to open stream: No such file or directory in /home/cnpjn035/public_html/empresa/funcionarios.php on line 3
+[17-Feb-2018 16:46:11 America/Chicago] PHP Warning:  require(../../php/conexao.php): failed to open stream: No such file or directory in /home/cnpjn035/public_html/empresa/funcionarios.php on line 3
+[17-Feb-2018 16:46:11 America/Chicago] PHP Fatal error:  require(): Failed opening required '../../php/conexao.php' (include_path='.:/opt/php70/lib/php') in /home/cnpjn035/public_html/empresa/funcionarios.php on line 3
+[17-Feb-2018 16:46:28 America/Chicago] PHP Warning:  include(../menus.php): failed to open stream: No such file or directory in /home/cnpjn035/public_html/empresa/funcionarios.php on line 26
+[17-Feb-2018 16:46:28 America/Chicago] PHP Warning:  include(../menus.php): failed to open stream: No such file or directory in /home/cnpjn035/public_html/empresa/funcionarios.php on line 26
+[17-Feb-2018 16:46:28 America/Chicago] PHP Warning:  include(): Failed opening '../menus.php' for inclusion (include_path='.:/opt/php70/lib/php') in /home/cnpjn035/public_html/empresa/funcionarios.php on line 26
+[17-Feb-2018 16:46:28 America/Chicago] PHP Notice:  Undefined variable: empresa in /home/cnpjn035/public_html/empresa/funcionarios.php on line 28
+[17-Feb-2018 16:46:28 America/Chicago] PHP Notice:  Trying to get property of non-object in /home/cnpjn035/public_html/empresa/funcionarios.php on line 28
+[17-Feb-2018 16:46:44 America/Chicago] PHP Notice:  Undefined variable: empresa in /home/cnpjn035/public_html/empresa/funcionarios.php on line 28
+[17-Feb-2018 16:46:44 America/Chicago] PHP Notice:  Trying to get property of non-object in /home/cnpjn035/public_html/empresa/funcionarios.php on line 28

@@ -1,0 +1,509 @@
+#acesso-rapido li:nth-child(1) div:first-child, #acesso-rapido li:nth-child(1) .bola {
+	background: #2196F3;
+}
+
+#acesso-rapido li:nth-child(2) div:first-child, #acesso-rapido li:nth-child(2) .bola {
+	background: #FFC107;
+}
+
+#acesso-rapido li:nth-child(3) div:first-child, #acesso-rapido li:nth-child(3) .bola {
+	background: #8bc34a;
+}
+
+#solicitacoes, #adicionar {
+    background: white;
+    border: 1px solid #efefef;
+    padding: 10px;
+    position: relative;
+}
+
+#pesquisa {
+    display: flex;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+#pesquisa input {
+    margin-left: 10px;
+    padding: 10px;
+    border-bottom: 2px solid #e9e9e9;
+    font-family: encode;
+    transition: .3s ease;
+}
+
+#pesquisa input:focus {
+    border-color: #2196f3;
+}
+
+#solicitacoes > div:not(#pesquisa):not(#adicionar) {
+    margin-top: 40px;
+    height: 65vh;
+    overflow-y: auto;
+}
+
+#solicitacoes table {
+    width: 96%;
+    border-collapse:collapse;
+    margin: auto;
+/*    border-spacing:10px;*/
+}
+
+#solicitacoes table tr.spacer {
+    padding: 10px 0;
+}
+
+#solicitacoes table tr:not(.spacer):not(:first-child) {
+    background: #fcfcfc;
+    border-radius: 3px;
+    box-shadow: 0 0 0 1px #ddd;
+/*    box-shadow: 0 0 3px #ccc;*/
+/*    border: 1px solid #ccc;*/
+    cursor: default
+}
+
+#solicitacoes table th {
+    font-size: 0.8em;
+    position: relative;
+    text-align: left;
+    cursor: pointer;
+/*    padding-left: 10px;*/
+}
+
+#solicitacoes table th:not(:last-child):after {
+/*    content: "";*/
+    border: 3px solid transparent;
+    border-top-color: #999;
+    position: absolute;
+    left: 1px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    height: 0;
+}
+
+#solicitacoes table td {
+    text-align: left;
+    padding: 8px 0;
+    font-size: .9em
+}
+
+#solicitacoes table tr td:nth-child(2) {
+	width: 200px;
+}
+
+#solicitacoes table tr td a {
+	color: black;
+    font-weight: bold;
+}
+
+#solicitacoes table tr td:nth-child(2) img {
+    width: 20px;
+    margin-left: 5px;
+    vertical-align: middle;
+    filter: invert(1);
+}
+
+#solicitacoes table tr td:first-child {
+    border-radius: 3px;
+    padding-left: 8px;
+}
+
+#solicitacoes table tr td:last-child {
+    border-radius: 3px;
+    padding-right: 8px;
+    text-align: right;
+}
+
+#solicitacoes table tr td:first-child img {
+    width: 18px;
+    padding: 3px;
+    border-radius: 50%;
+    background: #8bc34a;
+}
+
+#solicitacoes table tr td:first-child img.pendente {
+    background: #ffc107;
+}
+
+#solicitacoes table tr td:last-child img {
+    width: 20px;
+    padding: 3px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#solicitacoes table tr td:last-child img.ok {
+    opacity: .3;
+    cursor: default;
+}
+
+#solicitacoes table tr td button {
+    font-family: encode;
+    font-size: .9em;
+    padding: 10px 20px;
+    color: white;
+    background: rgb(22, 136, 206);
+    cursor: pointer;
+    width: 110px;
+}
+
+#solicitacoes table tr td button:disabled {
+    opacity: .3;
+    cursor: default;
+}
+
+#solicitacoes table tr td.anexo img, #solicitacoes table tr td:nth-child(5) img, #solicitacoes table tr td img.ver, #solicitacoes table tr td:last-child img.responder {
+    width: 20px;
+    padding: 3px;
+    background: #717171;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#solicitacoes table tr td.anexo img.sem-anexo, #solicitacoes table tr td:nth-child(5) img.sem-anexo, #solicitacoes table tr td img.ver.nao, #solicitacoes table tr td img.respondido  {
+    opacity: .3;
+    cursor: default;
+}
+
+#servicos, #adicionar {
+    background: white;
+/*    border: 1px solid #efefef;*/
+    padding: 10px;
+    position: relative;
+}
+
+#adicionar {
+    margin-bottom: 20px;
+    
+}
+
+#adicionar form {
+    display: flex;
+    align-items: center;
+}
+
+#adicionar form > label {
+/*    background: rgb(22, 136, 206);*/
+    padding: 7px;
+    color: white;
+    background: #cacaca;
+    margin: 17px 5px 0 auto;
+    cursor: pointer;
+    display: block;
+    border-radius: 4px;
+}
+
+#adicionar form > label img {
+    width: 21px;
+    display: block;
+}
+
+#adicionar input[type=file] {
+    display: none;
+}
+
+.input {
+    width: 90%;
+    padding: 0 10px;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.input label {
+    font-size: .75em;
+    color: #999;
+}
+
+.input input, .input select {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #e9e9e9;
+    width: 100%;
+    box-sizing: border-box;
+    transition: .3s ease;
+}
+
+.input input:focus, .input select:focus {
+    border-color: #1688ce;
+    box-shadow: 0 0 3px rgba(0,0,0,.1);
+}
+
+#adicionar button {
+    width: 100px;
+    padding: 10px 0;
+    color: white;
+    background: rgb(22, 136, 206);
+    margin: 17px auto 0;
+    cursor: pointer;
+    display: block;
+}
+
+.fundo-extra {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,.8);
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+    flex-direction: column;
+}
+
+.fundo-extra > img {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    width: 30px;
+    background: #F44336;
+    padding: 5px;
+    border-radius: 3px;
+    display: block;
+    cursor: pointer;
+}
+
+#upload {
+    width: 40vw;
+    height: 30vw;
+    background: #fcfcfc;
+    border-radius: 3px;
+    padding: 8px;
+}
+
+#upload * {
+    font-family: encode;
+}
+
+#upload label {
+    width: 100%;
+    height: 100%;
+    background: rgba(71, 170, 234, 0.57);
+    border: 3px dashed #2980b9;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+#upload label.over {
+    background: #2980b9;
+    border-color: rgba(0,0,0,.5);
+}
+
+#upload label img {
+    width: 20%;
+    margin-bottom: 10px;
+    padding: 5px;
+    border-radius: 3px;
+    filter: invert(1);
+    opacity: .75;
+    transition: .3s ease;
+}
+
+#upload label.over img {
+    filter: invert(0);
+}
+
+#upload input {
+    display: none;
+/*
+    opacity: 0;
+    position: absolute;
+    top: -1000px;
+*/
+}
+
+#upload-imagem #button {
+    width: 40vw;
+    padding-top: 8px;
+}
+
+#upload-imagem #button button {
+    width: 80px;
+    padding: 15px;
+    display: block;
+    background: #2980b9;
+    cursor: pointer;
+    font-size: .9em;
+    color: white;
+    border-radius: 3px;
+    box-shadow: inset 0 -2px 0 rgba(6,6,6,.6);
+    text-shadow: 1px 1px 2px #424242;
+    font-weight: bold;
+    float: right;
+}
+
+#upload #teste {
+	display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 10px;
+}
+
+#upload #nome {
+    font-weight: bold;
+    border-top: 1px solid rgba(0,0,0,.2);
+    padding-top: 5px;
+    margin-top: 5px;
+}
+
+#resposta {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(rgba(0,0,0,.5),rgba(0,0,0,.8));
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 3;
+    overflow: auto;
+    padding: 20px 0;
+    box-sizing: border-box;
+}
+
+#resposta img {
+    position: fixed;
+    top: 10px;
+    right: 15px;
+    width: 18px;
+    padding: 5px;
+    border-radius: 2px;
+    background: rgba(0,0,0,.3);
+    cursor: pointer;
+}
+
+#resposta > div {
+    width: 450px;
+    /* height: 96vh; */
+    position: relative;
+    background: #fcfcfc;
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+#resposta h3 {
+    padding: 10px 18px;
+    background: rgb(22, 136, 206);
+    color: white;
+    margin-bottom: 10px;
+}
+
+#resposta p {
+    font-size: .9em;
+    margin: 15px 15px 0;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 15px;
+    color: #999
+}
+
+#resposta .input {
+    width: 100%;
+    padding: 0 15px;
+    position: relative;
+    box-sizing: border-box;
+}
+
+#resposta button {
+    width: 30%;
+    padding: 10px 0;
+    color: white;
+    background: rgb(22, 136, 206);
+    margin: 15px;
+    cursor: pointer;
+    float: right;
+    font-family: encode;
+}
+
+#responder {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(rgba(0,0,0,.5),rgba(0,0,0,.8));
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 3;
+    overflow: auto;
+    padding: 20px 0;
+    box-sizing: border-box;
+}
+
+#responder img {
+    position: fixed;
+    top: 10px;
+    right: 15px;
+    width: 18px;
+    padding: 5px;
+    border-radius: 2px;
+    background: rgba(0,0,0,.3);
+    cursor: pointer;
+}
+
+#responder > div {
+    width: 450px;
+    /* height: 96vh; */
+    position: relative;
+    background: #fcfcfc;
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+#responder h3 {
+    padding: 10px 18px;
+    background: rgb(22, 136, 206);
+    color: white;
+    margin-bottom: 10px;
+}
+
+#responder form {
+    
+}
+
+#responder p {
+    font-size: .9em;
+    margin: 15px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 15px;
+    color: #999
+}
+
+#responder .input {
+    width: 100%;
+    padding: 0 15px;
+    position: relative;
+    box-sizing: border-box;
+}
+
+#responder textarea {
+    padding: 10px;
+    border: 1px solid #e9e9e9;
+    width: 100%;
+    box-sizing: border-box;
+    transition: .3s ease;
+    resize: none;
+}
+
+#responder textarea:focus {
+    border-color: #1688ce;
+    box-shadow: 0 0 3px rgba(0,0,0,.1);
+}
+
+#responder button {
+    width: 30%;
+    padding: 10px 0;
+    color: white;
+    background: rgb(22, 136, 206);
+    margin: 15px;
+    cursor: pointer;
+    float: right;
+}

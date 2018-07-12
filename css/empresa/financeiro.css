@@ -1,0 +1,809 @@
+#container > div > section:not(#fundo-pagar) {
+    background: white;
+    border: 1px solid #efefef;
+    padding: 10px;
+    position: relative;
+    margin-bottom: 20px;
+    min-height: 30vh;
+}
+
+#container > div > section > h3 {
+    margin-bottom: 15px;
+}
+
+#pagar div h3 {
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+#pagar div h3 span {
+        font-size: .7em;
+    font-weight: 100;
+    color: #666;
+    margin-left: 10px;
+}
+
+#pagar ul {
+    list-style: none;
+    display: flex;
+    width: 100%;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #e9e9e9;
+}
+
+#pagar ul li {
+    width: calc(100% / 12);
+    text-align: center;
+    font-size: .85em;
+    padding: 8px 5px;
+    border: 1px solid #e9e9e9;
+    border-left: none;
+    background: white;
+    cursor: default;
+}
+
+#pagar ul li:first-child {
+    border-left: 1px solid #e9e9e9;
+}
+
+#pagar .atual {
+    background: #2980b9;
+    color: white;
+}
+
+#forma-pagamento {
+	margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #e9e9e9;
+}
+
+#forma-pagamento input {
+    display: none;
+}
+
+#forma-pagamento label {
+    text-transform: capitalize;
+    box-shadow: inset 0 -3px 0 #e9e9e9;
+    padding: 10px;
+    display: inline-block;
+    cursor: pointer;
+    transition: .5s ease;
+    margin-right: 10px;
+    font-weight: bold;
+    color: #777;
+}
+
+#forma-pagamento input:checked + label {
+	box-shadow: inset 0 -40px 0 #65c288;
+    color: white;
+    text-shadow: 1px 1px 2px #424242;
+}
+
+#tipo {
+    float: right;
+    background: #f4b35a;
+    border-radius: 3px;
+    transition: 1s ease;
+}
+
+#tipo img {
+    width: 30px;
+    padding: 5px 10px;
+    display: block;
+}
+
+#pagar-cartao, #pagar-boleto, #info-compra, #pagar-deposito {
+    width: 100%;
+    min-height: 10vh;
+    background: white;
+/*    margin-bottom: 30px;*/
+    border: 1px solid #e9e9e9;
+    border-radius: 2px;
+}
+
+#pagar > section h4, #fundo-pagar h4 {
+        PADDING: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    background: #2980b9;
+    border-radius: 3px 3px 0 0;
+    color: white;
+    text-shadow: 1px 1px 2px #424242;
+}
+
+#tabela {
+    width: calc(100% - 40px);
+/*    margin: 0 20px 20px;*/ 
+    margin: 20px;
+}
+
+#info-compra table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#info-compra table th {
+    background: #65c288;
+    padding: 5px 0;
+    box-sizing: border-box;
+    color: white;
+    text-shadow: 1px 1px 2px #424242;
+}
+
+#info-compra table th:not(:last-child) {
+	border-right: 2px solid rgba(0,0,0,.1);
+}
+
+#info-compra table td {
+    padding: 5px;
+    text-align: center;
+    border-bottom: 2px solid #e9e9e9;
+    font-size: .8em
+}
+
+#info-compra table td:not(:last-child) {
+    border-right: 2px solid #e9e9e9;
+}
+
+#info-compra table tr:last-child {
+    background: #2980b9;
+    color: white;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px #424242;
+}
+
+#info-compra #tabela button#pagar-box {
+    width: 100px;
+    padding: 12px 10px;
+    background: #8bc34a;
+    cursor: pointer;
+    font-size: .9em;
+    transition: .3s ease;
+    color: white;
+    border-radius: 3px;
+    box-shadow: inset 0 -2px 0 rgba(6,6,6,.3);
+    text-shadow: 1px 1px 2px #424242;
+    font-family: encode;
+    font-weight: bold;
+    margin-top: 10px;
+    float: right;
+}
+
+.container {
+	display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+#pagar-cartao {
+    display: none;
+}
+
+#pagar-cartao form {
+    width: 45%;
+}
+
+.input {
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.input.metade {
+    width: 49%;
+    display: inline-block;
+}
+
+.input label {
+    font-size: .7em;
+    color: #696969;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.input input {
+    font-family: encode;
+    padding: 10px;
+    border: 1px solid #e9e9e9;
+    width: 100%;
+    box-sizing: border-box;
+    transition: .3s ease;
+}
+
+.input input:focus {
+    border-color: #ade5ff;
+    box-shadow: 0 0 5px #ade5ff;
+}
+
+#titular {
+    text-transform: uppercase;
+}
+
+#brand {
+    position: absolute;
+    right: 10%;
+    top: 10%;
+    font-size: 1em;
+    font-weight: bold;
+    color: #fcfcfc;
+    text-shadow: 1px 1px 2px #424242;
+    padding: 3px;
+}
+
+#pagar-cartao .container form > button {
+    width: 155px;
+    padding: 12px 10px;
+    float: right;
+    background: #8bc34a;
+    cursor: pointer;
+    font-size: .9em;
+    transition: .3s ease;
+    color: white;
+    border-radius: 3px;
+    box-shadow: inset 0 -2px 0 rgba(6,6,6,.3);
+    text-shadow: 1px 1px 2px #424242;
+    font-family: encode;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+#pagar-cartao #cartao-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    perspective: 1000px;
+    width: 50%;
+}
+
+#cartao-credito {
+    width: 55vh;
+    height: 250px;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: 1s ease;
+}
+
+#cartao-container:hover #cartao-credito {
+/*    transform: rotateY(180deg);*/
+}
+
+.cartao {
+    background-color: #f4b35a;
+    border-radius: 4px;
+    /* border: 2px solid rgba(0,0,0,.1); */
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    font-family: encode;
+    background-image: linear-gradient(-35deg,rgba(0, 0, 0, 0.3), transparent);
+    backface-visibility: hidden;
+}
+
+.frente #chip {
+    background: #ddd;
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    width: 70px;
+    height: 50px;
+    border-radius: 4px;
+    padding: 10px 15px 10px 0;
+    box-sizing: border-box;
+}
+
+.frente #chip span {
+        width: 100%;
+    height: 100%;
+    display: block;
+    background: rgba(255,255,255,.5);
+    border-radius: 0 4px 4px 0;
+}
+
+#bandeira {
+    position: absolute;
+    top: 15%;
+    right: 10%;
+    width: 70px;
+}
+
+#bandeira img {
+    width: 100%;
+    opacity: 0;
+}
+
+.numero-cartao {
+    position: absolute;
+    left: 5%;
+    top: 50%;
+    font-size: 1.6em;
+    font-weight: bold;
+    color: #fcfcfc;
+    text-shadow: 1px 1px 2px #424242;
+    padding: 3px;
+}
+
+.cartao * {
+    transition: .3s ease;
+}
+
+.cartao .marcado {
+    background: #f4b35a;
+    border-radius: 2px;
+    box-shadow: 0 0 5px rgba(0,0,0,.2);
+}
+
+.nome {
+    position: absolute;
+    left: 10%;
+    bottom: 10%;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #fcfcfc;
+    text-shadow: 1px 1px 2px #424242;
+    padding: 3px;
+}
+
+.validade {
+    position: absolute;
+    right: 10%;
+    bottom: 10%;
+    font-size: 1em;
+    font-weight: bold;
+    color: #fcfcfc;
+    text-shadow: 1px 1px 2px #424242;
+    padding: 3px;
+}
+
+.verso {
+    transform: rotateY(180deg);
+}
+
+.verso .fita {
+    width: 100%;
+    height: 20%;
+    background: #424242;
+    position: absolute;
+    top: 10%;
+}
+
+.verso .faixa {
+    width: 53%;
+    height: 10%;
+    background: #fcfcfc;
+    left: 2%;
+    bottom: 45%;
+    position: absolute;
+}
+
+.verso .cvc {
+    position: absolute;
+    left: 60%;
+    bottom: 46%;
+    font-weight: bold;
+    color: #fcfcfc;
+    text-shadow: 1px 1px 2px #424242;
+    padding: 3px;
+}
+
+#pagar-boleto {
+    display: none;
+}
+
+#pagar-boleto button {
+    width: 130px;
+    padding: 12px 10px;
+    background: #8bc34a;
+    cursor: pointer;
+    font-size: .9em;
+    transition: .3s ease;
+    color: white;
+    border-radius: 3px;
+    box-shadow: inset 0 -2px 0 rgba(6,6,6,.3);
+    text-shadow: 1px 1px 2px #424242;
+    font-family: encode;
+    font-weight: bold;
+    margin: 10px auto;
+}
+
+#pagar-deposito {
+    display: none;
+}
+
+#pagar-deposito p {
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #eee;
+    font-weight: bold;
+    font-size: .9em;
+}
+
+#pagar-deposito p span {
+    font-weight: normal;
+    text-decoration: underline;
+}
+
+#pagar-deposito img {
+    width: 200px;
+}
+
+#valores table, #pag-container table {
+    width: 100%;
+    border-collapse: collapse;
+    border-bottom: 1px solid #e9e9e9;
+}
+
+#valores tr td, #pag-container tr td {
+    padding: 8px 4px;
+    font-size: .9em;
+}
+
+#valores tr.geral, #pag-container tr {
+    border: 1px solid #e9e9e9;
+    cursor: pointer;
+    background: #f9f9f9;
+}
+
+#valores tr.geral td:first-child span {
+    border: 5px solid transparent;
+    border-left-color: rgba(0,0,0,.5);
+    height: 0px;
+    width: 0px;
+    display: block;
+    margin: auto;
+    transform-origin: left center;
+    transition: .3s ease;
+}
+
+#valores tr img, #pag-container tr img, #tabela tr td img {
+    width: 15px;
+    padding: 3px;
+    border-radius: 3px;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+img.pendente, #pag-container tr img.pendente {
+    background: #FFC107;
+}
+
+tr img.cancelado {
+    background: #FF5722;
+}
+
+#valores tr img.pago, #pag-container tr img.pago {
+    background: #8BC34A;
+}
+
+#valores tr.servicos {
+    display: none;
+    border-right: 1px solid #e9e9e9;
+    border-left: 1px solid #e9e9e9;
+}
+
+#valores tr.servicos td{
+    font-size: .8em;
+    color: #999;
+}
+
+#confirmar * {
+    font-family: encode;
+}
+
+#confirmar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(rgba(0,0,0,.5),rgba(0,0,0,.8));
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 3;
+}
+
+#confirmar > img {
+    position: fixed;
+    top: 10px;
+    right: 15px;
+    width: 18px;
+    padding: 5px;
+    border-radius: 2px;
+    background: rgba(0,0,0,.3);
+    cursor: pointer;
+}
+
+#confirmar > div {
+    width: 450px;
+    /* height: 96vh; */
+    position: relative;
+    background: #fcfcfc;
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+#confirmar h3 {
+    padding: 10px 18px;
+    background: rgb(22, 136, 206);
+    color: white;
+    margin-bottom: 10px;
+}
+
+#confirmar .input {
+    width: 100%;
+    padding: 0 10px;
+    position: relative;
+    box-sizing: border-box;
+}
+
+#confirmar .input.metade {
+    width: 49.5%;
+}
+
+#confirmar button {
+    width: 30%;
+    padding: 10px 0;
+    color: white;
+    background: rgb(22, 136, 206);
+    margin: 15px;
+    cursor: pointer;
+    float: right;
+}
+
+#comprovante {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 20;
+    background: rgba(0,0,0,.7);
+    width: 100%;
+    height: 100%;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+#comprovante .fechar {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    width: 25px;
+    cursor: pointer;
+    display: none;
+}
+
+#comprovante .loading {
+    width: 100px;
+    filter: invert(1);
+}
+
+#comprovante > div {
+    width: 400px;
+    padding: 10px;
+    border-radius: 3px;
+    background: white;
+    display: none;
+}
+
+#comprovante h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    padding: 20px 0;
+    background: #5596cf;
+    border-radius: 3px;
+    color: white;
+}
+
+#comprovante h5 {
+    color: #999;
+    text-align: center;
+    margin: 20px 0;
+}
+
+#comprovante .descricao {
+    margin-bottom: 20px;
+    font-size: .9em;
+    text-align: center;
+}
+
+#comprovante h3 {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+    margin-bottom: 40px;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+
+#comprovante .codigo {
+    margin: 20px 0;
+    text-align: center;
+    font-size: .8em;
+}
+
+#fundo-pagar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,.4);
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+#fundo-pagar > img.fechar {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    width: 25px;
+    cursor: pointer;
+}
+
+#fundo-pagar > div {
+    width: 800px;
+    background: white;
+    padding: 20px;
+    border-radius: 3px;
+}
+
+#fundo-pagar > div > section {
+/*    margin: 0 20px;*/
+}
+
+#fundo-pagar h3 {
+    margin-bottom: 15px;
+}
+
+
+/*
+
+#valores table {
+    width: 100%;
+    border-collapse:collapse;
+    border-spacing:10px;
+}
+
+#valores table tr.spacer {
+    padding: 10px 0;
+}
+
+#valores table tr:not(.spacer):not(:first-child) {
+    background: white;
+    border-radius: 3px;
+    box-shadow: 0 0 3px #ccc;
+    cursor: default
+}
+
+#valores table th {
+    font-size: 0.8em;
+    position: relative;
+    text-align: left;
+    cursor: pointer;
+}
+
+#valores table th:after {
+    content: "";
+    border: 3px solid transparent;
+    border-top-color: #999;
+    position: absolute;
+    left: -9px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    height: 0;
+}
+
+#valores table tr th:first-child:after {
+    display: none;
+}
+
+#valores table td {
+    text-align: left;
+    padding: 8px 0;
+    font-size: .9em
+}
+
+#valores table tr td:first-child {
+    border-radius: 3px;
+    padding-left: 10px
+}
+
+#valores table tr td:last-child {
+    border-radius: 3px;
+}
+
+#valores table tr td:first-child img {
+    width: 15px;
+    text-align: center;
+    padding: 3px;
+    background: #8BC34A;
+    border-radius: 50%;
+}
+
+#valores table td.tipo img {
+    vertical-align: middle;
+    width: 30px;
+    margin-right: 10px;
+}
+
+#valores table {
+    width: 96%;
+    border-collapse:collapse;
+    margin: auto;
+}
+
+#valores table tr.spacer {
+    padding: 10px 0;
+}
+
+#valores table tr:not(.spacer):not(:first-child) {
+    background: #fcfcfc;
+    border-radius: 3px;
+    box-shadow: 0 0 0 1px #ddd;
+    cursor: default
+}
+
+#valores table th {
+    font-size: 0.8em;
+    position: relative;
+    text-align: left;
+    cursor: pointer;
+}
+
+#valores table th:not(:last-child):after {
+    border: 3px solid transparent;
+    border-top-color: #999;
+    position: absolute;
+    left: 1px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    height: 0;
+}
+
+#valores table td {
+    text-align: left;
+    padding: 8px 0;
+    font-size: .9em
+}
+
+#valores table tr td:first-child {
+    border-radius: 3px;
+    padding-left: 8px;
+}
+
+#valores table tr td:last-child {
+    border-radius: 3px;
+    padding-right: 8px;
+    text-align: right;
+}
+
+#valores table tr td:first-child img {
+    width: 18px;
+    padding: 3px;
+    border-radius: 50%;
+    background: #8bc34a;
+}
+
+#valores table td.tipo img {
+    vertical-align: middle;
+    width: 30px;
+    margin-right: 10px;
+}
+
+#valores table tr td:first-child img.pendente {
+    background: #ffc107;
+}
+
+#valores table tr td:last-child img {
+    width: 20px;
+    padding: 3px;
+    background: #F44336;
+    border-radius: 4px;
+    cursor: pointer;
+}
+*/
